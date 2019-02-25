@@ -52,7 +52,7 @@ public class Solution232 {
                 return popStack.peek();
             }
             changeStack();
-            return popStack.pop();
+            return popStack.peek();
         }
 
         /**
