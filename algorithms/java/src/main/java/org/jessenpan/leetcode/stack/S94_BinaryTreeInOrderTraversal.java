@@ -8,7 +8,7 @@ import java.util.Stack;
  * @author jessenpan
  * @since 2019/3/2 16:54
  */
-public class Solution94 {
+public class S94_BinaryTreeInOrderTraversal {
 
     public static class TreeNode {
 

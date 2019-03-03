@@ -4,7 +4,7 @@ package org.jessenpan.leetcode.stack;
  * @author jessenpan
  * @since 2019/2/25 22:59
  */
-public class Solution496 {
+public class S496_NextGreaterElementI {
 
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
 

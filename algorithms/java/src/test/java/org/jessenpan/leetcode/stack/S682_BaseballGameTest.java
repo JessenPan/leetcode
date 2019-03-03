@@ -8,21 +8,21 @@ import static org.junit.Assert.assertEquals;
  * @author jessenpan
  * @since 2019/2/24 23:09
  */
-public class Solution682Test {
+public class S682_BaseballGameTest {
 
-    private Solution682 solution682 = new Solution682();
+    private S682_BaseballGame s682BaseballGame = new S682_BaseballGame();
 
     @Test
     public void test1() {
         String[] args = { "5", "2", "C", "D", "+" };
-        int calResult = solution682.calPoints(args);
+        int calResult = s682BaseballGame.calPoints(args);
         assertEquals(30, calResult);
     }
 
     @Test
     public void test2() {
         String[] args = { "5", "-2", "4", "C", "D", "9", "+", "+" };
-        int calResult = solution682.calPoints(args);
+        int calResult = s682BaseballGame.calPoints(args);
         assertEquals(27,calResult);
     }
 }

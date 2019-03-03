@@ -8,7 +8,7 @@ import java.util.Stack;
  * @author jessenpan
  * @since 2019/2/23 23:22
  */
-public class Solution682 {
+public class S682_BaseballGame {
 
     public int calPoints(String[] ops) {
 

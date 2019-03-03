@@ -6,7 +6,7 @@ import java.util.Stack;
  * @author jessenpan
  * @date 2019-02-25 18:52
  */
-public class Solution232 {
+public class S232_ImplementQueueUsingStacks {
 
     static class MyQueue {
 

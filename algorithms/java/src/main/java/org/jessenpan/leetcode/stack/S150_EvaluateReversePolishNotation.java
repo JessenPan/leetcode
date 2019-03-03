@@ -8,7 +8,7 @@ import java.util.Stack;
  * @author jessenpan
  * @since 2019/2/27 22:32
  */
-public class Solution150 {
+public class S150_EvaluateReversePolishNotation {
 
     public int evalRPN(String[] tokens) {
 

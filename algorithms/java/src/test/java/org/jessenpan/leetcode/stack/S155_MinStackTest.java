@@ -8,9 +8,9 @@ import static org.junit.Assert.assertEquals;
  * @author jessenpan
  * @since 2019/3/2 16:14
  */
-public class Solution155Test {
+public class S155_MinStackTest {
 
-    private Solution155.MinStack minStack = new Solution155.MinStack();
+    private S155_MinStack.MinStack minStack = new S155_MinStack.MinStack();
 
     @Test
     public void test1() {

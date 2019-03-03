@@ -8,13 +8,13 @@ import static org.junit.Assert.assertArrayEquals;
  * @author jessenpan
  * @since 2019/3/3 22:26
  */
-public class Solution503Test {
+public class S503_NextGreaterElementIITest {
 
-    private Solution503 solution503 = new Solution503();
+    private S503_NextGreaterElementII s503NextGreaterElementII = new S503_NextGreaterElementII();
 
     @Test
     public void test1() {
-        int[] result = solution503.nextGreaterElements(new int[] { 1, 2, 1 });
+        int[] result = s503NextGreaterElementII.nextGreaterElements(new int[] { 1, 2, 1 });
         assertArrayEquals(new int[] { 2, -1, 2 }, result);
     }
 

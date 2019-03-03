@@ -6,7 +6,7 @@ import java.util.Stack;
  * @author jessenpan
  * @since 2019/3/3 21:41
  */
-public class Solution503 {
+public class S503_NextGreaterElementII {
 
     public int[] nextGreaterElements(int[] nums) {
 

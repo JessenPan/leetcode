@@ -9,11 +9,11 @@ import static org.junit.Assert.assertFalse;
  * @author jessenpan
  * @since 2019/2/28 23:57
  */
-public class Solution225Test {
+public class S225_ImplementStackUsingQueuesTest {
 
     @Test
     public void test1() {
-        Solution225.MyStack myStack = new Solution225.MyStack();
+        S225_ImplementStackUsingQueues.MyStack myStack = new S225_ImplementStackUsingQueues.MyStack();
         myStack.push(1);
         myStack.push(2);
         myStack.push(4);
@@ -26,7 +26,7 @@ public class Solution225Test {
 
     @Test
     public void test2() {
-        Solution225.MyStack myStack = new Solution225.MyStack();
+        S225_ImplementStackUsingQueues.MyStack myStack = new S225_ImplementStackUsingQueues.MyStack();
         myStack.push(1);
         assertEquals(1, myStack.top());
         assertFalse(myStack.empty());
@@ -34,7 +34,7 @@ public class Solution225Test {
 
     @Test
     public void test3() {
-        Solution225.MyStack myStack = new Solution225.MyStack();
+        S225_ImplementStackUsingQueues.MyStack myStack = new S225_ImplementStackUsingQueues.MyStack();
         myStack.push(1);
         myStack.push(2);
         assertEquals(2, myStack.top());

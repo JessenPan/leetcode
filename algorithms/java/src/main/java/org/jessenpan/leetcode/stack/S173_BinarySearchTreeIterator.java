@@ -8,7 +8,7 @@ import java.util.Stack;
  * @author jessenpan
  * @since 2019/3/2 23:44
  */
-public class Solution173 {
+public class S173_BinarySearchTreeIterator {
 
     public static class TreeNode {
 

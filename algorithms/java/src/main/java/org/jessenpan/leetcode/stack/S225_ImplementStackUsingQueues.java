@@ -7,7 +7,7 @@ import java.util.Queue;
  * @author jessenpan
  * @since 2019/2/28 23:46
  */
-public class Solution225 {
+public class S225_ImplementStackUsingQueues {
 
     public static class MyStack {
 

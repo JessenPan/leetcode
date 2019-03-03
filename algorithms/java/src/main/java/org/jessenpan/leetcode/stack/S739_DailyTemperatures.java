@@ -6,7 +6,7 @@ import java.util.Stack;
  * @author jessenpan
  * @since 2019/3/2 18:02
  */
-public class Solution739 {
+public class S739_DailyTemperatures {
 
     public int[] dailyTemperatures(int[] t) {
 

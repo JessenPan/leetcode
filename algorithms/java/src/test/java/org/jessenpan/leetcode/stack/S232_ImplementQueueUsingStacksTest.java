@@ -9,9 +9,9 @@ import static org.junit.Assert.assertFalse;
  * @author jessenpan
  * @since 2019/2/25 22:42
  */
-public class Solution232Test {
+public class S232_ImplementQueueUsingStacksTest {
 
-    private Solution232.MyQueue solution232=new Solution232.MyQueue();
+    private S232_ImplementQueueUsingStacks.MyQueue solution232=new S232_ImplementQueueUsingStacks.MyQueue();
     
     @Test
     public void test1(){
