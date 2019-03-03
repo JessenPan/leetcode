@@ -1,0 +1,1 @@
+delete from Person where Id in (select Id from (select Id from Person as A where exists (select 1 from Person as B where B.Email=A.Email group by B.Email having count(B.id)>1 and min(B.id)<A.Id )) as tmp )
