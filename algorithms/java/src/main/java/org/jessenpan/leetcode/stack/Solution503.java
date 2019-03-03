@@ -12,49 +12,43 @@ public class Solution503 {
 
         int[] result = new int[nums.length];
         int lengthOfNums = nums.length;
-        for (int i = 0; i < lengthOfNums; i++) {
-            Stack<Integer> decreasedStack = buildDecreasedStack(i, nums);
+        Stack<Integer> decreasedStack = new Stack<>();
+        int[] doubleSizeNums = new int[2 * lengthOfNums];
+        System.arraycopy(nums, 0, doubleSizeNums, 0, lengthOfNums);
+        System.arraycopy(nums, 0, doubleSizeNums, lengthOfNums, lengthOfNums);
+        int doubleLengthOfNums = 2 * lengthOfNums;
+        for (int i = 0; i < doubleLengthOfNums; i++) {
+            int currentIndex = doubleLengthOfNums - i - 1;
             if (decreasedStack.isEmpty()) {
-                result[i] = -1;
+                if (i >= lengthOfNums) {
+                    result[currentIndex] = -1;
+                }
+                decreasedStack.push(doubleSizeNums[currentIndex]);
                 continue;
             }
-            boolean hasFoundGreaterVal = false;
-            while (!decreasedStack.isEmpty()) {
-                Integer poppedVal = decreasedStack.pop();
-                if (poppedVal > nums[i]) {
-                    result[i] = poppedVal;
-                    hasFoundGreaterVal = true;
-                    break;
-                }
-            }
-            if (!hasFoundGreaterVal) {
-                result[i] = -1;
+
+            int leastMaxElement = findLeastMaxElement(decreasedStack, doubleSizeNums, currentIndex);
+            if (i >= lengthOfNums) {
+                result[currentIndex] = leastMaxElement;
             }
         }
 
         return result;
     }
 
-    private Stack<Integer> buildDecreasedStack(int i, int[] nums) {
-
-        Stack<Integer> decreasedStack = new Stack<>();
-        int lengthOfNums = nums.length;
-        for (int j = 1; j < lengthOfNums; j++) {
-            int x = nums[(i + lengthOfNums - j) % lengthOfNums];
-            if (decreasedStack.isEmpty()) {
-                decreasedStack.push(x);
-            } else {
-                if (decreasedStack.peek() > x) {
-                    decreasedStack.push(x);
-                } else {
-                    while (!decreasedStack.isEmpty() && decreasedStack.peek() < x) {
-                        decreasedStack.pop();
-                    }
-                    decreasedStack.push(x);
-
-                }
-            }
+    private int findLeastMaxElement(Stack<Integer> decreasedStack, int[] doubleSizeNums, int currentIndex) {
+        if (decreasedStack.isEmpty()) {
+            decreasedStack.push(doubleSizeNums[currentIndex]);
+            return -1;
         }
-        return decreasedStack;
+        if (decreasedStack.peek() > doubleSizeNums[currentIndex]) {
+            int leastMaxElement = decreasedStack.peek();
+            decreasedStack.push(doubleSizeNums[currentIndex]);
+            return leastMaxElement;
+        } else {
+            decreasedStack.pop();
+            return findLeastMaxElement(decreasedStack, doubleSizeNums, currentIndex);
+        }
     }
+
 }
