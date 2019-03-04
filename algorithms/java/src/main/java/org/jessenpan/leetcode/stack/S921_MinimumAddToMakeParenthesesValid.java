@@ -4,7 +4,6 @@ import java.util.Stack;
 
 /**
  * @author jessenpan
- * @since 2019/2/27 22:03
  */
 public class S921_MinimumAddToMakeParenthesesValid {
 

@@ -6,7 +6,6 @@ import static org.junit.Assert.assertArrayEquals;
 
 /**
  * @author jessenpan
- * @since 2019/3/3 22:26
  */
 public class S503_NextGreaterElementIITest {
 

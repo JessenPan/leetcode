@@ -4,7 +4,6 @@ import java.util.Stack;
 
 /**
  * @author jessenpan
- * @since 2019/3/3 0:15
  */
 public class S856_ScoreOfParentheses {
 

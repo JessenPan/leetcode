@@ -6,7 +6,6 @@ import static org.junit.Assert.assertEquals;
 
 /**
  * @author jessenpan
- * @since 2019/3/3 10:23
  */
 public class S856_ScoreOfParenthesesTest {
 

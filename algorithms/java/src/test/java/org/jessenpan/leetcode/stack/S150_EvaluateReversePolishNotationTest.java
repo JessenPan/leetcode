@@ -6,7 +6,6 @@ import static org.junit.Assert.assertEquals;
 
 /**
  * @author jessenpan
- * @since 2019/2/27 22:55
  */
 public class S150_EvaluateReversePolishNotationTest {
 

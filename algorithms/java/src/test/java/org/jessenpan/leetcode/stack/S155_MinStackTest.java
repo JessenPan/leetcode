@@ -6,7 +6,6 @@ import static org.junit.Assert.assertEquals;
 
 /**
  * @author jessenpan
- * @since 2019/3/2 16:14
  */
 public class S155_MinStackTest {
 

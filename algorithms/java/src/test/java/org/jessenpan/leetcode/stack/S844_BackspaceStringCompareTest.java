@@ -7,7 +7,6 @@ import static org.junit.Assert.assertTrue;
 
 /**
  * @author jessenpan
- * @since 2019/2/25 23:30
  */
 public class S844_BackspaceStringCompareTest {
 
