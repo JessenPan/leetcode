@@ -12,7 +12,6 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 *.lnk
-.idea/**/workspace.xml
 .idea/**/tasks.xml
 .idea/**/dictionaries
 .idea/**/shelf
@@ -24,7 +23,6 @@ $RECYCLE.BIN/
 .idea/**/uiDesigner.xml
 .idea/**/dbnavigator.xml
 .idea/**/gradle.xml
-.idea/**/libraries
 cmake-build-debug/
 cmake-build-release/
 .idea/**/mongoSettings.xml
