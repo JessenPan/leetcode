@@ -5,7 +5,6 @@ import java.util.LinkedList;
 
 /**
  * @author jessenpan
- * @since 2019/2/27 23:08
  */
 public class S735_AsteroidCollision {
 

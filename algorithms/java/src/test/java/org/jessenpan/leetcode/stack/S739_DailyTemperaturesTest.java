@@ -6,7 +6,6 @@ import static org.junit.Assert.assertArrayEquals;
 
 /**
  * @author jessenpan
- * @since 2019/3/2 22:03
  */
 public class S739_DailyTemperaturesTest {
 

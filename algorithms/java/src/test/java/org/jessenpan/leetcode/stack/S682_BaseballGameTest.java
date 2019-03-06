@@ -6,7 +6,6 @@ import static org.junit.Assert.assertEquals;
 
 /**
  * @author jessenpan
- * @since 2019/2/24 23:09
  */
 public class S682_BaseballGameTest {
 

@@ -6,7 +6,6 @@ import java.util.Stack;
 
 /**
  * @author jessenpan
- * @since 2019/3/2 23:09
  */
 public class S144_BinaryTreePreOrderTraversal {
 

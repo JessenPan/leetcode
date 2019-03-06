@@ -4,7 +4,6 @@ import java.util.Stack;
 
 /**
  * @author jessenpan
- * @since 2019/2/25 23:16
  */
 public class S844_BackspaceStringCompare {
 

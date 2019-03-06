@@ -7,7 +7,6 @@ import static org.junit.Assert.assertFalse;
 
 /**
  * @author jessenpan
- * @since 2019/2/28 23:57
  */
 public class S225_ImplementStackUsingQueuesTest {
 

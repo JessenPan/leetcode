@@ -6,7 +6,6 @@ import static org.junit.Assert.assertArrayEquals;
 
 /**
  * @author jessenpan
- * @since 2019/2/27 23:54
  */
 public class S735_AsteroidCollisionTest {
 
