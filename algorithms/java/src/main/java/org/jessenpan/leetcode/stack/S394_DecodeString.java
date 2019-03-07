@@ -18,7 +18,7 @@ public class S394_DecodeString {
         }
         int lengthOfs = s.length();
         int lastIndex = 0;
-        boolean hasFoundOperation = false;
+        boolean hasFoundOperation = false, hasFoundChar = false;
         Deque<String> stringDeque = new LinkedList<>();
         for (int i = 0; i < lengthOfs; i++) {
             char currentChar = s.charAt(i);
@@ -26,8 +26,6 @@ public class S394_DecodeString {
                 String strBeforeLeftBracket = s.substring(lastIndex, i);
                 if (isOperation(strBeforeLeftBracket)) {
                     stringDeque.push(strBeforeLeftBracket);
-                } else {
-
                 }
                 lastIndex = i + 1;
             } else if (RIGHT_BRACKET == currentChar) {
@@ -39,6 +37,24 @@ public class S394_DecodeString {
                 }
                 stringDeque.push(sb.toString());
                 lastIndex = i + 1;
+            } else if (isChar(currentChar)) {
+                if (hasFoundOperation) {
+                    String strBeforeLeftBracket = s.substring(lastIndex, i);
+                    stringDeque.push(strBeforeLeftBracket);
+                    lastIndex = i + 1;
+                    hasFoundOperation = hasFoundChar = false;
+                } else {
+                    hasFoundChar = true;
+                }
+            } else if (isOperation(currentChar)) {
+                if (hasFoundChar) {
+                    String strBeforeLeftBracket = s.substring(lastIndex, i);
+                    stringDeque.push(strBeforeLeftBracket);
+                    lastIndex = i + 1;
+                    hasFoundOperation = hasFoundChar = false;
+                } else {
+                    hasFoundOperation = true;
+                }
             }
         }
         StringBuilder sb = new StringBuilder();
@@ -46,6 +62,10 @@ public class S394_DecodeString {
             sb.append(stringDeque.pollLast());
         }
         return sb.toString();
+    }
+
+    private boolean isChar(char ch) {
+        return (ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z');
     }
 
     private boolean isOperation(char ch) {

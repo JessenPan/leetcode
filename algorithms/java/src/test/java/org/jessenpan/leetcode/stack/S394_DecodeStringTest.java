@@ -18,4 +18,16 @@ public class S394_DecodeStringTest {
         assertEquals("aaabcbc", decodedString);
     }
 
+    @Test
+    public void test2() {
+        String decodedString = decodeString.decodeString("3[a2[c]]");
+        assertEquals("accaccacc", decodedString);
+    }
+
+    @Test
+    public void test3() {
+        String decodedString = decodeString.decodeString("2[abc]3[cd]ef");
+        assertEquals("abcabccdcdcdef", decodedString);
+    }
+
 }
