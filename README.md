@@ -10,7 +10,7 @@
 | 144  | stack | BinaryTreePreOrderTraversal                                  | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S144BinaryTreePreOrderTraversal.java) |      O(n)       |                  |
 | 150  | stack | EvaluateReversePolishNotation                                | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S150EvaluateReversePolishNotation.java) |      O(n)       |                  |
 | 832  | array | FlippingAnImage                                              | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S832FlippingAnImage.java) |     O(n*2)      |       O(1)       |
-| 905  | array | [SortArrayByParity](https://leetcode-cn.com/problems/sort-array-by-parity/) | [Java]()(./algorithms/java/src/main/java/org/jessenpan/leetcode/S905SortArrayByParity.java) |      O(n)       |       O(1)       |
+| 905  | array | [SortArrayByParity](https://leetcode-cn.com/problems/sort-array-by-parity/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S905SortArrayByParity.java) |      O(n)       |       O(1)       |
 
 ## Database
 
