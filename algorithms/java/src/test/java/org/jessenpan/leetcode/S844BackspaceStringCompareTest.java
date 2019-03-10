@@ -1,6 +1,5 @@
 package org.jessenpan.leetcode;
 
-import org.jessenpan.leetcode.S844BackspaceStringCompare;
 import org.junit.Test;
 
 import static org.junit.Assert.assertFalse;
@@ -9,7 +8,7 @@ import static org.junit.Assert.assertTrue;
 /**
  * @author jessenpan
  */
-public class S844_BackspaceStringCompareTest {
+public class S844BackspaceStringCompareTest {
 
     private S844BackspaceStringCompare s844BackspaceStringCompare = new S844BackspaceStringCompare();
 

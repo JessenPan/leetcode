@@ -1,6 +1,5 @@
 package org.jessenpan.leetcode;
 
-import org.jessenpan.leetcode.S331VerifyPreOrderSerializationOfABinaryTree;
 import org.junit.Test;
 
 import static org.junit.Assert.assertFalse;
@@ -10,7 +9,7 @@ import static org.junit.Assert.assertTrue;
  * @author jessenpan
  * @date 2019-03-04 15:03
  */
-public class S331_VerifyPreOrderSerializationOfABinaryTreeTest {
+public class S331VerifyPreOrderSerializationOfABinaryTreeTest {
 
     private S331VerifyPreOrderSerializationOfABinaryTree verifyPreOrderSerializationOfABinaryTree = new S331VerifyPreOrderSerializationOfABinaryTree();
 

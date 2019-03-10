@@ -1,6 +1,5 @@
 package org.jessenpan.leetcode;
 
-import org.jessenpan.leetcode.S155MinStack;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -8,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 /**
  * @author jessenpan
  */
-public class S155_MinStackTest {
+public class S155MinStackTest {
 
     private S155MinStack.MinStack minStack = new S155MinStack.MinStack();
 

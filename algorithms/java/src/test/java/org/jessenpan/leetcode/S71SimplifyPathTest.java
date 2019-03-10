@@ -1,15 +1,13 @@
 package org.jessenpan.leetcode;
 
-import org.jessenpan.leetcode.S71SimplifyPath;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
 /**
  * @author jessenpan
- * @date 2019-03-06 14:49
  */
-public class S71_SimplifyPathTest {
+public class S71SimplifyPathTest {
 
     private S71SimplifyPath simplifyPath = new S71SimplifyPath();
 

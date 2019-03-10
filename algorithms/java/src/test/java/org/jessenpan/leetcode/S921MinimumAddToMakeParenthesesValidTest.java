@@ -1,6 +1,5 @@
 package org.jessenpan.leetcode;
 
-import org.jessenpan.leetcode.S921MinimumAddToMakeParenthesesValid;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -8,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 /**
  * @author jessenpan
  */
-public class S921_MinimumAddToMakeParenthesesValidTest {
+public class S921MinimumAddToMakeParenthesesValidTest {
 
     private S921MinimumAddToMakeParenthesesValid s921MinimumAddToMakeParenthesesValid = new S921MinimumAddToMakeParenthesesValid();
 

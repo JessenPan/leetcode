@@ -1,6 +1,5 @@
 package org.jessenpan.leetcode;
 
-import org.jessenpan.leetcode.S496NextGreaterElementI;
 import org.junit.Test;
 
 import static org.junit.Assert.assertArrayEquals;
@@ -8,7 +7,7 @@ import static org.junit.Assert.assertArrayEquals;
 /**
  * @author jessenpan
  */
-public class S496_NextGreaterElementITest {
+public class S496NextGreaterElementITest {
 
     private S496NextGreaterElementI s496NextGreaterElementI = new S496NextGreaterElementI();
 

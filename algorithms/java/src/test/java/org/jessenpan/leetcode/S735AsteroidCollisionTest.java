@@ -1,6 +1,5 @@
 package org.jessenpan.leetcode;
 
-import org.jessenpan.leetcode.S735AsteroidCollision;
 import org.junit.Test;
 
 import static org.junit.Assert.assertArrayEquals;
@@ -8,7 +7,7 @@ import static org.junit.Assert.assertArrayEquals;
 /**
  * @author jessenpan
  */
-public class S735_AsteroidCollisionTest {
+public class S735AsteroidCollisionTest {
 
     private final S735AsteroidCollision s735AsteroidCollision = new S735AsteroidCollision();
 

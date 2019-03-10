@@ -1,6 +1,5 @@
 package org.jessenpan.leetcode;
 
-import org.jessenpan.leetcode.S150EvaluateReversePolishNotation;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -8,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 /**
  * @author jessenpan
  */
-public class S150_EvaluateReversePolishNotationTest {
+public class S150EvaluateReversePolishNotationTest {
 
     private final S150EvaluateReversePolishNotation s150EvaluateReversePolishNotation = new S150EvaluateReversePolishNotation();
 

@@ -1,6 +1,5 @@
 package org.jessenpan.leetcode;
 
-import org.jessenpan.leetcode.S225ImplementStackUsingQueues;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -9,7 +8,7 @@ import static org.junit.Assert.assertFalse;
 /**
  * @author jessenpan
  */
-public class S225_ImplementStackUsingQueuesTest {
+public class S225ImplementStackUsingQueuesTest {
 
     @Test
     public void test1() {

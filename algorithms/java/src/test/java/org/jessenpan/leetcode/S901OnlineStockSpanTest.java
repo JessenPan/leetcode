@@ -1,6 +1,5 @@
 package org.jessenpan.leetcode;
 
-import org.jessenpan.leetcode.S901OnlineStockSpan;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -9,7 +8,7 @@ import static org.junit.Assert.assertEquals;
  * @author jessenpan
  * @date 2019-03-06 16:58
  */
-public class S901_OnlineStockSpanTest {
+public class S901OnlineStockSpanTest {
 
     private S901OnlineStockSpan.StockSpanner onlineStockSpan = new S901OnlineStockSpan.StockSpanner();
 

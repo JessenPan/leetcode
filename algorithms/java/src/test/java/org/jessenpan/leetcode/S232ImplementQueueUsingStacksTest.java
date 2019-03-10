@@ -1,6 +1,5 @@
 package org.jessenpan.leetcode;
 
-import org.jessenpan.leetcode.S232ImplementQueueUsingStacks;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -9,7 +8,7 @@ import static org.junit.Assert.assertFalse;
 /**
  * @author jessenpan
  */
-public class S232_ImplementQueueUsingStacksTest {
+public class S232ImplementQueueUsingStacksTest {
 
     private S232ImplementQueueUsingStacks.MyQueue solution232=new S232ImplementQueueUsingStacks.MyQueue();
     

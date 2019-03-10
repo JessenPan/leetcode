@@ -1,6 +1,5 @@
 package org.jessenpan.leetcode;
 
-import org.jessenpan.leetcode.S856ScoreOfParentheses;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -8,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 /**
  * @author jessenpan
  */
-public class S856_ScoreOfParenthesesTest {
+public class S856ScoreOfParenthesesTest {
 
     private S856ScoreOfParentheses s856ScoreOfParentheses = new S856ScoreOfParentheses();
 

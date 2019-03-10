@@ -1,15 +1,13 @@
 package org.jessenpan.leetcode;
 
-import org.jessenpan.leetcode.S394DecodeString;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
 /**
  * @author jessenpan
- * @date 2019-03-07 19:53
  */
-public class S394_DecodeStringTest {
+public class S394DecodeStringTest {
 
     private S394DecodeString decodeString = new S394DecodeString();
 

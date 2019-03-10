@@ -1,6 +1,5 @@
 package org.jessenpan.leetcode;
 
-import org.jessenpan.leetcode.S682BaseballGame;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -8,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 /**
  * @author jessenpan
  */
-public class S682_BaseballGameTest {
+public class S682BaseballGameTest {
 
     private S682BaseballGame s682BaseballGame = new S682BaseballGame();
 

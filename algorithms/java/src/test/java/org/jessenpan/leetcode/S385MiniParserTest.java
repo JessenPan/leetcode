@@ -1,6 +1,5 @@
 package org.jessenpan.leetcode;
 
-import org.jessenpan.leetcode.S385MiniParser;
 import org.junit.Test;
 
 import static org.junit.Assert.assertArrayEquals;
@@ -8,7 +7,7 @@ import static org.junit.Assert.assertArrayEquals;
 /**
  * @author jessenpan
  */
-public class S385_MiniParserTest {
+public class S385MiniParserTest {
 
     private S385MiniParser miniParser = new S385MiniParser();
 

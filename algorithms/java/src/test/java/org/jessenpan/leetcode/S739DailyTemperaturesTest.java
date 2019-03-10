@@ -1,6 +1,5 @@
 package org.jessenpan.leetcode;
 
-import org.jessenpan.leetcode.S739DailyTemperatures;
 import org.junit.Test;
 
 import static org.junit.Assert.assertArrayEquals;
@@ -8,7 +7,7 @@ import static org.junit.Assert.assertArrayEquals;
 /**
  * @author jessenpan
  */
-public class S739_DailyTemperaturesTest {
+public class S739DailyTemperaturesTest {
 
     private S739DailyTemperatures s739DailyTemperatures = new S739DailyTemperatures();
 
