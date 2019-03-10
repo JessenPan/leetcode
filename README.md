@@ -4,9 +4,9 @@
 
 |  id  |  tag  |            problem            | solution                                                     | time complexity | space complexity |
 | :--: | :---: | :---------------------------: | ------------------------------------------------------------ | :-------------: | :--------------: |
-|  94  | stack |  BinaryTreeInOrderTraversal   | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S94_BinaryTreeInOrderTraversal.java) |      O(n)       |                  |
-| 144  | stack |  BinaryTreePreOrderTraversal  | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S144_BinaryTreePreOrderTraversal.java) |      O(n)       |                  |
-| 150  | stack | EvaluateReversePolishNotation | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S150_EvaluateReversePolishNotation.java) |      O(n)       |                  |
+|  94  | stack |  BinaryTreeInOrderTraversal   | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S94_BinaryTreeInOrderTraversal.java) |      O(n)       |                  |
+| 144  | stack |  BinaryTreePreOrderTraversal  | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S144_BinaryTreePreOrderTraversal.java) |      O(n)       |                  |
+| 150  | stack | EvaluateReversePolishNotation | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S150_EvaluateReversePolishNotation.java) |      O(n)       |                  |
 
 
 
