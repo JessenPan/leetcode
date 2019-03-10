@@ -2,11 +2,12 @@
 
 ## Algorithms
 
-|  id  |  tag  |            problem            | solution                                                     | time complexity | space complexity |
-| :--: | :---: | :---------------------------: | ------------------------------------------------------------ | :-------------: | :--------------: |
-|  94  | stack |  BinaryTreeInOrderTraversal   | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S94BinaryTreeInOrderTraversal.java) |      O(n)       |                  |
-| 144  | stack |  BinaryTreePreOrderTraversal  | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S144BinaryTreePreOrderTraversal.java) |      O(n)       |                  |
+|  id  |  tag  | problem                       | solution                                                     | time complexity | space complexity |
+| :--: | :---: | :---------------------------- | ------------------------------------------------------------ | :-------------: | :--------------: |
+|  94  | stack | BinaryTreeInOrderTraversal    | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S94BinaryTreeInOrderTraversal.java) |      O(n)       |                  |
+| 144  | stack | BinaryTreePreOrderTraversal   | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S144BinaryTreePreOrderTraversal.java) |      O(n)       |                  |
 | 150  | stack | EvaluateReversePolishNotation | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S150EvaluateReversePolishNotation.java) |      O(n)       |                  |
+| 832  | array | FlippingAnImage               | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S832FlippingAnImage.java) |     O(n*2)      |       O(1)       |
 
 
 
