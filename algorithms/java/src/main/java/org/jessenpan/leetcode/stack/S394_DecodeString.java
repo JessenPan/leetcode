@@ -28,6 +28,7 @@ public class S394_DecodeString {
                     stringDeque.push(strBeforeLeftBracket);
                 }
                 lastIndex = i + 1;
+                hasFoundChar = hasFoundOperation = false;
             } else if (RIGHT_BRACKET == currentChar) {
                 String strBeforeRightBracket = s.substring(lastIndex, i);
                 int loopTime = Integer.valueOf(stringDeque.poll());
@@ -37,11 +38,12 @@ public class S394_DecodeString {
                 }
                 stringDeque.push(sb.toString());
                 lastIndex = i + 1;
+                hasFoundChar = hasFoundOperation = false;
             } else if (isChar(currentChar)) {
                 if (hasFoundOperation) {
                     String strBeforeLeftBracket = s.substring(lastIndex, i);
                     stringDeque.push(strBeforeLeftBracket);
-                    lastIndex = i + 1;
+                    lastIndex = i;
                     hasFoundOperation = hasFoundChar = false;
                 } else {
                     hasFoundChar = true;
@@ -50,7 +52,7 @@ public class S394_DecodeString {
                 if (hasFoundChar) {
                     String strBeforeLeftBracket = s.substring(lastIndex, i);
                     stringDeque.push(strBeforeLeftBracket);
-                    lastIndex = i + 1;
+                    lastIndex = i;
                     hasFoundOperation = hasFoundChar = false;
                 } else {
                     hasFoundOperation = true;
