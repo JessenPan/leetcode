@@ -4,8 +4,8 @@
 
 |  id  |  tag  |            problem            | solution                                                     | time complexity | space complexity |
 | :--: | :---: | :---------------------------: | ------------------------------------------------------------ | :-------------: | :--------------: |
-|  94  | stack |  BinaryTreeInOrderTraversal   | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S94_BinaryTreeInOrderTraversal.java) |      O(h)       |                  |
-| 144  | stack |  BinaryTreePreOrderTraversal  | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S144_BinaryTreePreOrderTraversal.java) |      O(h)       |                  |
+|  94  | stack |  BinaryTreeInOrderTraversal   | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S94_BinaryTreeInOrderTraversal.java) |      O(n)       |                  |
+| 144  | stack |  BinaryTreePreOrderTraversal  | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S144_BinaryTreePreOrderTraversal.java) |      O(n)       |                  |
 | 150  | stack | EvaluateReversePolishNotation | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S150_EvaluateReversePolishNotation.java) |      O(n)       |                  |
 
 
@@ -14,7 +14,7 @@
 
 | id   | problem                                    | solution                                                     |
 | ---- | ------------------------------------------ | ------------------------------------------------------------ |
-| 175  | Combine Two Tables                         | [Mysql](./database/mysql/175.combine two tables.sql)         |
+| 175  | Combine Two Tables                         | [Mysql](./database/mysql/175.CombineTwoTables.sql)           |
 | 176  | Second Highest Salary                      | [Mysql](./database/mysql/176.Second Highest Salary.sql)      |
 | 177  | Nth Highes Salary                          | [Mysql](./database/mysql/177.Nth Hightest Salary.sql)        |
 | 181  | Employees Earning More Than Their Managers | [Mysql](./database/mysql/181.Employees Earning More Than Their Managers.sql) |
