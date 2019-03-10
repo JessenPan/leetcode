@@ -2,15 +2,27 @@
 
 ## Algorithms
 
-|  id  |  tag  |            problem            | solution                                                     | time complexity | space complexity | comments |
-| :--: | :---: | :---------------------------: | ------------------------------------------------------------ | :-------------: | :--------------: | :------: |
-|  94  | stack |  BinaryTreeInOrderTraversal   | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S94_BinaryTreeInOrderTraversal.java) |      O(h)       |                  |          |
-| 144  | stack |  BinaryTreePreOrderTraversal  | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S144_BinaryTreePreOrderTraversal.java) |      O(h)       |                  |          |
-| 150  | stack | EvaluateReversePolishNotation | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S150_EvaluateReversePolishNotation.java) |      O(n)       |                  |          |
+|  id  |  tag  |            problem            | solution                                                     | time complexity | space complexity |
+| :--: | :---: | :---------------------------: | ------------------------------------------------------------ | :-------------: | :--------------: |
+|  94  | stack |  BinaryTreeInOrderTraversal   | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S94_BinaryTreeInOrderTraversal.java) |      O(h)       |                  |
+| 144  | stack |  BinaryTreePreOrderTraversal  | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S144_BinaryTreePreOrderTraversal.java) |      O(h)       |                  |
+| 150  | stack | EvaluateReversePolishNotation | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S150_EvaluateReversePolishNotation.java) |      O(n)       |                  |
 
 
 
 ## Database
+
+| id   | problem                                    | solution                                                     |
+| ---- | ------------------------------------------ | ------------------------------------------------------------ |
+| 175  | Combine Two Tables                         | [Mysql](./database/mysql/175.combine two tables.sql)         |
+| 176  | Second Highest Salary                      | [Mysql](./database/mysql/176.Second Highest Salary.sql)      |
+| 177  | Nth Highes Salary                          | [Mysql](./database/mysql/177.Nth Hightest Salary.sql)        |
+| 181  | Employees Earning More Than Their Managers | [Mysql](./database/mysql/181.Employees Earning More Than Their Managers.sql) |
+| 182  | Duplicate Emails                           | [Mysql](./database/mysql/182.Duplicate Emails.sql)           |
+| 183  | Submission Detail                          | [Mysql](./database/mysql/183.Submission Detail.sql)          |
+| 184  | Department Highest Salary                  | [Mysql](./database/mysql/184.Department Highest Salary.sql)  |
+| 196  | Delete Duplicate Emails                    | [Mysql](./database/mysql/196.Delete Duplicate Emails.sql)    |
+| 197  | Rising Temperature                         | [Mysql](./database/mysql/197.Rising Temperature.sql)         |
 
 ## Shell
 
