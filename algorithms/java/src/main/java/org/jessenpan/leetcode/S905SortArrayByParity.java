@@ -2,6 +2,7 @@ package org.jessenpan.leetcode;
 
 /**
  * @author jessenpan
+ * tag:array
  */
 public class S905SortArrayByParity {
 
