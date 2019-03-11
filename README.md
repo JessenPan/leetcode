@@ -10,6 +10,7 @@
 | 144  | stack | BinaryTreePreOrderTraversal                                  | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S144BinaryTreePreOrderTraversal.java) |      O(n)       |                  |
 | 150  | stack | EvaluateReversePolishNotation                                | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S150EvaluateReversePolishNotation.java) |      O(n)       |                  |
 | 169  | array | [MajorityElement](https://leetcode-cn.com/problems/majority-element/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S169MajorityElement.java) |      O(n)       |       O(n)       |
+| 217  | array | [ContainsDuplicate](https://leetcode-cn.com/problems/contains-duplicate/submissions/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S217ContainsDuplicate.java) |                 |       O(1)       |
 | 485  | array | [MaxConsecutiveOnes](https://leetcode-cn.com/problems/max-consecutive-ones/submissions/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S485MaxConsecutiveOnes.java) |      O(n)       |       O(1)       |
 | 509  | array | [FibonacciNumber](https://leetcode-cn.com/problems/fibonacci-number/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S509FibonacciNumber.java) |                 |       O(1)       |
 | 561  | array | [ArrayPartitionI](https://leetcode-cn.com/problems/array-partition-i/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S561ArrayPartitionI.java) |      O(n)       |                  |
