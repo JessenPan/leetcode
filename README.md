@@ -10,6 +10,7 @@
 | 144  | stack | BinaryTreePreOrderTraversal                                  | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S144BinaryTreePreOrderTraversal.java) |      O(n)       |                  |
 | 150  | stack | EvaluateReversePolishNotation                                | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S150EvaluateReversePolishNotation.java) |      O(n)       |                  |
 | 169  | array | [MajorityElement](https://leetcode-cn.com/problems/majority-element/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S169MajorityElement.java) |      O(n)       |       O(n)       |
+| 485  | array | [MaxConsecutiveOnes](https://leetcode-cn.com/problems/max-consecutive-ones/submissions/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S485MaxConsecutiveOnes.java) |      O(n)       |       O(1)       |
 | 509  | array | [FibonacciNumber](https://leetcode-cn.com/problems/fibonacci-number/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S509FibonacciNumber.java) |                 |       O(1)       |
 | 561  | array | [ArrayPartitionI](https://leetcode-cn.com/problems/array-partition-i/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S561ArrayPartitionI.java) |      O(n)       |                  |
 | 832  | array | [FlippingAnImage](https://leetcode-cn.com/problems/flipping-an-image/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S832FlippingAnImage.java) |     O(n*n)      |       O(1)       |
