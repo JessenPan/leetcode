@@ -36,6 +36,7 @@
 | 905  |  array  | [SortArrayByParity](https://leetcode-cn.com/problems/sort-array-by-parity/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S905SortArrayByParity.java) |      O(n)       |       O(1)       |
 | 921  |  stack  | [MinimumAddToMakeParenthesesValid](https://leetcode-cn.com/problems/minimum-add-to-make-parentheses-valid/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S921MinimumAddToMakeParenthesesValid.java) |                 |                  |
 | 922  |  array  | [SortArrayByParityII](https://leetcode-cn.com/problems/sort-array-by-parity-ii/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S922SortArrayByParityII.java) |      O(n)       |       O(1)       |
+| 961  | hashmap | [N-Repeated Element in Size 2N Array](https://leetcode-cn.com/problems/n-repeated-element-in-size-2n-array/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S961NRepeatedElementInSize2NArray.java) |      O(n)       |       O(n)       |
 | 977  |  stack  | [SquaresOfASortedArray](https://leetcode-cn.com/problems/squares-of-a-sorted-array/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S977SquaresOfASortedArray.java) |      O(n)       |       O(1)       |
 
 ## Database
