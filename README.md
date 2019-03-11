@@ -39,17 +39,17 @@
 
 ## Database
 
-|  id  | problem                                    |                           solution                           |
-| :--: | :----------------------------------------- | :----------------------------------------------------------: |
-| 175  | Combine Two Tables                         |      [Mysql](./database/mysql/175.CombineTwoTables.sql)      |
-| 176  | Second Highest Salary                      |    [Mysql](./database/mysql/176.SecondHighestSalary.sql)     |
-| 177  | Nth Highes Salary                          |     [Mysql](./database/mysql/177.NthHightestSalary.sql)      |
-| 181  | Employees Earning More Than Their Managers | [Mysql](./database/mysql/181.EmployeesEarningMoreThanTheirManagers.sql) |
-| 182  | Duplicate Emails                           |      [Mysql](./database/mysql/182.DuplicateEmails.sql)       |
-| 183  | Submission Detail                          |      [Mysql](./database/mysql/183.SubmissionDetail.sql)      |
-| 184  | Department Highest Salary                  |  [Mysql](./database/mysql/184.DepartmentHighestSalary.sql)   |
-| 196  | Delete Duplicate Emails                    |   [Mysql](./database/mysql/196.DeleteDuplicateEmails.sql)    |
-| 197  | Rising Temperature                         |     [Mysql](./database/mysql/197.RisingTemperature.sql)      |
+|  id  | problem                                                      |                           solution                           |
+| :--: | :----------------------------------------------------------- | :----------------------------------------------------------: |
+| 175  | [Combine Two Tables](https://leetcode-cn.com/problems/combine-two-tables/) |      [Mysql](./database/mysql/175.CombineTwoTables.sql)      |
+| 176  | [Second Highest Salary](https://leetcode-cn.com/problems/second-highest-salary/) |    [Mysql](./database/mysql/176.SecondHighestSalary.sql)     |
+| 177  | [Nth Highes Salary](https://leetcode-cn.com/problems/nth-highest-salary/) |     [Mysql](./database/mysql/177.NthHightestSalary.sql)      |
+| 181  | [Employees Earning More Than Their Managers](https://leetcode-cn.com/problems/employees-earning-more-than-their-managers/) | [Mysql](./database/mysql/181.EmployeesEarningMoreThanTheirManagers.sql) |
+| 182  | [Duplicate Emails](https://leetcode-cn.com/problems/duplicate-emails/) |      [Mysql](./database/mysql/182.DuplicateEmails.sql)       |
+| 183  | [Submission Detail](https://leetcode-cn.com/problems/customers-who-never-order/) |      [Mysql](./database/mysql/183.SubmissionDetail.sql)      |
+| 184  | [Department Highest Salary](https://leetcode-cn.com/problems/department-highest-salary/) |  [Mysql](./database/mysql/184.DepartmentHighestSalary.sql)   |
+| 196  | [Delete Duplicate Emails](https://leetcode-cn.com/problems/delete-duplicate-emails/) |   [Mysql](./database/mysql/196.DeleteDuplicateEmails.sql)    |
+| 197  | [Rising Temperature](https://leetcode-cn.com/problems/rising-temperature/) |     [Mysql](./database/mysql/197.RisingTemperature.sql)      |
 
 ## Shell
 
