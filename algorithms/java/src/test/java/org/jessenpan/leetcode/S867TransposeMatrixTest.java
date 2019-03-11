@@ -7,7 +7,7 @@ import org.junit.Test;
  */
 public class S867TransposeMatrixTest {
 
-    private S867TransposeMatrix transposeMatrix = new S867TransposeMatrix();
+    private S844BackspaceStringCompare.S867TransposeMatrix transposeMatrix = new S844BackspaceStringCompare.S867TransposeMatrix();
 
     @Test
     public void test1() {
