@@ -11,7 +11,7 @@
 | 150  | stack | EvaluateReversePolishNotation                                | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S150EvaluateReversePolishNotation.java) |      O(n)       |                  |
 | 509  | array | [FibonacciNumber](https://leetcode-cn.com/problems/fibonacci-number/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S509FibonacciNumber.java) |                 |       O(1)       |
 | 561  | array | [ArrayPartitionI](https://leetcode-cn.com/problems/array-partition-i/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S561ArrayPartitionI.java) |      O(n)       |                  |
-| 832  | array | FlippingAnImage                                              | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S832FlippingAnImage.java) |     O(n*2)      |       O(1)       |
+| 832  | array | [FlippingAnImage](https://leetcode-cn.com/problems/flipping-an-image/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S832FlippingAnImage.java) |     O(n*n)      |       O(1)       |
 | 905  | array | [SortArrayByParity](https://leetcode-cn.com/problems/sort-array-by-parity/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S905SortArrayByParity.java) |      O(n)       |       O(1)       |
 | 922  | array | [SortArrayByParityII](https://leetcode-cn.com/problems/sort-array-by-parity-ii/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S922SortArrayByParityII.java) |      O(n)       |       O(1)       |
 |      |       |                                                              |                                                              |                 |                  |
