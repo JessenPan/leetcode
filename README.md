@@ -21,6 +21,7 @@
 | 394  |  stack  | [DecodeString](https://leetcode-cn.com/problems/decode-string/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S394DecodeString.java) |                 |                  |
 | 485  |  array  | [MaxConsecutiveOnes](https://leetcode-cn.com/problems/max-consecutive-ones/submissions/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S485MaxConsecutiveOnes.java) |      O(n)       |       O(1)       |
 | 496  |  stack  | [NextGreaterElementI](https://leetcode-cn.com/problems/next-greater-element-i/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S496NextGreaterElementI.java) |                 |                  |
+| 500  | hashmap | [Keyboard Row](https://leetcode-cn.com/problems/keyboard-row/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S500KeyboardRow.java) |      O(n)       |       O(1)       |
 | 503  |  stack  | [NextGreaterElementII](https://leetcode-cn.com/problems/next-greater-element-ii/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S503NextGreaterElementII.java) |                 |                  |
 | 509  |  array  | [FibonacciNumber](https://leetcode-cn.com/problems/fibonacci-number/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S509FibonacciNumber.java) |                 |       O(1)       |
 | 561  |  array  | [ArrayPartitionI](https://leetcode-cn.com/problems/array-partition-i/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S561ArrayPartitionI.java) |      O(n)       |                  |
