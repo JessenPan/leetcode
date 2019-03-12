@@ -6,7 +6,7 @@
 
 |  id  |   tag   | problem                                                      | solution                                                     | time complexity | space complexity |
 | :--: | :-----: | :----------------------------------------------------------- | ------------------------------------------------------------ | :-------------: | :--------------: |
-|  1   |  array  | [Two Sum](https://leetcode-cn.com/problems/two-sum/)         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S1TwoSum.java) [Python](./algorithms/python/solution/S1TwoSum.py) |      O(n)       |                  |
+|  1   |  array  | [TwoSum](https://leetcode-cn.com/problems/two-sum/)         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S1TwoSum.java)[Python](./algorithms/python/solution/S1TwoSum.py) |      O(n)       |                  |
 |  71  |  stack  | [SimplifyPath](https://leetcode-cn.com/problems/simplify-path/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S71SimplifyPath.java) |      O(n)       |                  |
 |  94  |  stack  | [BinaryTreeInOrderTraversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S94BinaryTreeInOrderTraversal.java) |      O(n)       |                  |
 | 144  |  stack  | [BinaryTreePreOrderTraversal](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S144BinaryTreePreOrderTraversal.java) |      O(n)       |                  |
