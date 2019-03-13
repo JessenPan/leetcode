@@ -37,6 +37,7 @@
 | 561  |  array  | [ArrayPartitionI](https://leetcode-cn.com/problems/array-partition-i/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S561ArrayPartitionI.java) |      O(n)       |                  |
 | 575  | hashmap | [DistributeCandies](https://leetcode-cn.com/problems/distribute-candies/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S575DistributeCandies.java) |                 |                  |
 | 682  |  stack  | [BaseballGame](https://leetcode-cn.com/problems/baseball-game/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S682BaseballGame.java) |                 |                  |
+| 709  | string  | [ToLowerCase](https://leetcode-cn.com/problems/to-lower-case/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S709ToLowerCase.java) |      O(n)       |       O(1)       |
 | 771  | hashmap | [Jewels and Stones](https://leetcode-cn.com/problems/jewels-and-stones/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S771JewelsAndStones.java) |      O(n)       |       O(n)       |
 | 735  |  stack  | [AsteroidCollision](https://leetcode-cn.com/problems/asteroid-collision/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S735AsteroidCollision.java) |                 |                  |
 | 739  |  stack  | [DailyTemperatures](https://leetcode-cn.com/problems/daily-temperatures/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S739DailyTemperatures.java) |                 |                  |
@@ -49,6 +50,7 @@
 | 905  |  array  | [SortArrayByParity](https://leetcode-cn.com/problems/sort-array-by-parity/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S905SortArrayByParity.java) |      O(n)       |       O(1)       |
 | 921  |  stack  | [MinimumAddToMakeParenthesesValid](https://leetcode-cn.com/problems/minimum-add-to-make-parentheses-valid/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S921MinimumAddToMakeParenthesesValid.java) |                 |                  |
 | 922  |  array  | [SortArrayByParityII](https://leetcode-cn.com/problems/sort-array-by-parity-ii/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S922SortArrayByParityII.java) |      O(n)       |       O(1)       |
+| 929  | string  | [UniqueEmailAddresses](https://leetcode-cn.com/problems/unique-email-addresses/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S929UniqueEmailAddresses.java) |      O(n)       |       O(n)       |
 | 961  | hashmap | [N-Repeated Element in Size 2N Array](https://leetcode-cn.com/problems/n-repeated-element-in-size-2n-array/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S961NRepeatedElementInSize2NArray.java) |      O(n)       |       O(n)       |
 | 977  |  stack  | [SquaresOfASortedArray](https://leetcode-cn.com/problems/squares-of-a-sorted-array/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S977SquaresOfASortedArray.java) |      O(n)       |       O(1)       |
 
