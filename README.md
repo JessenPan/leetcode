@@ -37,6 +37,7 @@
 | 500  |  hashmap   | [Keyboard Row](https://leetcode-cn.com/problems/keyboard-row/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S500KeyboardRow.java) |      O(n)       |       O(1)       |
 | 503  |   stack    | [NextGreaterElementII](https://leetcode-cn.com/problems/next-greater-element-ii/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S503NextGreaterElementII.java) |                 |                  |
 | 509  |   array    | [FibonacciNumber](https://leetcode-cn.com/problems/fibonacci-number/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S509FibonacciNumber.java) |                 |       O(1)       |
+| 559  |    tree    | [MaximumDepthOfN-aryTree](https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S559MaximumDepthOfNaryTree.java) |                 |                  |
 | 561  |   array    | [ArrayPartitionI](https://leetcode-cn.com/problems/array-partition-i/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S561ArrayPartitionI.java) |      O(n)       |                  |
 | 575  |  hashmap   | [DistributeCandies](https://leetcode-cn.com/problems/distribute-candies/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S575DistributeCandies.java) |                 |                  |
 | 577  |   string   | [ReverseWordsInAStringIII](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S577ReverseWordsInAStringIII.java) |     O(n*n)      |                  |
@@ -45,6 +46,7 @@
 | 617  |    tree    | [MergeTwoBinaryTrees](https://leetcode-cn.com/problems/merge-two-binary-trees/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S617MergeTwoBinaryTrees.java) |     O(logN)     |       O(1)       |
 | 657  |   string   | [RobotReturnToOrigin](https://leetcode-cn.com/problems/robot-return-to-origin/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S657RobotReturnToOrigin.java) |      O(n)       |                  |
 | 682  |   stack    | [BaseballGame](https://leetcode-cn.com/problems/baseball-game/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S682BaseballGame.java) |                 |                  |
+| 700  |    tree    | [SearchInABinarySearchTree](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S700SearchInABinarySearchTree.java) |                 |                  |
 | 709  |   string   | [ToLowerCase](https://leetcode-cn.com/problems/to-lower-case/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S709ToLowerCase.java) |      O(n)       |       O(1)       |
 | 771  |  hashmap   | [Jewels and Stones](https://leetcode-cn.com/problems/jewels-and-stones/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S771JewelsAndStones.java) |      O(n)       |       O(n)       |
 | 735  |   stack    | [AsteroidCollision](https://leetcode-cn.com/problems/asteroid-collision/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S735AsteroidCollision.java) |                 |                  |
@@ -61,6 +63,7 @@
 | 922  |   array    | [SortArrayByParityII](https://leetcode-cn.com/problems/sort-array-by-parity-ii/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S922SortArrayByParityII.java) |      O(n)       |       O(1)       |
 | 929  |   string   | [UniqueEmailAddresses](https://leetcode-cn.com/problems/unique-email-addresses/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S929UniqueEmailAddresses.java) |      O(n)       |       O(n)       |
 | 961  |  hashmap   | [N-Repeated Element in Size 2N Array](https://leetcode-cn.com/problems/n-repeated-element-in-size-2n-array/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S961NRepeatedElementInSize2NArray.java) |      O(n)       |       O(n)       |
+| 965  | tree,queue | [UnivaluedBinaryTree](https://leetcode-cn.com/problems/univalued-binary-tree/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S965UnivaluedBinaryTree.java) |      O(n)       |                  |
 | 977  |   stack    | [SquaresOfASortedArray](https://leetcode-cn.com/problems/squares-of-a-sorted-array/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S977SquaresOfASortedArray.java) |      O(n)       |       O(1)       |
 
 ## Database
