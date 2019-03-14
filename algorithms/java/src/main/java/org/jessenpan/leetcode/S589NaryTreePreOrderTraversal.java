@@ -36,6 +36,7 @@ public class S589NaryTreePreOrderTraversal {
                     while (listIterator.hasPrevious()) {
                         traversalStack.push(listIterator.previous());
                     }
+                    current.children=null;
                 }
             }
             if (!traversalStack.isEmpty()) {
