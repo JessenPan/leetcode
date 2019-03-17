@@ -49,6 +49,7 @@
 | 577  |   string   | [ReverseWordsInAStringIII](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S577ReverseWordsInAStringIII.java) |     O(n*n)      |                  |
 | 589  | stack,tree | [N-aryTreePreorderTraversal](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S589NaryTreePreOrderTraversal.java) |                 |                  |
 | 590  | stack,tree | [N-aryTreePostorderTraversal](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S590NaryTreePostOrderTraversal.java) |                 |                  |
+| 606  |    tree    | [Construct String from Binary Tree](https://leetcode-cn.com/problems/construct-string-from-binary-tree/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S606ConstructStringFromBinaryTree.java) |      O(n)       |                  |
 | 617  |    tree    | [MergeTwoBinaryTrees](https://leetcode-cn.com/problems/merge-two-binary-trees/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S617MergeTwoBinaryTrees.java) |     O(logN)     |       O(1)       |
 | 657  |   string   | [RobotReturnToOrigin](https://leetcode-cn.com/problems/robot-return-to-origin/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S657RobotReturnToOrigin.java) |      O(n)       |                  |
 | 653  |    tree    | [Two Sum IV - Input is a BST](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S653TwoSumIV.java) |      O(n)       |                  |
@@ -75,6 +76,7 @@
 | 961  |  hashmap   | [N-Repeated Element in Size 2N Array](https://leetcode-cn.com/problems/n-repeated-element-in-size-2n-array/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S961NRepeatedElementInSize2NArray.java) |      O(n)       |       O(n)       |
 | 965  | tree,queue | [UnivaluedBinaryTree](https://leetcode-cn.com/problems/univalued-binary-tree/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S965UnivaluedBinaryTree.java) |      O(n)       |                  |
 | 977  |   stack    | [SquaresOfASortedArray](https://leetcode-cn.com/problems/squares-of-a-sorted-array/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S977SquaresOfASortedArray.java) |      O(n)       |       O(1)       |
+| 993  |    tree    | [Cousins in Binary Tree](https://leetcode-cn.com/problems/cousins-in-binary-tree/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S977SquaresOfASortedArray.java) |      O(n)       |                  |
 
 ## Database
 
