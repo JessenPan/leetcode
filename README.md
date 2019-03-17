@@ -6,7 +6,7 @@
 
 |  id  |    tag     | problem                                                      | solution                                                     | time complexity | space complexity |
 | :--: | :--------: | :----------------------------------------------------------- | ------------------------------------------------------------ | :-------------: | :--------------: |
-|  1   |   array    | [TwoSum](https://leetcode-cn.com/problems/two-sum/)          | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S1TwoSum.java),[Python](./algorithms/python/solution/S1TwoSum.py) |      O(n)       |                  |
+|  1   |   array    | [Two Sum](https://leetcode-cn.com/problems/two-sum/)         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S1TwoSum.java),[Python](./algorithms/python/solution/S1TwoSum.py) |      O(n)       |                  |
 |  2   |            | [AddTwoNumbers](https://leetcode-cn.com/problems/add-two-numbers/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S2AddTwoNumbers.java) |                 |                  |
 |  3   |            | [LongestSubstringWithoutRepeatingCharacters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S3LongestSubstringWithoutRepeatingCharacters.java) |                 |                  |
 |  5   |            | [LongestPalindromicSubstring](https://leetcode-cn.com/problems/longest-palindromic-substring/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S5LongestPalindromicSubstring.java) |                 |                  |
@@ -63,6 +63,7 @@
 | 856  |   stack    | [ScoreOfParentheses](https://leetcode-cn.com/problems/score-of-parentheses/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S856ScoreOfParentheses.java) |                 |                  |
 | 867  |   array    | [TransposeMatrix](https://leetcode-cn.com/problems/transpose-matrix/submissions/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S867TransposeMatrix.java) |                 |                  |
 | 872  |    tree    | [Leaf-SimilarTrees](https://leetcode-cn.com/problems/leaf-similar-trees/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S872LeafSimilarTrees.java) |      O(n)       |                  |
+| 897  |    tree    | [Increasing Order Search Tree](https://leetcode-cn.com/problems/increasing-order-search-tree/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S897IncreasingOrderSearchTree.java) |      O(n)       |                  |
 | 901  |   stack    | [OnlineStockSpan](https://leetcode-cn.com/problems/online-stock-span/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S901OnlineStockSpan.java) |                 |                  |
 | 905  |   array    | [SortArrayByParity](https://leetcode-cn.com/problems/sort-array-by-parity/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S905SortArrayByParity.java) |      O(n)       |       O(1)       |
 | 921  |   stack    | [MinimumAddToMakeParenthesesValid](https://leetcode-cn.com/problems/minimum-add-to-make-parentheses-valid/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S921MinimumAddToMakeParenthesesValid.java) |                 |                  |
