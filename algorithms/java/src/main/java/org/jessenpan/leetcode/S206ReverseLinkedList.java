@@ -5,6 +5,7 @@ import java.util.Stack;
 /**
  * @author jessenpan
  * tag:linked list
+ * //TODO use interatively or recursively to implement it
  */
 public class S206ReverseLinkedList {
 
