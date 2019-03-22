@@ -25,14 +25,14 @@ public class S868BinaryGapTest {
 
     @Test
     public void test3() {
-        int distance = binaryGap.binaryGap(6);
-        assertEquals(1, distance);
+        int distance= binaryGap.binaryGap(6);
+        assertEquals(1,distance);
     }
 
     @Test
     public void test4() {
         int distance = binaryGap.binaryGap(8);
-        assertEquals(1, distance);
+        assertEquals(0, distance);
     }
 
 }

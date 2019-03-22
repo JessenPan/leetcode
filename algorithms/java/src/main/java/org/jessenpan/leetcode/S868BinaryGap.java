@@ -7,23 +7,20 @@ package org.jessenpan.leetcode;
 public class S868BinaryGap {
 
     public int binaryGap(int n) {
-        String str = Integer.toBinaryString(n);
-        int lengthOfs = str.length();
+        String binaryStr = Integer.toBinaryString(n);
         int distance = 0;
-        int lastPos = -1;
-        for (int i = 0; i < lengthOfs; i++) {
-            if (str.charAt(i) == '1' && lastPos != -1) {
-                if (i - lastPos > distance) {
-                    distance = i - lastPos;
-                    lastPos = i;
-                } else {
-                    lastPos = i;
+        int lastIndex = -1;
+        int length = binaryStr.length();
+        for (int i = 0; i < length; i++) {
+            if (binaryStr.charAt(i) == '1' && lastIndex != -1) {
+                if(i-lastIndex>distance){
+                    distance=i-lastIndex;
                 }
-            } else if (str.charAt(i) != '0') {
-                lastPos = i;
+                lastIndex=i;
+            } else if (binaryStr.charAt(i) != '0') {
+                lastIndex = i;
             }
         }
         return distance;
     }
-
 }
