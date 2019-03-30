@@ -16,6 +16,7 @@ public class S191NumberOf1BitsTest {
         int n = -2;
         System.out.println(n >> 1);
         System.out.println(n >>> 1);
+        System.out.println(-1 >> 1);
     }
 
     @Test
