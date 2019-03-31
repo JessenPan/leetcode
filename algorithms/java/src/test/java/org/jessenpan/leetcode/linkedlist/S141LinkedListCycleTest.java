@@ -1,8 +1,9 @@
-package org.jessenpan.leetcode;
+package org.jessenpan.leetcode.linkedlist;
 
+import org.jessenpan.leetcode.linkedlist.S141LinkedListCycle;
 import org.junit.Test;
 
-import static org.jessenpan.leetcode.S141LinkedListCycle.*;
+import static org.jessenpan.leetcode.linkedlist.S141LinkedListCycle.*;
 
 /**
  * @author jessenpan
