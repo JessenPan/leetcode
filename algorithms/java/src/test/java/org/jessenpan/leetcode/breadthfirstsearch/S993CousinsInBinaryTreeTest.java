@@ -1,6 +1,5 @@
-package org.jessenpan.leetcode.tree;
+package org.jessenpan.leetcode.breadthfirstsearch;
 
-import org.jessenpan.leetcode.breadthfirstsearch.S993CousinsInBinaryTree;
 import org.jessenpan.leetcode.breadthfirstsearch.S993CousinsInBinaryTree.TreeNode;
 import org.junit.Test;
 
