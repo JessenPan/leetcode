@@ -1,4 +1,4 @@
-package org.jessenpan.leetcode;
+package org.jessenpan.leetcode.array;
 
 import java.util.HashMap;
 import java.util.Map;

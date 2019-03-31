@@ -6,7 +6,7 @@
 
 |  id  |         tag         | problem                                                      | solution                                                     | time complexity | space complexity |
 | :--: | :-----------------: | :----------------------------------------------------------- | ------------------------------------------------------------ | :-------------: | :--------------: |
-|  1   |        array        | [Two Sum](https://leetcode-cn.com/problems/two-sum/)         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S1TwoSum.java),[Python](./algorithms/python/solution/S1TwoSum.py) |      O(n)       |                  |
+|  1   |        array        | [Two Sum](https://leetcode-cn.com/problems/two-sum/)         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S1TwoSum.java),[Python](./algorithms/python/solution/S1TwoSum.py) |      O(n)       |                  |
 |  2   |                     | [AddTwoNumbers](https://leetcode-cn.com/problems/add-two-numbers/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S2AddTwoNumbers.java) |                 |                  |
 |  3   |                     | [LongestSubstringWithoutRepeatingCharacters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S3LongestSubstringWithoutRepeatingCharacters.java) |                 |                  |
 |  5   |                     | [LongestPalindromicSubstring](https://leetcode-cn.com/problems/longest-palindromic-substring/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S5LongestPalindromicSubstring.java) |                 |                  |
