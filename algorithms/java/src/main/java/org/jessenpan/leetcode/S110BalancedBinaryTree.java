@@ -1,4 +1,4 @@
-package org.jessenpan.leetcode.tree;
+package org.jessenpan.leetcode;
 
 /**
  * @author jessenpan

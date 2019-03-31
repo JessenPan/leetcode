@@ -1,4 +1,4 @@
-package org.jessenpan.leetcode;
+package org.jessenpan.leetcode.stack;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -6,6 +6,7 @@ import java.util.Stack;
 
 /**
  * @author jessenpan
+ * tag:stack
  */
 public class S20ValidParentheses {
 

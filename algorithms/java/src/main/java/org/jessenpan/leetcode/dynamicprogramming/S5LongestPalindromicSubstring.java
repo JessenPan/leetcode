@@ -1,4 +1,4 @@
-package org.jessenpan.leetcode;
+package org.jessenpan.leetcode.dynamicprogramming;
 
 /**
  * @author jessenpan
