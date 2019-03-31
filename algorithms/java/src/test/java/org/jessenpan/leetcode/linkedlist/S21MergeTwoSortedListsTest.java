@@ -1,8 +1,9 @@
-package org.jessenpan.leetcode;
+package org.jessenpan.leetcode.linkedlist;
 
+import org.jessenpan.leetcode.linkedlist.S21MergeTwoSortedLists;
 import org.junit.Test;
 
-import static org.jessenpan.leetcode.S21MergeTwoSortedLists.*;
+import static org.jessenpan.leetcode.linkedlist.S21MergeTwoSortedLists.*;
 
 /**
  * @author jessenpan
