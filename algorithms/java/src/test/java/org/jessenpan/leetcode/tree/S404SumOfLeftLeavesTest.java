@@ -1,7 +1,6 @@
 package org.jessenpan.leetcode.tree;
 
-import org.jessenpan.leetcode.S404SumOfLeftLeaves;
-import org.jessenpan.leetcode.S404SumOfLeftLeaves.TreeNode;
+import org.jessenpan.leetcode.tree.S404SumOfLeftLeaves.TreeNode;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

@@ -1,6 +1,5 @@
 package org.jessenpan.leetcode.math;
 
-import org.jessenpan.leetcode.S942DIStringMatch;
 import org.junit.Test;
 
 import static org.junit.Assert.assertArrayEquals;

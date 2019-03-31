@@ -1,6 +1,5 @@
 package org.jessenpan.leetcode.array;
 
-import org.jessenpan.leetcode.S832FlippingAnImage;
 import org.junit.Test;
 
 /**

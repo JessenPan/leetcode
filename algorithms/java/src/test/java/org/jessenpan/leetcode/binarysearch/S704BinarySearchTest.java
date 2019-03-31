@@ -1,6 +1,5 @@
 package org.jessenpan.leetcode.binarysearch;
 
-import org.jessenpan.leetcode.S704BinarySearch;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

@@ -1,6 +1,5 @@
 package org.jessenpan.leetcode.array;
 
-import org.jessenpan.leetcode.S485MaxConsecutiveOnes;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

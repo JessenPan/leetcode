@@ -1,11 +1,12 @@
 package org.jessenpan.leetcode.tree;
 
+import org.jessenpan.leetcode.breadthfirstsearch.S429NaryTreeLevelOrderTraversal;
 import org.junit.Test;
 
 import java.util.Arrays;
 import java.util.List;
 
-import static org.jessenpan.leetcode.S429NaryTreeLevelOrderTraversal.*;
+import static org.jessenpan.leetcode.breadthfirstsearch.S429NaryTreeLevelOrderTraversal.*;
 
 /**
  * @author jessenpan

@@ -1,6 +1,5 @@
 package org.jessenpan.leetcode.array;
 
-import org.jessenpan.leetcode.S867TransposeMatrix;
 import org.junit.Test;
 
 /**

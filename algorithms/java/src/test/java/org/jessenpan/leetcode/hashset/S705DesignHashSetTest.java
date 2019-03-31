@@ -1,6 +1,5 @@
 package org.jessenpan.leetcode.hashset;
 
-import org.jessenpan.leetcode.S705DesignHashSet;
 import org.junit.Test;
 
 import static org.junit.Assert.assertFalse;

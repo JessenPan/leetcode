@@ -1,6 +1,6 @@
 package org.jessenpan.leetcode.array;
 
-import org.jessenpan.leetcode.S921MinimumAddToMakeParenthesesValid;
+import org.jessenpan.leetcode.stack.S921MinimumAddToMakeParenthesesValid;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

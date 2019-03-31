@@ -1,7 +1,7 @@
 package org.jessenpan.leetcode.tree;
 
-import org.jessenpan.leetcode.S559MaximumDepthOfNaryTree;
-import org.jessenpan.leetcode.S559MaximumDepthOfNaryTree.Node;
+import org.jessenpan.leetcode.breadthfirstsearch.S559MaximumDepthOfNaryTree;
+import org.jessenpan.leetcode.breadthfirstsearch.S559MaximumDepthOfNaryTree.Node;
 import org.junit.Test;
 
 import java.util.Arrays;

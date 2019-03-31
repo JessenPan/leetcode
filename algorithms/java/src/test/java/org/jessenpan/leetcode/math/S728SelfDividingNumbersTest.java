@@ -1,6 +1,5 @@
 package org.jessenpan.leetcode.math;
 
-import org.jessenpan.leetcode.S728SelfDividingNumbers;
 import org.junit.Test;
 
 import java.util.List;

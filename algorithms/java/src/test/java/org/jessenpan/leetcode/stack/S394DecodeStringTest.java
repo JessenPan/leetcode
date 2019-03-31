@@ -1,6 +1,5 @@
 package org.jessenpan.leetcode.stack;
 
-import org.jessenpan.leetcode.S394DecodeString;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

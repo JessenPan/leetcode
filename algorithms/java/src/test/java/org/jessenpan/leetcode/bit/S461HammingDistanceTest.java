@@ -1,6 +1,5 @@
 package org.jessenpan.leetcode.bit;
 
-import org.jessenpan.leetcode.S461HammingDistance;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

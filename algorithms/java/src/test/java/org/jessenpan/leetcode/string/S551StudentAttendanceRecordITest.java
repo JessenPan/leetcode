@@ -1,6 +1,5 @@
 package org.jessenpan.leetcode.string;
 
-import org.jessenpan.leetcode.S551StudentAttendanceRecordI;
 import org.junit.Test;
 
 import static org.junit.Assert.assertFalse;

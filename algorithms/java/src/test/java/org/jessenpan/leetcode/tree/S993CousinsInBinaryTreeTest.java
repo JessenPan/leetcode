@@ -1,7 +1,7 @@
 package org.jessenpan.leetcode.tree;
 
-import org.jessenpan.leetcode.S993CousinsInBinaryTree;
-import org.jessenpan.leetcode.S993CousinsInBinaryTree.TreeNode;
+import org.jessenpan.leetcode.breadthfirstsearch.S993CousinsInBinaryTree;
+import org.jessenpan.leetcode.breadthfirstsearch.S993CousinsInBinaryTree.TreeNode;
 import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;

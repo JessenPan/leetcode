@@ -1,6 +1,5 @@
 package org.jessenpan.leetcode.array;
 
-import org.jessenpan.leetcode.S561ArrayPartitionI;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

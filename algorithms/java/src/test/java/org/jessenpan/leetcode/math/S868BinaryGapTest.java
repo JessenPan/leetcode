@@ -1,6 +1,5 @@
 package org.jessenpan.leetcode.math;
 
-import org.jessenpan.leetcode.S868BinaryGap;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

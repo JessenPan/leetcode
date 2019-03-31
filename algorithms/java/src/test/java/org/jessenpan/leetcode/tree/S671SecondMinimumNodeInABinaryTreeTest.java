@@ -1,7 +1,6 @@
 package org.jessenpan.leetcode.tree;
 
-import org.jessenpan.leetcode.S671SecondMinimumNodeInABinaryTree;
-import org.jessenpan.leetcode.S671SecondMinimumNodeInABinaryTree.TreeNode;
+import org.jessenpan.leetcode.tree.S671SecondMinimumNodeInABinaryTree.TreeNode;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

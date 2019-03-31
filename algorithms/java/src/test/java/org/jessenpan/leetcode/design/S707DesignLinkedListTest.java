@@ -1,5 +1,6 @@
 package org.jessenpan.leetcode.design;
 
+import org.jessenpan.leetcode.linkedlist.S707DesignLinkedList;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

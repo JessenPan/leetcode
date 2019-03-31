@@ -1,6 +1,5 @@
 package org.jessenpan.leetcode.hashmap;
 
-import org.jessenpan.leetcode.S961NRepeatedElementInSize2NArray;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
