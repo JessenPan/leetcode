@@ -1,5 +1,6 @@
-package org.jessenpan.leetcode;
+package org.jessenpan.leetcode.string;
 
+import org.jessenpan.leetcode.string.S28ImplementStrStr;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
