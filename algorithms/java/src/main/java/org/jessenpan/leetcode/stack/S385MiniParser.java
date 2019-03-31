@@ -1,4 +1,4 @@
-package org.jessenpan.leetcode;
+package org.jessenpan.leetcode.stack;
 
 import java.util.List;
 import java.util.Stack;

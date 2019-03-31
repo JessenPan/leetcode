@@ -1,7 +1,6 @@
 package org.jessenpan.leetcode.tree;
 
-import org.jessenpan.leetcode.S257BinaryTreePaths;
-import org.jessenpan.leetcode.S257BinaryTreePaths.TreeNode;
+import org.jessenpan.leetcode.tree.S257BinaryTreePaths.TreeNode;
 import org.junit.Test;
 
 import java.util.Arrays;

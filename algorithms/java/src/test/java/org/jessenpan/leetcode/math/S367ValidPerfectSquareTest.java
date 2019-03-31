@@ -1,6 +1,5 @@
 package org.jessenpan.leetcode.math;
 
-import org.jessenpan.leetcode.S367ValidPerfectSquare;
 import org.junit.Test;
 
 import static org.junit.Assert.assertFalse;

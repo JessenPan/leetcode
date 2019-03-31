@@ -1,4 +1,4 @@
-package org.jessenpan.leetcode;
+package org.jessenpan.leetcode.hashmap;
 
 import java.util.HashSet;
 import java.util.Set;

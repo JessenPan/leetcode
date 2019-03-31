@@ -1,6 +1,5 @@
 package org.jessenpan.leetcode.hashmap;
 
-import org.jessenpan.leetcode.S349IntersectionOfTwoArrays;
 import org.junit.Test;
 
 import static org.junit.Assert.assertArrayEquals;
