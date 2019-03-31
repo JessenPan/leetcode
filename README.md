@@ -125,6 +125,7 @@
 | 961  |       hashmap       | [N-Repeated Element in Size 2N Array](https://leetcode-cn.com/problems/n-repeated-element-in-size-2n-array/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S961NRepeatedElementInSize2NArray.java) |      O(n)       |       O(n)       |
 | 965  |     tree,queue      | [UnivaluedBinaryTree](https://leetcode-cn.com/problems/univalued-binary-tree/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S965UnivaluedBinaryTree.java) |      O(n)       |                  |
 | 977  |        stack        | [SquaresOfASortedArray](https://leetcode-cn.com/problems/squares-of-a-sorted-array/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S977SquaresOfASortedArray.java) |      O(n)       |       O(1)       |
+| 985  |        array        | [Sum of Even Numbers After Queries](https://leetcode-cn.com/problems/sum-of-even-numbers-after-queries/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S985SumOfEvenNumbersAfterQueries.java) |     O(n*n)      |       O(1)       |
 | 993  |        tree         | [Cousins in Binary Tree](https://leetcode-cn.com/problems/cousins-in-binary-tree/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S977SquaresOfASortedArray.java) |      O(n)       |                  |
 
 ## Database
