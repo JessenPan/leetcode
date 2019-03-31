@@ -1,5 +1,6 @@
 package org.jessenpan.leetcode;
 
+import org.jessenpan.leetcode.array.S169MajorityElement;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

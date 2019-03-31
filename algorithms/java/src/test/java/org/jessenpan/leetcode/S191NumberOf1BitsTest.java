@@ -1,5 +1,6 @@
 package org.jessenpan.leetcode;
 
+import org.jessenpan.leetcode.bit.S191NumberOf1Bits;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

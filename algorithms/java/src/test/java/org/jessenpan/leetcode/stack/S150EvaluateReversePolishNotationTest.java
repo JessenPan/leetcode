@@ -1,5 +1,6 @@
-package org.jessenpan.leetcode;
+package org.jessenpan.leetcode.stack;
 
+import org.jessenpan.leetcode.stack.S150EvaluateReversePolishNotation;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

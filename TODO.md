@@ -10,6 +10,7 @@
 8. string里的toBinaryString算法
 9. 时间与空间复杂度
 10. 自己实现hashmap的注意事项
+11. 二分查找的使用场景
 
 ## 常见方法
 
