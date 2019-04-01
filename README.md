@@ -52,8 +52,10 @@
 | 237  |    linked list     | [Delete Node in a Linked List](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/linkedlist/S237DeleteNodeInALinkedList.java) |      O(1)       |       O(1)       |
 | 257  |        tree        | [BinaryTreePaths](https://leetcode-cn.com/problems/binary-tree-paths/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S257BinaryTreePaths.java) |      O(n)       |                  |
 | 258  |        math        | [Add Digits](https://leetcode-cn.com/problems/add-digits/)   | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S258AddDigits.java) |      O(1)       |       O(1)       |
+| 263  |        math        | [Ugly Number](https://leetcode-cn.com/problems/ugly-number/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S263UglyNumber.java) |      O(n)       |       O(1)       |
 | 268  |        bit         | [Missing Number](https://leetcode-cn.com/problems/missing-number/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S268MissingNumber.java) |      O(n)       |       O(1)       |
 | 303  | dynamicProgramming | [Range Sum Query - Immutable](https://leetcode-cn.com/problems/range-sum-query-immutable/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dynamicprogramming/S303RangeSumQuery.java) |                 |                  |
+| 326  |        math        | [Power of Three](https://leetcode-cn.com/problems/power-of-three/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S326PowerOfThree.java) |      O(n)       |       O(1)       |
 | 331  |       stack        | [VerifyPreOrderSerializationOfABinaryTree](https://leetcode-cn.com/problems/verify-preorder-serialization-of-a-binary-tree/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S331VerifyPreOrderSerializationOfABinaryTree.java) |                 |                  |
 | 342  |        bit         | [Power of Four](https://leetcode-cn.com/problems/power-of-four/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S342PowerOfFourTest.java) |      O(1)       |       O(1)       |
 | 344  |       string       | [ReverseString](https://leetcode-cn.com/problems/reverse-string/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S344ReverseString.java) |      O(n)       |       O(1)       |
@@ -129,6 +131,7 @@
 | 977  |       stack        | [SquaresOfASortedArray](https://leetcode-cn.com/problems/squares-of-a-sorted-array/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S977SquaresOfASortedArray.java) |      O(n)       |       O(1)       |
 | 985  |       array        | [Sum of Even Numbers After Queries](https://leetcode-cn.com/problems/sum-of-even-numbers-after-queries/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S985SumOfEvenNumbersAfterQueries.java) |     O(n*n)      |       O(1)       |
 | 993  | breadthFirstSearch | [Cousins in Binary Tree](https://leetcode-cn.com/problems/cousins-in-binary-tree/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/breadthfirstsearch/S977SquaresOfASortedArray.java) |      O(n)       |                  |
+| 1009 |        math        | [Complement of Base 10 Integer](https://leetcode-cn.com/problems/complement-of-base-10-integer/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S1009ComplementOfBase10Integer.java) |      O(1)       |       O(1)       |
 
 ## Database
 
