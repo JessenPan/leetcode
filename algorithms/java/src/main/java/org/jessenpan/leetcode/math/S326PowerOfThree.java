@@ -2,6 +2,7 @@ package org.jessenpan.leetcode.math;
 
 /**
  * @author jessenpan
+ * tag:math
  */
 public class S326PowerOfThree {
 
