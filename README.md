@@ -135,6 +135,7 @@
 | 985  |       array        | [Sum of Even Numbers After Queries](https://leetcode-cn.com/problems/sum-of-even-numbers-after-queries/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S985SumOfEvenNumbersAfterQueries.java) |     O(n*n)      |       O(1)       |
 | 993  | breadthFirstSearch | [Cousins in Binary Tree](https://leetcode-cn.com/problems/cousins-in-binary-tree/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/breadthfirstsearch/S977SquaresOfASortedArray.java) |      O(n)       |                  |
 | 999  |       array        | [Available Captures for Rook](https://leetcode-cn.com/problems/available-captures-for-rook/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S999AvailableCapturesForRook.java) |     O(n*n)      |       O(1)       |
+| 1002 |       array        | [Find Common Characters](https://leetcode-cn.com/problems/find-common-characters/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S1002FindCommonCharacters.java) |     O(n*n)      |       O(1)       |
 | 1009 |        math        | [Complement of Base 10 Integer](https://leetcode-cn.com/problems/complement-of-base-10-integer/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S1009ComplementOfBase10Integer.java) |      O(1)       |       O(1)       |
 
 ## Database
