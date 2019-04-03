@@ -11,6 +11,6 @@ public class S566ReshapeTheMatrix {
         if (r * c != row * col) {
             return nums;
         }
-        
+        return null;
     }
 }
