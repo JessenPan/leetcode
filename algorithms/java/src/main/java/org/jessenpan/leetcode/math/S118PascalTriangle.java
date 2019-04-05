@@ -1,4 +1,4 @@
-package org.jessenpan.leetcode.array;
+package org.jessenpan.leetcode.math;
 
 import java.util.*;
 
