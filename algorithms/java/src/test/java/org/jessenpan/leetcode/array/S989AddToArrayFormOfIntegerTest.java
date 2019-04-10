@@ -16,26 +16,8 @@ public class S989AddToArrayFormOfIntegerTest {
 
     @Test
     public void test1() {
-        List<Integer> result = addToArrayFormOfInteger.addToArrayForm(new int[] { 1, 2, 0, 0 }, 34);
-        assertEquals(asList(1, 2, 3, 4), result);
-    }
-
-    @Test
-    public void test2() {
-        List<Integer> result = addToArrayFormOfInteger.addToArrayForm(new int[] { 2, 7, 4 }, 181);
-        assertEquals(asList(4, 5, 5), result);
-    }
-
-    @Test
-    public void test3() {
-        List<Integer> result = addToArrayFormOfInteger.addToArrayForm(new int[] { 2, 1, 5 }, 806);
-        assertEquals(asList(1, 0, 2, 1), result);
-    }
-
-    @Test
-    public void test4() {
-        List<Integer> result = addToArrayFormOfInteger.addToArrayForm(new int[] { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 }, 1);
-        assertEquals(asList(1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), result);
+        List<Integer> list = addToArrayFormOfInteger.addToArrayForm(new int[] { 9, 9, 9, 9,9, 9, 9, 9, 9, 9 }, 1);
+        assertEquals(asList(1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), list);
     }
 
 }
