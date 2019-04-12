@@ -7,6 +7,6 @@ package org.jessenpan.leetcode.hashmap;
 public class S205IsomorphicStrings {
 
     public boolean isIsomorphic(String s, String t) {
-
+        return true;
     }
 }
