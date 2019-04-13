@@ -131,6 +131,7 @@
 | 804  |       string       | [UniqueMorseCodeWords](https://leetcode-cn.com/problems/unique-morse-code-words/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S804UniqueMorseCodeWords.java) |      O(n)       |                  |
 | 811  |      hashmap       | [SubdomainVisitCount](https://leetcode-cn.com/problems/subdomain-visit-count/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/hashmap/S811SubdomainVisitCount.java) |                 |                  |
 | 824  |       string       | [Goat Latin](https://leetcode-cn.com/problems/goat-latin/)   | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S824GoatLatin.java) |                 |                  |
+| 830  |       array        | [Positions of Large Groups](https://leetcode-cn.com/problems/positions-of-large-groups/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S830PositionsOfLargeGroups.java) |      O(n)       |       O(1)       |
 | 832  |       array        | [FlippingAnImage](https://leetcode-cn.com/problems/flipping-an-image/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S832FlippingAnImage.java) |     O(n*n)      |       O(1)       |
 | 844  |       stack        | [BackspaceStringCompare](https://leetcode-cn.com/problems/backspace-string-compare/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S844BackspaceStringCompare.java) |                 |                  |
 | 856  |       stack        | [ScoreOfParentheses](https://leetcode-cn.com/problems/score-of-parentheses/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S856ScoreOfParentheses.java) |                 |                  |
@@ -162,6 +163,7 @@
 | 999  |       array        | [Available Captures for Rook](https://leetcode-cn.com/problems/available-captures-for-rook/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S999AvailableCapturesForRook.java) |     O(n*n)      |       O(1)       |
 | 1002 |       array        | [Find Common Characters](https://leetcode-cn.com/problems/find-common-characters/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S1002FindCommonCharacters.java) |     O(n*n)      |       O(1)       |
 | 1009 |        math        | [Complement of Base 10 Integer](https://leetcode-cn.com/problems/complement-of-base-10-integer/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S1009ComplementOfBase10Integer.java) |      O(1)       |       O(1)       |
+| 1013 |        math        | [Partition Array Into Three Parts With Equal Sum](https://leetcode-cn.com/problems/partition-array-into-three-parts-with-equal-sum/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S1013PartitionArrayIntoThreePartsWithEqualSum.java) |      O(n)       |       O(1)       |
 
 ## Database
 
