@@ -14,6 +14,6 @@ public class S448FindAllNumbersDisappearedInAnArray {
         int n = nums.length;
         int originSum = n * (n + 1) / 2;
         int diff=originSum-leavedSum;
-        
+        return null;
     }
 }
