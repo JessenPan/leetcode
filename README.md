@@ -114,6 +114,7 @@
 | 645  |       array        | [Set Mismatch](https://leetcode-cn.com/problems/set-mismatch/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S645SetMismatch.java) |      O(n)       |       O(n)       |
 | 653  |        tree        | [Two Sum IV - Input is a BST](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S653TwoSumIV.java) |      O(n)       |                  |
 | 657  |       string       | [RobotReturnToOrigin](https://leetcode-cn.com/problems/robot-return-to-origin/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S657RobotReturnToOrigin.java) |      O(n)       |                  |
+| 669  |        tree        | [Trim a Binary Search Tree](https://leetcode-cn.com/problems/trim-a-binary-search-tree/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S669TrimABinarySearchTree.java) |                 |       O(1)       |
 | 671  |        tree        | [Second Minimum Node In A Binary Tree](https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S671SecondMinimumNodeInABinaryTree.java) |      O(n)       |                  |
 | 680  |       string       | [Valid Palindrome II](https://leetcode-cn.com/problems/valid-palindrome-ii/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S680ValidPalindromeII.java) |      O(n)       |       O(1)       |
 | 682  |       stack        | [BaseballGame](https://leetcode-cn.com/problems/baseball-game/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S682BaseballGame.java) |                 |                  |
@@ -168,6 +169,7 @@
 | 1002 |       array        | [Find Common Characters](https://leetcode-cn.com/problems/find-common-characters/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S1002FindCommonCharacters.java) |     O(n*n)      |       O(1)       |
 | 1009 |        math        | [Complement of Base 10 Integer](https://leetcode-cn.com/problems/complement-of-base-10-integer/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S1009ComplementOfBase10Integer.java) |      O(1)       |       O(1)       |
 | 1013 |        math        | [Partition Array Into Three Parts With Equal Sum](https://leetcode-cn.com/problems/partition-array-into-three-parts-with-equal-sum/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S1013PartitionArrayIntoThreePartsWithEqualSum.java) |      O(n)       |       O(1)       |
+| 1018 |        math        | [Binary Prefix Divisible By 5](https://leetcode-cn.com/problems/binary-prefix-divisible-by-5/) | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S1018BinaryPrefixDivisibleBy5.java) |      O(n)       |       O(1)       |
 
 ## Database
 
