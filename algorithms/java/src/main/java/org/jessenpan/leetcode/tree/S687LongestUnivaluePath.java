@@ -15,27 +15,27 @@ public class S687LongestUnivaluePath {
         TreeNode(int x) { val = x; }
     }
 
-    private int maxLength = 0;
+    int ans;
 
     public int longestUnivaluePath(TreeNode root) {
-        if (root == null) {
-            return 0;
-        }
-        findMax(root, root.val);
-        return maxLength;
+        ans = 0;
+        arrowLength(root);
+        return ans;
     }
 
-    private int findMax(TreeNode node, int val) {
-        if (node == null) {
+    public int arrowLength(TreeNode node) {
+        if (node == null)
             return 0;
+        int left = arrowLength(node.left);
+        int right = arrowLength(node.right);
+        int arrowLeft = 0, arrowRight = 0;
+        if (node.left != null && node.left.val == node.val) {
+            arrowLeft = left + 1;
         }
-        int left = findMax(node.left, node.val);
-        int right = findMax(node.right, node.val);
-        maxLength = Math.max(maxLength, left + right);
-        if (node.val == val) {
-            return Math.max(left, right) + 1;
+        if (node.right != null && node.right.val == node.val) {
+            arrowRight = right + 1;
         }
-        return 0;
+        ans = Math.max(ans, arrowLeft + arrowRight);
+        return Math.max(arrowLeft, arrowRight);
     }
-
 }
