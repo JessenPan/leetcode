@@ -22,36 +22,48 @@ public class S160IntersectionOfTwoLinkedLists {
         }
     }
 
+  
+
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-        ListNode rHeadA = reverseList(headA);
-        ListNode rHeadB = reverseList(headB);
-        if (rHeadA.next == null || rHeadB.next == null) {
-            if (rHeadA.val == rHeadB.val) {
-                return rHeadB;
-            }
+        if(headA == null || headB == null){
+            return null;
         }
-        while (true) {
-            if (rHeadA.next == null || rHeadB.next == null) {
-                return null;
-            }
+        //分别计算两链表长度，并且得到各自的最后一个节点
+        int lengthA = 1;
+        ListNode tempA = headA;
+        while(tempA.next != null){
+            tempA = tempA.next;
+            lengthA++;
+        }
+        int lengthB = 1;
+        ListNode tempB = headB;
+        while(tempB.next != null){
+            tempB = tempB.next;
+            lengthB++;
+        }
+        //判断两链表是否相交，如果不相交，则根本不需要输出ListNode
+        if(tempA.val != tempB.val){
+            return null;
+        }
 
-            if (rHeadA.val == rHeadB.val && rHeadA.next.val != rHeadB.next.val) {
-                return rHeadA;
+        ListNode tA = headA;
+        ListNode tB = headB;
+        if(lengthA > lengthB){
+            int n = lengthA - lengthB;
+            for(int i = 0;i < n;i++){
+                tA = tA.next;
             }
-            rHeadA = rHeadA.next;
-            rHeadB = rHeadB.next;
+        }else{
+            int m = lengthB - lengthA;
+            for(int j = 0;j < m;j++){
+                tB = tB.next;
+            }
         }
+        while(tA != tB){
+            tA = tA.next;
+            tB = tB.next;
+        }
+        return tA;
     }
-
-    private ListNode reverseList(ListNode current) {
-        ListNode newHead = new ListNode(current.val);
-        while (current.next != null) {
-            ListNode tmp = new ListNode(current.next.val);
-            tmp.next = newHead;
-            newHead = tmp;
-            current = current.next;
-        }
-
-        return newHead;
-    }
+    
 }
