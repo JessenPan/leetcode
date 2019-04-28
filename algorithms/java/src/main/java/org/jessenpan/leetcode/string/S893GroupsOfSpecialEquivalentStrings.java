@@ -9,22 +9,18 @@ import java.util.*;
 public class S893GroupsOfSpecialEquivalentStrings {
 
     public int numSpecialEquivGroups(String[] strArray) {
-        Map<GroupItem, List<String>> groupItemSet = new HashMap<>();
+        Set<GroupItem> groupItemSet = new HashSet<>();
         int index = 0;
         for (String str : strArray) {
             GroupItem item = new GroupItem(str.length());
             for (int i = 0; i < item.size; i++) {
                 if (i % 2 == 0) {
-                    item.p0Sum += str.charAt(i) - 'a' + 1;
+                    item.evenChars[str.charAt(i) - 'a']++;
                 } else {
-                    item.p1Sum += str.charAt(i) - 'a' + 1;
+                    item.oddChars[str.charAt(i) - 'a']++;
                 }
             }
-            if (str.equals("nkgh")) {
-                System.out.println(index + "_" + str);
-            }
-            List<String> strs = groupItemSet.computeIfAbsent(item, k -> new ArrayList<>());
-            strs.add(str);
+            groupItemSet.add(item);
             index++;
         }
         return groupItemSet.size();
@@ -34,9 +30,9 @@ public class S893GroupsOfSpecialEquivalentStrings {
 
         int size = 0;
 
-        int p0Sum = 0;
+        int[] evenChars = new int[26];
 
-        int p1Sum = 0;
+        int[] oddChars = new int[26];
 
         GroupItem(int size) {
             this.size = size;
@@ -49,12 +45,15 @@ public class S893GroupsOfSpecialEquivalentStrings {
             if (o == null || getClass() != o.getClass())
                 return false;
             GroupItem groupItem = (GroupItem) o;
-            return size == groupItem.size && p0Sum == groupItem.p0Sum && p1Sum == groupItem.p1Sum;
+            return size == groupItem.size && Arrays.equals(evenChars, groupItem.evenChars) && Arrays.equals(oddChars, groupItem.oddChars);
         }
 
         @Override
         public int hashCode() {
-            return Objects.hash(size, p0Sum, p1Sum);
+            int result = Objects.hash(size);
+            result = 31 * result + Arrays.hashCode(evenChars);
+            result = 31 * result + Arrays.hashCode(oddChars);
+            return result;
         }
     }
 
