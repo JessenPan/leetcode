@@ -9,42 +9,27 @@ public class S849MaximizeDistanceToClosestPerson {
     public int maxDistToClosest(int[] seats) {
 
         int len = seats.length;
-        int maxLen = 0, lastZeroPosition = 0, startWithZeroLen = 0;
-        boolean isCounting = false;
+        int maxCnt = 0, lastOnePosition = -1, tmpCnt = 0;
         for (int i = 0; i < len; i++) {
-            if (seats[i] == 0) {
-                if (i == (len - 1) && (i - lastZeroPosition+1) > maxLen) {
-                    return i - lastZeroPosition + 1;
+            if (seats[i] == 1) {
+                if (lastOnePosition == -1) {
+                    tmpCnt = 2 * tmpCnt;
                 }
-                if (i == 0) {
-                    isCounting = true;
+                maxCnt = Math.max(tmpCnt, maxCnt);
+                if (tmpCnt > maxCnt) {
+                    maxCnt = tmpCnt;
                 }
-                continue;
-            }
-            if (!isCounting) {
-                if (i != (len - 1) && seats[i + 1] == 0) {
-                    lastZeroPosition = i + 1;
-                    isCounting = true;
-                }
+                lastOnePosition = i;
+                tmpCnt = 0;
             } else {
-                if (lastZeroPosition == 0) {
-                    startWithZeroLen = i - lastZeroPosition;
-                    isCounting=false;
-                } else if (i - lastZeroPosition > maxLen) {
-                    maxLen = i - lastZeroPosition;
-                    isCounting = false;
+                tmpCnt++;
+                if (i == (len - 1)) {
+                    tmpCnt = 2 * tmpCnt;
+                    maxCnt = Math.max(tmpCnt, maxCnt);
                 }
             }
         }
-        if (startWithZeroLen > maxLen) {
-            return startWithZeroLen;
-        } else {
-            if (maxLen == 0) {
-                return 1;
-            } else {
-                return (int) Math.ceil(maxLen / 2.0);
-            }
-        }
+        return (int) Math.ceil(maxCnt / 2.0);
     }
 
 }
