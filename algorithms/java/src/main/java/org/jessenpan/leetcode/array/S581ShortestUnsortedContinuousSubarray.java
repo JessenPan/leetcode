@@ -15,10 +15,8 @@ public class S581ShortestUnsortedContinuousSubarray {
 
             if (nums[i] > min) {
                 low = i;
-            } else {
-                min = nums[i];
             }
-
+            min = Math.min(nums[i], min);
         }
         if (low == -1) {
             return 0;
@@ -28,9 +26,8 @@ public class S581ShortestUnsortedContinuousSubarray {
 
             if (nums[i] < max) {
                 high = i;
-            } else {
-                max = nums[i];
             }
+            max = Math.max(max, nums[i]);
         }
         return high - low + 1;
     }
