@@ -1,6 +1,5 @@
 package org.jessenpan.leetcode.math;
 
-import org.jessenpan.leetcode.S812LargestTriangleArea;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -24,4 +23,9 @@ public class S812LargestTriangleAreaTest {
         assertEquals(0.5, area, 0);
     }
 
+    @Test
+    public void test3() {
+        double area = largestTriangleArea.largestTriangleArea(new int[][] { { 4,6 }, { 6,5 }, { 3, 1 } });
+        assertEquals(5.5, area, 0);
+    }
 }
