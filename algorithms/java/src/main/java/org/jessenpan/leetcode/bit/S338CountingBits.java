@@ -3,6 +3,7 @@ package org.jessenpan.leetcode.bit;
 /**
  * @author jessenpan
  * tag:bit
+ * //optimize it
  */
 public class S338CountingBits {
 
