@@ -18,20 +18,27 @@ public class S40CombinationSumII {
 
         this.candidates = candidates;
         this.target = target;
-        findCombination(0, 0, new ArrayList<>());
+        findCombination(0, 0, new ArrayList<Integer>());
         return list;
     }
 
-    private Set<List<Integer>> record = new HashSet<>();
+    private Set<String> record = new HashSet<>();
 
-    private void findCombination(int index, int currentSum, List<Integer> lists) {
+    private void findCombination(int index, int currentSum, List<Integer> curList) {
 
         if (currentSum == target) {
-            Collections.sort(lists);
-            if (!record.contains(lists)) {
-                list.add(lists);
-                record.add(lists);
+            Collections.sort(curList);
+            StringBuilder sb = new StringBuilder();
+
+            curList.forEach(t -> {
+                sb.append(t).append('_');
+            });
+            String key = sb.toString();
+            if (!record.contains(key)) {
+                record.add(key);
+                list.add(new ArrayList<>(curList));
             }
+
             return;
         } else if (currentSum > target || index == candidates.length) {
             return;
@@ -39,18 +46,12 @@ public class S40CombinationSumII {
 
         for (int i = index; i < candidates.length; i++) {
             int newSum = currentSum + candidates[i];
-            List<Integer> newList = new ArrayList<>(lists);
-            newList.add(candidates[i]);
-            swap(index, i);
-            findCombination(index + 1, newSum, newList);
-            swap(i, index);
+            if (newSum <= target) {
+                List<Integer> newSubList = new ArrayList<>(curList);
+                newSubList.add(candidates[i]);
+                findCombination(i + 1, newSum, newSubList);
+            }
         }
-    }
-
-    private void swap(int index, int i) {
-        int tmp = candidates[index];
-        candidates[index] = candidates[i];
-        candidates[i] = tmp;
     }
 
 }

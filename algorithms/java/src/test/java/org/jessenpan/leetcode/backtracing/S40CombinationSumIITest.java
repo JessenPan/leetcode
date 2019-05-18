@@ -20,4 +20,9 @@ public class S40CombinationSumIITest {
         combinationSumII.combinationSum2(new int[] { 2, 5, 2, 1, 2 }, 5);
     }
 
+    @Test
+    public void test3() {
+        combinationSumII.combinationSum2(new int[] { 10, 1, 2, 7, 6, 1, 5 }, 8);
+    }
+
 }
