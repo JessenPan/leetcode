@@ -115,6 +115,7 @@
 |   [268](https://leetcode-cn.com/problems/missing-number/)    |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S268MissingNumber.java) |      O(n)       |       O(1)       |
 |  [278](https://leetcode-cn.com/problems/first-bad-version/)  |    binarySearch    | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/binarysearch/SS278FirstBadVersion.java) |                 |                  |
 |     [283](https://leetcode-cn.com/problems/move-zeroes/)     |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S283MoveZeros.java) |      O(n)       |       O(1)       |
+| [287](https://leetcode-cn.com/problems/find-the-duplicate-number/) |                    | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S287FindTheDuplicateNumber.java) |      O(n)       |       O(1)       |
 |    [290](https://leetcode-cn.com/problems/word-pattern/)     |      hashmap       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/hashmap/S219ContainsDuplicateII.java) |      O(n)       |       O(n)       |
 | [303](https://leetcode-cn.com/problems/range-sum-query-immutable/) | dynamicProgramming | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dynamicprogramming/S303RangeSumQuery.java) |                 |                  |
 |   [306](https://leetcode-cn.com/problems/additive-number/)   |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S306AdditiveNumber.java) |                 |                  |
