@@ -1,7 +1,9 @@
 package org.jessenpan.leetcode.backtracking;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 /**
  * @author jessenpan
@@ -11,7 +13,7 @@ public class S212WordSearchII {
 
     private char[][] board;
 
-    private List<String> foundWords = new ArrayList<>();
+    private Set<String> foundWords = new HashSet<>();
 
     static class Node {
 
@@ -50,12 +52,14 @@ public class S212WordSearchII {
             for (int j = 0; j < row; j++) {
                 for (int k = 0; k < col; k++) {
                     if (board[j][k] - 'a' == i) {
+                        board[j][k] = '1';
                         exist(new Point(j, k), p.children[i]);
+                        board[j][k] = (char) (i + 'a');
                     }
                 }
             }
         }
-        return foundWords;
+        return new ArrayList<>(foundWords);
     }
 
     static class Point {
@@ -68,32 +72,30 @@ public class S212WordSearchII {
         }
     }
 
-    private boolean exist(Point point, Node p) {
+    private void exist(Point point, Node p) {
 
         if (p.isEnd) {
             foundWords.add(p.str);
-            return true;
         }
 
-        boolean isExisted;
         for (int j = 0; j < 26; j++) {
             if (p.children[j] == null) {
                 continue;
             }
             for (int i = 0; i < 4; i++) {
                 Point newPoint = createNextPoint(i, point);
-                if (newPoint.x >= 0 && newPoint.x < row && newPoint.y >= 0 && newPoint.y < col) {
-                    board[point.x][point.y] = '1';
-                    isExisted = exist(newPoint, index + 1);
-                    board[point.x][point.y] = word.charAt(index);
-                    if (isExisted) {
-                        return true;
-                    }
+                if (withinRange(newPoint) && board[newPoint.x][newPoint.y] == (char) (j + 'a')) {
+                    board[newPoint.x][newPoint.y] = '1';
+                    exist(newPoint, p.children[j]);
+                    board[newPoint.x][newPoint.y] = (char) (j + 'a');
                 }
             }
         }
 
-        return false;
+    }
+
+    private boolean withinRange(Point point) {
+        return point.x >= 0 && point.x < row && point.y >= 0 && point.y < col;
     }
 
     private Point createNextPoint(int index, Point point) {

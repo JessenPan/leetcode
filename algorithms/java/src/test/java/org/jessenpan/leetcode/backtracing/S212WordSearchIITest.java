@@ -20,4 +20,10 @@ public class S212WordSearchIITest {
         Assert.assertEquals(Arrays.asList("eat", "oath"), words);
     }
 
+    @Test
+    public void test2() {
+        List<String> words = wordSearchII.findWords(new char[][] { { 'a', 'b' }, { 'a', 'a' } }, new String[] { "aba", "baa", "bab", "aaab", "aaa", "aaaa", "aaba" });
+        Assert.assertEquals(Arrays.asList("aaa", "aaab", "aaba", "aba", "baa"), words);
+    }
+
 }
