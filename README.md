@@ -40,6 +40,7 @@
 |    [71](https://leetcode-cn.com/problems/simplify-path/)     |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S71SimplifyPath.java) |      O(n)       |                  |
 |     [77](https://leetcode-cn.com/problems/combinations/)     |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S77Combinations.java) |      O(n)       |                  |
 |       [78](https://leetcode-cn.com/problems/subsets/)        |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S78Subsets.java) |      O(n)       |                  |
+|     [79](https://leetcode-cn.com/problems/word-search/)      |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S79WordSearch.java) |                 |                  |
 | [83](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) |    linked list     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/linkedlist/S83RemoveDuplicatesFromSortedList.java) |      O(n)       |       O(1)       |
 |  [88](https://leetcode-cn.com/problems/merge-sorted-array/)  |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S88MergeSortedArray.java) |     O(n*n)      |       O(1)       |
 |      [89](https://leetcode-cn.com/problems/gray-code/)       |    backTracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S89GrayCode.java) |      O(n)       |                  |
