@@ -15,8 +15,6 @@ public class S996NumberOfSquareualArrays {
         return count;
     }
 
-    private Set<String> record = new HashSet<>();
-
     private void doPermutation(int[] nums, int index) {
 
         if (index >= 2 && index <= nums.length) {
@@ -26,17 +24,15 @@ public class S996NumberOfSquareualArrays {
         }
 
         if (index == nums.length) {
-            StringBuilder sb = new StringBuilder();
-            Arrays.stream(nums).forEach(sb::append);
-            String str = sb.toString();
-            if (!record.contains(str)) {
-                count++;
-                record.add(str);
-            }
+            count++;
             return;
         }
-
+        Map<Integer, Integer> map = new HashMap<>();
         for (int i = index; i < nums.length; i++) {
+            if (index != i && map.get(nums[i]) != null) {
+                continue;
+            }
+            map.put(nums[i], nums[index]);
             swap(nums, index, i);
             doPermutation(nums, index + 1);
             swap(nums, i, index);
@@ -50,21 +46,7 @@ public class S996NumberOfSquareualArrays {
     }
 
     public boolean isPerfectSquare(int num) {
-        if (num == 1) {
-            return true;
-        }
-        long left = 0, right = num, halfNum = (left + right) / 2;
-        while ((left < right) && halfNum != left && halfNum != right) {
-            if (halfNum * halfNum == num) {
-                return true;
-            } else if (halfNum * halfNum > num) {
-                right = halfNum;
-                halfNum = (left + right) / 2;
-            } else {
-                left = halfNum;
-                halfNum = (left + right) / 2;
-            }
-        }
-        return false;
+        double d = Math.sqrt(num);
+        return d - (int) d == 0;
     }
 }

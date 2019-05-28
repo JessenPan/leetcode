@@ -29,4 +29,10 @@ public class S996NumberOfSquareualArraysTest {
         Assert.assertEquals(1, num);
     }
 
+    @Test
+    public void test4() {
+        int num = numberOfSquareualArrays.numSquarefulPerms(new int[] { 1, 1, 8, 1, 8 });
+        Assert.assertEquals(1, num);
+    }
+
 }
