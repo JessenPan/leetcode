@@ -318,7 +318,9 @@
 
  
 
-| id   | problem | solution |
-| ---- | ------- | -------- |
-|      |         |          |
+| id   | problem                                                      | solution                                  |
+| ---- | ------------------------------------------------------------ | ----------------------------------------- |
+| 193  | [193. Valid Phone Numbers](https://leetcode-cn.com/problems/valid-phone-numbers/) | [Shell](./shell/S193ValidPhoneNumbers.sh) |
+| 195  | [195. Tenth Line](https://leetcode-cn.com/problems/tenth-line/) | [Shell](./shell/S195TenthLine.sh)         |
+|      |                                                              |                                           |
 
