@@ -1,8 +1,6 @@
 package org.jessenpan.leetcode.backtracking;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 /**
  * @author jessenpan
@@ -11,70 +9,57 @@ import java.util.Set;
 public class S691StickersToSpellWord {
 
     public int minStickers(String[] stickers, String target) {
-        int[] targetArray = convertStr2Array(target);
-
-        countSticker(0, new HashSet<>(Arrays.asList(stickers)), targetArray);
-        return minCount;
+        int stickersSize = stickers.length;
+        Map<String, Integer> strStickerCnt = new HashMap<>();//strStickerCnt[str]表示的字符串str需要的最少贴纸数量
+        int[][] myStickers = new int[stickersSize][26];//各个贴纸中各个字母出现的次数
+        //统计每一个sticker中各个字符出现的次数
+        for (int i = 0; i < stickersSize; i++) {
+            int len = stickers[i].length();
+            for (int j = 0; j < len; j++) {
+                myStickers[i][stickers[i].charAt(j) - 'a'] += 1;
+            }
+        }
+        strStickerCnt.put("", 0);//初始化，空字符串不需要贴纸
+        return dfs(strStickerCnt, myStickers, target);
     }
 
-    private int[] convertStr2Array(String str) {
-        int[] targetArray = new int[26];
-        for (int i = 0; i < str.length(); i++) {
-            targetArray[str.charAt(i) - 'a']++;
+    //搜索拼凑target需要的最少贴纸数量
+    int dfs(Map<String, Integer> strStickerCnt, int[][] myStickers, String target) {
+        if (strStickerCnt.get(target) != null) {
+            //如果target已经搜索过，直接返回
+            return strStickerCnt.get(target);
         }
-        return targetArray;
-    }
-
-    private void countSticker(int count, Set<String> asList, int[] targetArray) {
-        if (isArrayZero(targetArray)) {
-            this.minCount = minCount == -1 ? count : Math.min(count, minCount);
-            return;
+        int minRes = Integer.MAX_VALUE, stickersSize = myStickers.length;
+        //统计target中各个字符出现的次数
+        int[] tar = new int[26];
+        for (int j = 0; j < target.length(); j++) {
+            tar[target.charAt(j) - 'a']++;
         }
-
-        for (String str : asList) {
-            int[] array = convertStr2Array(str);
-            int[] newTargetArrays = Arrays.copyOf(targetArray, 26);
-            Set<String> newSet = new HashSet<>(asList);
-            int removedSticker = removeStickers(array, newTargetArrays);
-            newSet.remove(str);
-            countSticker(count + removedSticker, newSet, newTargetArrays);
-        }
-
-    }
-
-    private int removeStickers(int[] array, int[] newTargetArrays) {
-        int count = 0;
-        boolean removed;
-        while (true) {
-            removed = false;
-            for (int i = 0; i < 26; i++) {
-                if (array[i] != 0 && newTargetArrays[i] != 0) {
-                    removed = true;
-                    if (array[i] >= newTargetArrays[i]) {
-                        newTargetArrays[i] = 0;
-                    } else {
-                        newTargetArrays[i] = newTargetArrays[i] - array[i];
+        //尝试使用每一个sticker
+        for (int i = 0; i < stickersSize; ++i) {
+            //如果当前sticker中没有target[0]这个字符则剪枝
+            if (myStickers[i][target.charAt(0) - 'a'] == 0) {
+                continue;
+            }
+            //使用当前sticker，nowTarget为运用贴纸后剩余的字母
+            StringBuilder nowTarget = new StringBuilder();
+            for (int j = 0; j < 26; j++) {
+                if (tar[j] - myStickers[i][j] > 0) {
+                    int num = tar[j] - myStickers[i][j];
+                    for (int k = 0; k < num; k++) {
+                        nowTarget.append((char) ('a' + j));
                     }
                 }
             }
-            if (removed) {
-                count++;
-            } else {
-                break;
+            //搜索nowTarget字符串需要最少贴纸数
+            int tempRes = dfs(strStickerCnt, myStickers, nowTarget.toString());
+            //更新target字符串需要的最少贴纸数
+            if (tempRes != -1) {
+                minRes = Math.min(minRes, 1 + tempRes);
             }
         }
-        return count;
-    }
-
-    private int minCount = -1;
-
-    private boolean isArrayZero(int[] targetArray) {
-        for (int i = 0; i < 26; i++) {
-            if (targetArray[i] != 0) {
-                return false;
-            }
-        }
-        return true;
+        strStickerCnt.put(target, (minRes == Integer.MAX_VALUE ? -1 : minRes));//标记target已经搜索过
+        return strStickerCnt.get(target);
     }
 
 }
