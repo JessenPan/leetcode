@@ -196,6 +196,7 @@
 | [633](https://leetcode-cn.com/problems/sum-of-square-numbers/) |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S633SumOfSquareNumbersTest.java) |      O(n)       |       O(1)       |
 | [637](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S637AverageOfLevelsInBinaryTree.java) |                 |                  |
 |    [645](https://leetcode-cn.com/problems/set-mismatch/)     |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S645SetMismatch.java) |      O(n)       |       O(n)       |
+|    [648](https://leetcode-cn.com/problems/replace-words/)    |        trie        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/trie/S648ReplaceWords.java) |                 |                  |
 | [652](https://leetcode-cn.com/problems/find-duplicate-subtrees/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S652FindDuplicateSubtrees.java) |                 |                  |
 | [653](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S653TwoSumIV.java) |      O(n)       |                  |
 | [654](https://leetcode-cn.com/problems/maximum-binary-tree/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S654MaximumBinaryTree.java) |      O(n)       |       O(1)       |
