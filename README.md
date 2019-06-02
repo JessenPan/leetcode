@@ -207,6 +207,7 @@
 | [669](https://leetcode-cn.com/problems/trim-a-binary-search-tree/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S669TrimABinarySearchTree.java) |                 |       O(1)       |
 | [671](https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S671SecondMinimumNodeInABinaryTree.java) |      O(n)       |                  |
 | [674](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S674LongestContinuousIncreasingSubsequence.java) |      O(n)       |       O(1)       |
+| [676](https://leetcode-cn.com/problems/implement-magic-dictionary/) |        trie        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/trie/S676ImplementMagicDictionary.java) |                 |                  |
 |    [677](https://leetcode-cn.com/problems/map-sum-pairs/)    |        trie        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/trie/S677MapSumPairs.java) |                 |                  |
 | [680](https://leetcode-cn.com/problems/valid-palindrome-ii/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S680ValidPalindromeII.java) |      O(n)       |       O(1)       |
 |    [682](https://leetcode-cn.com/problems/baseball-game/)    |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S682BaseballGame.java) |                 |                  |
@@ -302,6 +303,7 @@
 | [1009](https://leetcode-cn.com/problems/complement-of-base-10-integer/) |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S1009ComplementOfBase10Integer.java) |      O(1)       |       O(1)       |
 | [1013](https://leetcode-cn.com/problems/partition-array-into-three-parts-with-equal-sum/) |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S1013PartitionArrayIntoThreePartsWithEqualSum.java) |      O(n)       |       O(1)       |
 | [1018](https://leetcode-cn.com/problems/binary-prefix-divisible-by-5/) |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S1018BinaryPrefixDivisibleBy5.java) |      O(n)       |       O(1)       |
+| [1023](https://leetcode-cn.com/problems/camelcase-matching/) |                    | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/trie/S1023CamelcaseMatching.java) |                 |                  |
 | [1038](https://leetcode-cn.com/problems/binary-search-tree-to-greater-sum-tree/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S1038BinarySearchTreeToGreaterSumTree.java) |      O(n)       |                  |
 
 ## Database

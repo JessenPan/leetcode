@@ -44,9 +44,36 @@ public class S676ImplementMagicDictionary {
             if (record.get(word) != null) {
                 return record.get(word);
             }
-            
-            
+            return search(word, 0, false, root);
+
         }
+
+        private boolean search(String word, int index, boolean isReplaced, Node p) {
+            if (index == word.length()) {
+                return isReplaced && p != null && p.isEnd;
+            }
+
+            if (p == null) {
+                return false;
+            }
+
+            for (int i = 0; i < 26; i++) {
+                if (p.children[i] == null) {
+                    continue;
+                }
+                if ((char) (i + 'a') == word.charAt(index)) {
+                    if (search(word, index + 1, isReplaced, p.children[i])) {
+                        return true;
+                    }
+                } else if (!isReplaced) {
+                    if (search(word, index + 1, true, p.children[i])) {
+                        return true;
+                    }
+                }
+            }
+            return false;
+        }
+
     }
 
 }
