@@ -306,6 +306,7 @@
 | [1013](https://leetcode-cn.com/problems/partition-array-into-three-parts-with-equal-sum/) |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S1013PartitionArrayIntoThreePartsWithEqualSum.java) |      O(n)       |       O(1)       |
 | [1018](https://leetcode-cn.com/problems/binary-prefix-divisible-by-5/) |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S1018BinaryPrefixDivisibleBy5.java) |      O(n)       |       O(1)       |
 | [1023](https://leetcode-cn.com/problems/camelcase-matching/) |                    | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/trie/S1023CamelcaseMatching.java) |                 |                  |
+| [1032](https://leetcode-cn.com/problems/stream-of-characters/) |        trie        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/trie/S1032StreamOfCharacters.java) |                 |                  |
 | [1038](https://leetcode-cn.com/problems/binary-search-tree-to-greater-sum-tree/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S1038BinarySearchTreeToGreaterSumTree.java) |      O(n)       |                  |
 
 ## Database
