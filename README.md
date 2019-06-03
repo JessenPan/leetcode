@@ -157,6 +157,7 @@
 | [459](https://leetcode-cn.com/problems/repeated-substring-pattern/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S459RepeatedSubstringPattern.java) |                 |                  |
 |  [461](https://leetcode-cn.com/problems/hamming-distance/)   |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S461HammingDistance.java) |      O(n)       |       O(1)       |
 |  [463](https://leetcode-cn.com/problems/island-perimeter/)   |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S463IslandPerimeter.java) |     O(n*n)      |       O(1)       |
+| [472](https://leetcode-cn.com/problems/concatenated-words/)  |        trie        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/trie/S472ConcatenatedWords.java) |                 |                  |
 |  [476](https://leetcode-cn.com/problems/number-complement/)  |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S476NumberComplement.java) |      O(n)       |       O(1)       |
 | [485](https://leetcode-cn.com/problems/max-consecutive-ones/submissions/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S485MaxConsecutiveOnes.java) |      O(n)       |       O(1)       |
 | [496](https://leetcode-cn.com/problems/next-greater-element-i/) |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S496NextGreaterElementI.java) |                 |                  |
