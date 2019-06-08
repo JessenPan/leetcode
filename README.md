@@ -314,6 +314,7 @@
 | [1018](https://leetcode-cn.com/problems/binary-prefix-divisible-by-5/) |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S1018BinaryPrefixDivisibleBy5.java) |      O(n)       |       O(1)       |
 | [1022](https://leetcode-cn.com/problems/sum-of-root-to-leaf-binary-numbers/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S1022SumOfRootToLeafBinaryNumbers.java) |                 |                  |
 | [1023](https://leetcode-cn.com/problems/camelcase-matching/) |                    | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/trie/S1023CamelcaseMatching.java) |                 |                  |
+| [1028](https://leetcode-cn.com/problems/recover-a-tree-from-preorder-traversal/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/treeS1028RecoverATreeFromPreorderTraversal.java) |                 |                  |
 | [1032](https://leetcode-cn.com/problems/stream-of-characters/) |        trie        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/trie/S1032StreamOfCharacters.java) |                 |                  |
 | [1038](https://leetcode-cn.com/problems/binary-search-tree-to-greater-sum-tree/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S1038BinarySearchTreeToGreaterSumTree.java) |      O(n)       |                  |
 
