@@ -206,6 +206,7 @@
 | [652](https://leetcode-cn.com/problems/find-duplicate-subtrees/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S652FindDuplicateSubtrees.java) |                 |                  |
 | [653](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S653TwoSumIV.java) |      O(n)       |                  |
 | [654](https://leetcode-cn.com/problems/maximum-binary-tree/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S654MaximumBinaryTree.java) |      O(n)       |       O(1)       |
+|  [655](https://leetcode-cn.com/problems/print-binary-tree/)  |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S655PrintBinaryTree.java) |                 |                  |
 | [657](https://leetcode-cn.com/problems/robot-return-to-origin/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S657RobotReturnToOrigin.java) |      O(n)       |                  |
 |   [661](https://leetcode-cn.com/problems/image-smoother/)    |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S661ImageSmoother.java) |      O(n)       |       O(1)       |
 | [669](https://leetcode-cn.com/problems/trim-a-binary-search-tree/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S669TrimABinarySearchTree.java) |                 |       O(1)       |
