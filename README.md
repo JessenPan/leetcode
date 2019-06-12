@@ -257,6 +257,7 @@
 | [811](https://leetcode-cn.com/problems/subdomain-visit-count/) |      hashmap       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/hashmap/S811SubdomainVisitCount.java) |                 |                  |
 | [812](https://leetcode-cn.com/problems/largest-triangle-area/) |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S812LargestTriangleArea.java) |                 |                  |
 | [814](https://leetcode-cn.com/problems/binary-tree-pruning/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S814BinaryTreePruning.java) |      O(n)       |       O(1)       |
+| [816](https://leetcode-cn.com/problems/ambiguous-coordinates/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S816AmbiguousCoordinates.java) |                 |                  |
 |  [819](https://leetcode-cn.com/problems/most-common-word/)   |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S819MostCommonWord.java) |      O(n)       |       O(n)       |
 |     [824](https://leetcode-cn.com/problems/goat-latin/)      |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S824GoatLatin.java) |                 |                  |
 | [830](https://leetcode-cn.com/problems/positions-of-large-groups/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S830PositionsOfLargeGroups.java) |      O(n)       |       O(1)       |

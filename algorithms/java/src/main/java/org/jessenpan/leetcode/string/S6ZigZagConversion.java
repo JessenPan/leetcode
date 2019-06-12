@@ -11,7 +11,7 @@ public class S6ZigZagConversion {
         int length = s.length();
         char[][] zigZagArray = new char[numRows][length];
         for (int i = 0; i < length; i++) {
-
+            
         }
         StringBuilder sb = new StringBuilder();
         return sb.toString();
