@@ -259,6 +259,7 @@
 |   [788](https://leetcode-cn.com/problems/rotated-digits/)    |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S788RotatedDigits.java) |                 |                  |
 | [791](https://leetcode-cn.com/problems/custom-sort-string/)  |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S791CustomSortString.java) |                 |                  |
 | [804](https://leetcode-cn.com/problems/unique-morse-code-words/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S804UniqueMorseCodeWords.java) |      O(n)       |                  |
+|  [809](https://leetcode-cn.com/problems/expressive-words/)   |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S809ExpressiveWords.java) |                 |                  |
 | [811](https://leetcode-cn.com/problems/subdomain-visit-count/) |      hashmap       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/hashmap/S811SubdomainVisitCount.java) |                 |                  |
 | [812](https://leetcode-cn.com/problems/largest-triangle-area/) |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S812LargestTriangleArea.java) |                 |                  |
 | [814](https://leetcode-cn.com/problems/binary-tree-pruning/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S814BinaryTreePruning.java) |      O(n)       |       O(1)       |
