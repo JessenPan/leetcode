@@ -1,6 +1,5 @@
 package org.jessenpan.leetcode.math;
 
-import org.jessenpan.leetcode.S970PowerfulIntegers;
 import org.junit.Test;
 
 import java.util.Arrays;
