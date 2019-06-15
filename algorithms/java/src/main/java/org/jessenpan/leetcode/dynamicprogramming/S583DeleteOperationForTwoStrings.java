@@ -1,9 +1,10 @@
-package org.jessenpan.leetcode.string;
+package org.jessenpan.leetcode.dynamicprogramming;
 
 /**
  * @author jessenpan
- * tag:string
+ * tag:dynamicProgramming
  */
+//TODO leaning it   
 public class S583DeleteOperationForTwoStrings {
 
     //参考最长公共子序列的算法，动态规划
