@@ -268,6 +268,7 @@
 |  [819](https://leetcode-cn.com/problems/most-common-word/)   |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S819MostCommonWord.java) |      O(n)       |       O(n)       |
 |     [824](https://leetcode-cn.com/problems/goat-latin/)      |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S824GoatLatin.java) |                 |                  |
 | [830](https://leetcode-cn.com/problems/positions-of-large-groups/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S830PositionsOfLargeGroups.java) |      O(n)       |       O(1)       |
+| [831](https://leetcode-cn.com/problems/masking-personal-information/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S831MaskingPersonalInformation.java) |                 |                  |
 |  [832](https://leetcode-cn.com/problems/flipping-an-image/)  |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S832FlippingAnImage.java) |     O(n*n)      |       O(1)       |
 |  [836](https://leetcode-cn.com/problems/rectangle-overlap/)  |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S836RectangleOverlap.java) |      O(1)       |       O(1)       |
 | [840](https://leetcode-cn.com/problems/magic-squares-in-grid/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S840MagicSquaresInGrid.java) |     O(n*n)      |       O(n)       |
