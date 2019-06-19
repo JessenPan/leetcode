@@ -249,6 +249,7 @@
 |    [709](https://leetcode-cn.com/problems/to-lower-case/)    |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S709ToLowerCase.java) |      O(n)       |       O(1)       |
 | [717](https://leetcode-cn.com/problems/1-bit-and-2-bit-characters/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S7171BitAnd2BitCharacters.java) |      O(n)       |       O(1)       |
 | [720](https://leetcode-cn.com/problems/longest-word-in-dictionary/) |      hashset       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/hashset/S720LongestWordInDictionary.java) |      O(n)       |       O(n)       |
+|   [722](https://leetcode-cn.com/problems/remove-comments/)   |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S722RemoveComments.java) |                 |                  |
 |  [724](https://leetcode-cn.com/problems/find-pivot-index/)   |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S724FindPivotIndex.java) |      O(n)       |       O(1)       |
 | [728](https://leetcode-cn.com/problems/self-dividing-numbers/) |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S728SelfDividingNumbers.java) |     O(n*n)      |       O(n)       |
 |     [733](https://leetcode-cn.com/problems/flood-fill/)      |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S733FloodFill.java) |      O(n)       |       O(1)       |
