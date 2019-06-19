@@ -371,7 +371,9 @@
 
 | id   | problem                                                      | solution                                  |
 | ---- | ------------------------------------------------------------ | ----------------------------------------- |
+| 192  | [192. Word Frequency](https://leetcode-cn.com/problems/word-frequency/) | [Shell](./shell/S192WordFrequency.sh)     |
 | 193  | [193. Valid Phone Numbers](https://leetcode-cn.com/problems/valid-phone-numbers/) | [Shell](./shell/S193ValidPhoneNumbers.sh) |
+| 194  | [194. Transpose file](https://leetcode-cn.com/problems/transpose-file/) | [Shell](./shell/S194TransposeFile.sh)     |
 | 195  | [195. Tenth Line](https://leetcode-cn.com/problems/tenth-line/) | [Shell](./shell/S195TenthLine.sh)         |
 |      |                                                              |                                           |
 
