@@ -42,6 +42,7 @@
 | [60](https://leetcode-cn.com/problems/permutation-sequence/) |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S60PermutationSequence.java) |                 |                  |
 |       [66](https://leetcode-cn.com/problems/plus-one/)       |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S66PlusOne.java) |                 |                  |
 |      [67](https://leetcode-cn.com/problems/add-binary/)      |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S67AddBinary.java) |      O(n)       |       O(n)       |
+|  [68](https://leetcode-cn.com/problems/text-justification/)  |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S68TextJustification.java) |                 |                  |
 |        [69](https://leetcode-cn.com/problems/sqrtx/)         |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S69SqrtX.java) |     O(logN)     |       O(1)       |
 |    [71](https://leetcode-cn.com/problems/simplify-path/)     |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S71SimplifyPath.java) |      O(n)       |                  |
 |     [77](https://leetcode-cn.com/problems/combinations/)     |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S77Combinations.java) |      O(n)       |                  |
@@ -302,6 +303,7 @@
 | [894](https://leetcode-cn.com/problems/all-possible-full-binary-trees/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S894AllPossibleFullBinaryTrees.java) |                 |                  |
 |   [896](https://leetcode-cn.com/problems/monotonic-array/)   |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S896MonotonicArray.java) |                 |                  |
 | [897](https://leetcode-cn.com/problems/increasing-order-search-tree/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S897IncreasingOrderSearchTree.java) |      O(n)       |                  |
+|    [899](https://leetcode-cn.com/problems/orderly-queue/)    |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S899OrderlyQueue.java) |                 |                  |
 |  [901](https://leetcode-cn.com/problems/online-stock-span/)  |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S901OnlineStockSpan.java) |                 |                  |
 | [905](https://leetcode-cn.com/problems/sort-array-by-parity/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S905SortArrayByParity.java) |      O(n)       |       O(1)       |
 |  [908](https://leetcode-cn.com/problems/smallest-range-i/)   |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S908SmallestRangeI.java) |      O(n)       |       O(1)       |
