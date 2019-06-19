@@ -12,6 +12,7 @@
 | [5](https://leetcode-cn.com/problems/longest-palindromic-substring/) | dynamicProgramming | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dynamicProgramming/S5LongestPalindromicSubstring.java) |                 |                  |
 |   [6](https://leetcode-cn.com/problems/zigzag-conversion/)   |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S6ZigZagConversion.java) |                 |                  |
 |    [7](https://leetcode-cn.com/problems/reverse-integer/)    |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S7ReverseInteger.java) |                 |                  |
+| [8](https://leetcode-cn.com/problems/string-to-integer-atoi/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S8StringToIntegerAtoi.java) |                 |                  |
 |   [9](https://leetcode-cn.com/problems/palindrome-number/)   |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S9PalindromeNumber.java) |                 |                  |
 | [10](https://leetcode-cn.com/problems/regular-expression-matching/) |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S10RegularExpressionMatching.java) |                 |                  |
 | [11](https://leetcode-cn.com/problems/container-with-most-water/) |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S11ContainerWithMostWater.java) |                 |                  |
@@ -41,6 +42,7 @@
 | [60](https://leetcode-cn.com/problems/permutation-sequence/) |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S60PermutationSequence.java) |                 |                  |
 |       [66](https://leetcode-cn.com/problems/plus-one/)       |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S66PlusOne.java) |                 |                  |
 |      [67](https://leetcode-cn.com/problems/add-binary/)      |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S67AddBinary.java) |      O(n)       |       O(n)       |
+|  [68](https://leetcode-cn.com/problems/text-justification/)  |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S68TextJustification.java) |                 |                  |
 |        [69](https://leetcode-cn.com/problems/sqrtx/)         |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S69SqrtX.java) |     O(logN)     |       O(1)       |
 |    [71](https://leetcode-cn.com/problems/simplify-path/)     |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S71SimplifyPath.java) |      O(n)       |                  |
 |     [77](https://leetcode-cn.com/problems/combinations/)     |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S77Combinations.java) |      O(n)       |                  |
@@ -248,6 +250,7 @@
 |    [709](https://leetcode-cn.com/problems/to-lower-case/)    |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S709ToLowerCase.java) |      O(n)       |       O(1)       |
 | [717](https://leetcode-cn.com/problems/1-bit-and-2-bit-characters/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S7171BitAnd2BitCharacters.java) |      O(n)       |       O(1)       |
 | [720](https://leetcode-cn.com/problems/longest-word-in-dictionary/) |      hashset       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/hashset/S720LongestWordInDictionary.java) |      O(n)       |       O(n)       |
+|   [722](https://leetcode-cn.com/problems/remove-comments/)   |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S722RemoveComments.java) |                 |                  |
 |  [724](https://leetcode-cn.com/problems/find-pivot-index/)   |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S724FindPivotIndex.java) |      O(n)       |       O(1)       |
 | [728](https://leetcode-cn.com/problems/self-dividing-numbers/) |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S728SelfDividingNumbers.java) |     O(n*n)      |       O(n)       |
 |     [733](https://leetcode-cn.com/problems/flood-fill/)      |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S733FloodFill.java) |      O(n)       |       O(1)       |
@@ -300,6 +303,7 @@
 | [894](https://leetcode-cn.com/problems/all-possible-full-binary-trees/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S894AllPossibleFullBinaryTrees.java) |                 |                  |
 |   [896](https://leetcode-cn.com/problems/monotonic-array/)   |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S896MonotonicArray.java) |                 |                  |
 | [897](https://leetcode-cn.com/problems/increasing-order-search-tree/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S897IncreasingOrderSearchTree.java) |      O(n)       |                  |
+|    [899](https://leetcode-cn.com/problems/orderly-queue/)    |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S899OrderlyQueue.java) |                 |                  |
 |  [901](https://leetcode-cn.com/problems/online-stock-span/)  |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S901OnlineStockSpan.java) |                 |                  |
 | [905](https://leetcode-cn.com/problems/sort-array-by-parity/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S905SortArrayByParity.java) |      O(n)       |       O(1)       |
 |  [908](https://leetcode-cn.com/problems/smallest-range-i/)   |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S908SmallestRangeI.java) |      O(n)       |       O(1)       |
@@ -369,7 +373,9 @@
 
 | id   | problem                                                      | solution                                  |
 | ---- | ------------------------------------------------------------ | ----------------------------------------- |
+| 192  | [192. Word Frequency](https://leetcode-cn.com/problems/word-frequency/) | [Shell](./shell/S192WordFrequency.sh)     |
 | 193  | [193. Valid Phone Numbers](https://leetcode-cn.com/problems/valid-phone-numbers/) | [Shell](./shell/S193ValidPhoneNumbers.sh) |
+| 194  | [194. Transpose file](https://leetcode-cn.com/problems/transpose-file/) | [Shell](./shell/S194TransposeFile.sh)     |
 | 195  | [195. Tenth Line](https://leetcode-cn.com/problems/tenth-line/) | [Shell](./shell/S195TenthLine.sh)         |
 |      |                                                              |                                           |
 
