@@ -108,6 +108,7 @@
 | [208](https://leetcode-cn.com/problems/implement-trie-prefix-tree/) |        trie        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/trie/S208ImplementTrie.java) |                 |                  |
 | [211](https://leetcode-cn.com/problems/add-and-search-word-data-structure-design/) |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S211AddAndSearchWordDataStructureDesign.java) |                 |                  |
 |   [212](https://leetcode-cn.com/problems/word-search-ii/)    |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S212WordSearchII.java) |                 |                  |
+| [214](https://leetcode-cn.com/problems/shortest-palindrome/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S214ShortestPalindrome.java) |                 |                  |
 | [216](https://leetcode-cn.com/problems/combination-sum-iii/) |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S216CombinationSumIII.java) |                 |                  |
 | [217](https://leetcode-cn.com/problems/contains-duplicate/submissions/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S217ContainsDuplicate.java) |                 |       O(1)       |
 | [219](https://leetcode-cn.com/problems/contains-duplicate-ii/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S219ContainsDuplicateII.java) |      O(n)       |       O(n)       |
@@ -126,6 +127,7 @@
 |    [242](https://leetcode-cn.com/problems/valid-anagram/)    |      hashmap       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/hashmap/S242ValidAnagram.java) |      O(n)       |       O(1)       |
 |  [257](https://leetcode-cn.com/problems/binary-tree-paths/)  |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S257BinaryTreePaths.java) |      O(n)       |                  |
 |     [258](https://leetcode-cn.com/problems/add-digits/)      |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S258AddDigits.java) |      O(1)       |       O(1)       |
+|  [260](https://leetcode-cn.com/problems/single-number-iii/)  |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S260SingleNumberIII.java) |                 |                  |
 |     [263](https://leetcode-cn.com/problems/ugly-number/)     |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S263UglyNumber.java) |      O(n)       |       O(1)       |
 |   [268](https://leetcode-cn.com/problems/missing-number/)    |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S268MissingNumber.java) |      O(n)       |       O(1)       |
 |  [278](https://leetcode-cn.com/problems/first-bad-version/)  |    binarySearch    | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/binarysearch/SS278FirstBadVersion.java) |                 |                  |

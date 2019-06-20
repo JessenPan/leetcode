@@ -1,8 +1,5 @@
 package org.jessenpan.leetcode.bit;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * @author jessenpan
  * tag:bit
@@ -10,16 +7,22 @@ import java.util.List;
 public class S260SingleNumberIII {
 
     public int[] singleNumber(int[] nums) {
-        List<Integer> singleNums = new ArrayList<>();
-        int len = nums.length;
-        int num = nums[0];
-        for (int i = 1; i < len; i++) {
-            num = (num ^ nums[i]);
-            if (num == nums[i]) {
-                singleNums.add(num);
+        int xor = 0;
+        for (int num : nums) {
+            xor ^= num;
+        }
+
+        int mask = xor & (-xor);
+
+        int[] ans = new int[2];
+        for (int num : nums) {
+            if ( (num & mask) == 0) {
+                ans[0] ^= num;
+            } else {
+                ans[1] ^= num;
             }
         }
-        return singleNums.stream().mapToInt(t -> t).toArray();
+        return ans;
     }
 
 }
