@@ -177,6 +177,7 @@
 | [468](https://leetcode-cn.com/problems/validate-ip-address/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S468ValidateIpAddress.java) |                 |                  |
 | [472](https://leetcode-cn.com/problems/concatenated-words/)  |        trie        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/trie/S472ConcatenatedWords.java) |                 |                  |
 |  [476](https://leetcode-cn.com/problems/number-complement/)  |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S476NumberComplement.java) |      O(n)       |       O(1)       |
+| [477](https://leetcode-cn.com/problems/total-hamming-distance/) |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S477TotalHammingDistance.java) |                 |                  |
 | [485](https://leetcode-cn.com/problems/max-consecutive-ones/submissions/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S485MaxConsecutiveOnes.java) |      O(n)       |       O(1)       |
 | [496](https://leetcode-cn.com/problems/next-greater-element-i/) |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S496NextGreaterElementI.java) |                 |                  |
 |    [500](https://leetcode-cn.com/problems/keyboard-row/)     |      hashmap       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/hashmap/S500KeyboardRow.java) |      O(n)       |       O(1)       |
