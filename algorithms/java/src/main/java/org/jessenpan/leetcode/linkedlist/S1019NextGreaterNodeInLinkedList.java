@@ -23,6 +23,7 @@ public class S1019NextGreaterNodeInLinkedList {
         }
     }
 
+    //TODO rewrite this case
     public int[] nextLargerNodes(ListNode head) {
 
         Stack<Integer> stack = new Stack<>();
