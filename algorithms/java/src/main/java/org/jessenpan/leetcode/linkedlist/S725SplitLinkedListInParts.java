@@ -15,34 +15,32 @@ public class S725SplitLinkedListInParts {
         ListNode next;
 
         ListNode(int x) { val = x; }
+
+        ListNode(int x, ListNode next) {
+            this.val = x;
+            this.next = next;
+        }
     }
 
     public ListNode[] splitListToParts(ListNode root, int k) {
         int len = countLen(root);
-        int numOfEach = (int) Math.floor(len / k);
         ListNode[] splits = new ListNode[k];
         Queue<ListNode> queue = new LinkedList<>();
 
         ListNode current = root;
-        int currentNum = 0;
 
         int i = 0;
         while (current != null) {
 
-            if (numOfEach == 0) {
-                currentNum = 1;
-                len = len - 1;
-            } else {
-                if (len % numOfEach == 0) {
-                    currentNum = numOfEach;
-                } else {
-                    currentNum = numOfEach + 1;
-                }
-                len = len - currentNum;
+            double numOfEach = (double) len / k;
+            if (numOfEach - (int) numOfEach != 0) {
+                numOfEach = Math.ceil(numOfEach);
             }
-
+            len = len - (int) numOfEach;
+            k--;
+            
             int j = 0;
-            while (j < currentNum) {
+            while (j < numOfEach) {
                 queue.add(current);
                 current = current.next;
                 j++;
@@ -51,9 +49,13 @@ public class S725SplitLinkedListInParts {
             ListNode eachHead = new ListNode(0);
             ListNode eachCurrent = eachHead;
             while (!queue.isEmpty()) {
-                eachCurrent
+                eachCurrent.next = queue.poll();
+                eachCurrent = eachCurrent.next;
             }
-            
+            eachCurrent.next = null;
+
+            splits[i] = eachHead.next;
+            i++;
         }
 
         return splits;
