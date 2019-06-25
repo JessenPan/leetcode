@@ -26,7 +26,7 @@ public class S142LinkedListCycleII {
 
         ListNode first, second;
         first = second = head;
-        
+        return null;
     }
 
 }
