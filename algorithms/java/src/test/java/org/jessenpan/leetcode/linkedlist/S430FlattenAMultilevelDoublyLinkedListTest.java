@@ -13,7 +13,13 @@ public class S430FlattenAMultilevelDoublyLinkedListTest {
 
     @Test
     public void test1() {
-        Node head=new Node(1,new Node(2,new Node(3,new Node())));
+        Node head = new Node(1);
+        Node node2 = new Node(2);
+        Node node3 = new Node(3);
+        head.child = node3;
+        head.next = node2;
+        node2.prev = head;
+        Node newHead = flattenAMultilevelDoublyLinkedList.flatten(head);
     }
 
 }

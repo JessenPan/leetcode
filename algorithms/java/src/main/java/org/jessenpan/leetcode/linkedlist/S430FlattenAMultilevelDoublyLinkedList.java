@@ -32,25 +32,32 @@ public class S430FlattenAMultilevelDoublyLinkedList {
         }
     }
 
-    Node theEnd;
+    private Node theEnd;
 
     public Node flatten(Node head) {
         Node current = head;
 
         while (current != null) {
+            if (current.next == null && current.child == null) {
+                theEnd = current;
+            }
             if (current.child != null) {
-
+                Node child = current.child;
                 flatten(current.child);
                 Node next = current.next;
+
                 current.next = current.child;
+                child.prev = current;
                 current.child = null;
+
                 theEnd.next = next;
+                if (next != null) {
+                    next.prev = theEnd;
+                }
             } else {
                 current = current.next;
             }
-            if (current != null && current.next == null && current.child == null) {
-                theEnd = current;
-            }
+
         }
         return head;
     }
