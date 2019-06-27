@@ -15,6 +15,15 @@ public class S430FlattenAMultilevelDoublyLinkedList {
 
         public Node() {}
 
+        public Node(int x) {
+            this.val = x;
+        }
+
+        public Node(int x, Node next) {
+            this.val = x;
+            this.next = next;
+        }
+
         public Node(int _val, Node _prev, Node _next, Node _child) {
             val = _val;
             prev = _prev;
@@ -23,16 +32,27 @@ public class S430FlattenAMultilevelDoublyLinkedList {
         }
     }
 
+    Node theEnd;
+
     public Node flatten(Node head) {
-        Node newHead, newCurrent;
-        newHead = newCurrent = new Node(0, null, null, null);
-        newHead.next = traverse(newCurrent, head);
-        return newHead.next;
-    }
+        Node current = head;
 
-    private Node traverse(Node newCurrent, Node oldCurrent) {
+        while (current != null) {
+            if (current.child != null) {
 
-        return null;
+                flatten(current.child);
+                Node next = current.next;
+                current.next = current.child;
+                current.child = null;
+                theEnd.next = next;
+            } else {
+                current = current.next;
+            }
+            if (current != null && current.next == null && current.child == null) {
+                theEnd = current;
+            }
+        }
+        return head;
     }
 
 }
