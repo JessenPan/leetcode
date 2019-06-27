@@ -158,6 +158,7 @@
 | [331](https://leetcode-cn.com/problems/verify-preorder-serialization-of-a-binary-tree/) |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S331VerifyPreOrderSerializationOfABinaryTree.java) |                 |                  |
 |  [336](https://leetcode-cn.com/problems/palindrome-pairs/)   |        trie        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/trie/S336PalindromePairs.java) |                 |                  |
 |    [338](https://leetcode-cn.com/problems/counting-bits/)    |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S338CountingBits.java) |      O(n)       |                  |
+| [341](https://leetcode-cn.com/problems/flatten-nested-list-iterator/) |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S341FlattenNestedListIterator.java) |                 |                  |
 |    [342](https://leetcode-cn.com/problems/power-of-four/)    |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S342PowerOfFourTest.java) |      O(1)       |       O(1)       |
 |   [344](https://leetcode-cn.com/problems/reverse-string/)    |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S344ReverseString.java) |      O(n)       |       O(1)       |
 | [345](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S344ReverseString.java) |      O(n)       |       O(n)       |
@@ -374,12 +375,14 @@
 | [1016](https://leetcode-cn.com/problems/binary-string-with-substrings-representing-1-to-n/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S1016BinaryStringWithSubstringsRepresenting1ToN.java) |                 |                  |
 | [1018](https://leetcode-cn.com/problems/binary-prefix-divisible-by-5/) |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S1018BinaryPrefixDivisibleBy5.java) |      O(n)       |       O(1)       |
 | [1019](https://leetcode-cn.com/problems/next-greater-node-in-linked-list/) |     linkedlist     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/linkedlist/S1019NextGreaterNodeInLinkedList.java) |                 |                  |
+| [1021](https://leetcode-cn.com/problems/remove-outermost-parentheses/) |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S1021RemoveOutermostParentheses.java) |                 |                  |
 | [1022](https://leetcode-cn.com/problems/sum-of-root-to-leaf-binary-numbers/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S1022SumOfRootToLeafBinaryNumbers.java) |                 |                  |
 | [1023](https://leetcode-cn.com/problems/camelcase-matching/) |                    | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/trie/S1023CamelcaseMatching.java) |                 |                  |
 | [1026](https://leetcode-cn.com/problems/maximum-difference-between-node-and-ancestor/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S1026MaximumDifferenceBetweenNodeAndAncestor.java) |                 |                  |
 | [1028](https://leetcode-cn.com/problems/recover-a-tree-from-preorder-traversal/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/treeS1028RecoverATreeFromPreorderTraversal.java) |                 |                  |
 | [1032](https://leetcode-cn.com/problems/stream-of-characters/) |        trie        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/trie/S1032StreamOfCharacters.java) |                 |                  |
 | [1038](https://leetcode-cn.com/problems/binary-search-tree-to-greater-sum-tree/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S1038BinarySearchTreeToGreaterSumTree.java) |      O(n)       |                  |
+| [1047](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/) |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S1047RemoveAllAdjacentDuplicatesInString.java) |                 |                  |
 
 ## Database
 
