@@ -90,6 +90,7 @@
 | [131](https://leetcode-cn.com/problems/palindrome-partitioning/) |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S131PalindromePartitioning.java) |                 |                  |
 |    [136](https://leetcode-cn.com/problems/single-number/)    |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S136SingleNumber.java) |      O(n)       |       O(1)       |
 |  [137](https://leetcode-cn.com/problems/single-number-ii/)   |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S137SingleNumberII.java) |      O(n)       |       O(1)       |
+| [138](https://leetcode-cn.com/problems/copy-list-with-random-pointer/) |     linkedlist     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/linkedlist/S138CopyListWithRandomPointer.java) |      O(n)       |       O(n)       |
 |    [140](https://leetcode-cn.com/problems/word-break-ii/)    |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S140WordBreakII.java) |                 |                  |
 |  [141](https://leetcode-cn.com/problems/linked-list-cycle/)  |     linkedList     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/linkedlist/S141LinkedListCycle.java) |      O(n)       |       O(1)       |
 |    [143](https://leetcode-cn.com/problems/reorder-list/)     |     linkedlist     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/linkedlist/S143ReorderList.java) |                 |                  |
