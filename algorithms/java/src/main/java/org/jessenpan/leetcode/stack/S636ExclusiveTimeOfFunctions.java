@@ -11,28 +11,19 @@ public class S636ExclusiveTimeOfFunctions {
 
     public int[] exclusiveTime(int n, List<String> logs) {
         int[] times = new int[n];
-        Stack<String> stack = new Stack<>();
+        Stack<String[]> stack = new Stack<>();
         for (String log : logs) {
-
-            if (log.contains("start")) {
-                stack.push(log);
-                continue;
-            }
-
-            //            if (stack.peek().contains("start")) {
-            //                stack.push(log);
-            //                continue;
-            //            }
-
-            String[] pops = stack.pop().split(":");
-            String[] splits = log.split(":");
-
-            times[Integer.parseInt(pops[0])] = Integer.parseInt(splits[2]) - Integer.parseInt(pops[2]) + 1;
-
-        }
-        for (int i = 0; i < n; i++) {
-            if (i != (n - 1)) {
-                times[i] = times[i] - times[i + 1];
+            String[] str = log.split(":");
+            if (str[1].equals("start")) {
+                stack.push(new String[] { str[0], str[2], str[2] });
+            } else {
+                String[] pop = stack.pop();
+                int dur = Integer.parseInt(str[2]) - Integer.parseInt(pop[1]) + 1;
+                times[Integer.parseInt(pop[0])] += dur;
+                if (stack.size() > 0) {
+                    String[] peek = stack.peek();
+                    peek[1] = Integer.parseInt(peek[1]) + Integer.parseInt(str[2]) - Integer.parseInt(pop[2]) + 1 + "";
+                }
             }
         }
         return times;
