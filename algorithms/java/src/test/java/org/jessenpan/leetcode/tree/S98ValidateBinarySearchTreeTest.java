@@ -3,14 +3,14 @@ package org.jessenpan.leetcode.tree;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.jessenpan.leetcode.tree.S124ValidateBinarySearchTree.*;
+import static org.jessenpan.leetcode.tree.S98ValidateBinarySearchTree.*;
 
 /**
  * @author jessenpan
  */
-public class S124ValidateBinarySearchTreeTest {
+public class S98ValidateBinarySearchTreeTest {
 
-    private S124ValidateBinarySearchTree validateBinarySearchTree = new S124ValidateBinarySearchTree();
+    private S98ValidateBinarySearchTree validateBinarySearchTree = new S98ValidateBinarySearchTree();
 
     @Test
     public void test1() {

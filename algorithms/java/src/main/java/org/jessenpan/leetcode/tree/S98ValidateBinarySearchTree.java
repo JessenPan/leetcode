@@ -4,7 +4,7 @@ package org.jessenpan.leetcode.tree;
  * @author jessenpan
  * tag:tree
  */
-public class S124ValidateBinarySearchTree {
+public class S98ValidateBinarySearchTree {
 
     public static class TreeNode {
 
