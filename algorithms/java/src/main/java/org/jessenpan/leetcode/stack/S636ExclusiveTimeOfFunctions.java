@@ -9,21 +9,33 @@ import java.util.Stack;
  */
 public class S636ExclusiveTimeOfFunctions {
 
+    static class Pair {
+
+        int id;
+        int time;
+
+        Pair(int id, int time) {
+            this.id = id;
+            this.time = time;
+        }
+    }
+
     public int[] exclusiveTime(int n, List<String> logs) {
         int[] times = new int[n];
-        Stack<String[]> stack = new Stack<>();
+        Stack<Pair> stack = new Stack<>();
         for (String log : logs) {
-            String[] str = log.split(":");
-            if (str[1].equals("start")) {
-                stack.push(new String[] { str[0], str[2], str[2] });
+            String[] splits = log.split(":");
+
+            if (log.contains("start")) {
+                stack.push(new Pair(Integer.parseInt(splits[0]), Integer.parseInt(splits[2])));
             } else {
-                String[] pop = stack.pop();
-                int dur = Integer.parseInt(str[2]) - Integer.parseInt(pop[1]) + 1;
-                times[Integer.parseInt(pop[0])] += dur;
-                if (stack.size() > 0) {
-                    String[] peek = stack.peek();
-                    peek[1] = Integer.parseInt(peek[1]) + Integer.parseInt(str[2]) - Integer.parseInt(pop[2]) + 1 + "";
+                Pair pair = stack.pop();
+                int cost = Integer.parseInt(splits[2]) - pair.time + 1;
+                times[pair.id] += cost;
+                if (!stack.isEmpty()) {
+                    times[stack.peek().id] -= cost;
                 }
+
             }
         }
         return times;
