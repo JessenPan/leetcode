@@ -387,6 +387,7 @@
 | [1028](https://leetcode-cn.com/problems/recover-a-tree-from-preorder-traversal/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/treeS1028RecoverATreeFromPreorderTraversal.java) |                 |                  |
 | [1032](https://leetcode-cn.com/problems/stream-of-characters/) |        trie        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/trie/S1032StreamOfCharacters.java) |                 |                  |
 | [1038](https://leetcode-cn.com/problems/binary-search-tree-to-greater-sum-tree/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S1038BinarySearchTreeToGreaterSumTree.java) |      O(n)       |                  |
+| [1046](https://leetcode-cn.com/problems/last-stone-weight/)  |        heap        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/heap/S1046LastStoneWeight.java) |                 |                  |
 | [1047](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/) |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S1047RemoveAllAdjacentDuplicatesInString.java) |                 |                  |
 
 ## Database
