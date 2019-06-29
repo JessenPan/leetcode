@@ -1,6 +1,5 @@
 package org.jessenpan.leetcode.heap;
 
-import java.util.Iterator;
 import java.util.PriorityQueue;
 
 /**
@@ -18,19 +17,21 @@ public class S703KthLargestElementInAStream {
         public KthLargest(int k, int[] nums) {
             this.k = k;
             for (int num : nums) {
-                pQueue.offer(num);
+                pQueue.add(num);
+            }
+
+            while (pQueue.size() > k) {
+                pQueue.poll();
             }
         }
 
         public int add(int val) {
-            pQueue.offer(val);
-            Iterator<Integer> iterator = pQueue.iterator();
-            int i = 0;
-            while (i <= k) {
-                i++;
-                System.out.println(iterator.next());
+            pQueue.add(val);
+            if (pQueue.size() == k) {
+                return pQueue.peek();
             }
-            return iterator.next();
+            pQueue.poll();
+            return pQueue.peek();
         }
     }
 
