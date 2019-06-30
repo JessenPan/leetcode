@@ -14,4 +14,4 @@ public class S973KClosestPointsToOriginTest {
         int[][] s = kClosestPointsToOrigin.kClosest(new int[][] { { 3, 3 }, { 5, -1 }, { -2, 4 } }, 2);
     }
 
-}
+} 
