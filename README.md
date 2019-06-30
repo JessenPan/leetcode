@@ -400,6 +400,7 @@
 | [1046](https://leetcode-cn.com/problems/last-stone-weight/)  |        heap        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/heap/S1046LastStoneWeight.java) |                 |                  |
 | [1047](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/) |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S1047RemoveAllAdjacentDuplicatesInString.java) |                 |                  |
 |   [1051](https://leetcode-cn.com/problems/height-checker/)   |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S1051HeightChecker.java) |                 |                  |
+|  [1089](https://leetcode-cn.com/problems/duplicate-zeros/)   |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S1089DuplicateZeros.java) |                 |                  |
 
 ## Database
 
