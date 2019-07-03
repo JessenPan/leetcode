@@ -39,6 +39,7 @@
 |   [43](https://leetcode-cn.com/problems/multiply-strings/)   |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S43MultiplyStrings.java) |                 |                  |
 |     [46](https://leetcode-cn.com/problems/permutations/)     |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S46Permutations.java) |      O(n)       |                  |
 |   [47](https://leetcode-cn.com/problems/permutations-ii/)    |    backTracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S47PermutationsII.java) |                 |                  |
+|     [48](https://leetcode-cn.com/problems/rotate-image/)     |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S48RotateImage.java) |                 |                  |
 | [49](https://leetcode-cn.com/problems/group-anagrams/submissions/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S49GroupAnagrams.java) |                 |                  |
 |       [51](https://leetcode-cn.com/problems/n-queens/)       |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S51NQueens.java) |                 |                  |
 |     [52](https://leetcode-cn.com/problems/n-queens-ii/)      |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S52NQueensII.java) |                 |                  |
