@@ -53,6 +53,7 @@
 |  [68](https://leetcode-cn.com/problems/text-justification/)  |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S68TextJustification.java) |                 |                  |
 |        [69](https://leetcode-cn.com/problems/sqrtx/)         |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S69SqrtX.java) |     O(logN)     |       O(1)       |
 |    [71](https://leetcode-cn.com/problems/simplify-path/)     |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S71SimplifyPath.java) |      O(n)       |                  |
+|  [73](https://leetcode-cn.com/problems/set-matrix-zeroes/)   |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S73SetMatrixZeroes.java) |                 |                  |
 |     [77](https://leetcode-cn.com/problems/combinations/)     |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S77Combinations.java) |      O(n)       |                  |
 |       [78](https://leetcode-cn.com/problems/subsets/)        |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S78Subsets.java) |      O(n)       |                  |
 |     [79](https://leetcode-cn.com/problems/word-search/)      |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S79WordSearch.java) |                 |                  |
@@ -406,6 +407,7 @@
 | [1047](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/) |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S1047RemoveAllAdjacentDuplicatesInString.java) |                 |                  |
 |   [1051](https://leetcode-cn.com/problems/height-checker/)   |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S1051HeightChecker.java) |                 |                  |
 |  [1089](https://leetcode-cn.com/problems/duplicate-zeros/)   |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S1089DuplicateZeros.java) |                 |                  |
+| [1104](https://leetcode-cn.com/problems/path-in-zigzag-labelled-binary-tree/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S1104PathInZigzagLabelledBinaryTree.java) |                 |                  |
 
 ## Database
 
