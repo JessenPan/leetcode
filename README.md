@@ -244,6 +244,7 @@
 | [559](https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/) | breadthFirstSearch | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/breadthfirstsearch/S559MaximumDepthOfNaryTree.java) |                 |                  |
 |  [561](https://leetcode-cn.com/problems/array-partition-i/)  |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S561ArrayPartitionI.java) |      O(n)       |                  |
 |  [563](https://leetcode-cn.com/problems/binary-tree-tilt/)   |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S563BinaryTreeTilt.java) |      O(n)       |       O(1)       |
+|    [565](https://leetcode-cn.com/problems/array-nesting/)    |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S565ArrayNesting.java) |                 |                  |
 | [566](https://leetcode-cn.com/problems/reshape-the-matrix/)  |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S566ReshapeTheMatrix.java) |     O(n*n)      |       O(1)       |
 | [572](https://leetcode-cn.com/problems/subtree-of-another-tree/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S572SubtreeOfAnotherTree.java) |                 |                  |
 | [575](https://leetcode-cn.com/problems/distribute-candies/)  |      hashmap       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/hashmap/S575DistributeCandies.java) |                 |                  |
