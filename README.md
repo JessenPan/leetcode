@@ -416,6 +416,7 @@
 | [1009](https://leetcode-cn.com/problems/complement-of-base-10-integer/) |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S1009ComplementOfBase10Integer.java) |      O(1)       |       O(1)       |
 | [1011](https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S1011CapacityToShipPackagesWithinDdays.java) |                 |                  |
 | [1013](https://leetcode-cn.com/problems/partition-array-into-three-parts-with-equal-sum/) |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S1013PartitionArrayIntoThreePartsWithEqualSum.java) |      O(n)       |       O(1)       |
+| [1014](https://leetcode-cn.com/problems/best-sightseeing-pair/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S1014BestSightseeingPair.java) |      O(n)       |       O(n)       |
 | [1016](https://leetcode-cn.com/problems/binary-string-with-substrings-representing-1-to-n/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S1016BinaryStringWithSubstringsRepresenting1ToN.java) |                 |                  |
 | [1018](https://leetcode-cn.com/problems/binary-prefix-divisible-by-5/) |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S1018BinaryPrefixDivisibleBy5.java) |      O(n)       |       O(1)       |
 | [1019](https://leetcode-cn.com/problems/next-greater-node-in-linked-list/) |     linkedlist     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/linkedlist/S1019NextGreaterNodeInLinkedList.java) |                 |                  |
@@ -434,6 +435,12 @@
 |  [1089](https://leetcode-cn.com/problems/duplicate-zeros/)   |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S1089DuplicateZeros.java) |                 |                  |
 | [1104](https://leetcode-cn.com/problems/path-in-zigzag-labelled-binary-tree/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S1104PathInZigzagLabelledBinaryTree.java) |                 |                  |
 
+# concurrency
+
+| id   | problem | solution |
+| ---- | ------- | -------- |
+|      |         |          |
+
 ## Database
 
 |  id  | problem                                                      |                           solution                           |
@@ -450,13 +457,10 @@
 
 ## Shell
 
- 
-
 | id   | problem                                                      | solution                                  |
 | ---- | ------------------------------------------------------------ | ----------------------------------------- |
 | 192  | [192. Word Frequency](https://leetcode-cn.com/problems/word-frequency/) | [Shell](./shell/S192WordFrequency.sh)     |
 | 193  | [193. Valid Phone Numbers](https://leetcode-cn.com/problems/valid-phone-numbers/) | [Shell](./shell/S193ValidPhoneNumbers.sh) |
 | 194  | [194. Transpose file](https://leetcode-cn.com/problems/transpose-file/) | [Shell](./shell/S194TransposeFile.sh)     |
 | 195  | [195. Tenth Line](https://leetcode-cn.com/problems/tenth-line/) | [Shell](./shell/S195TenthLine.sh)         |
-|      |                                                              |                                           |
 
