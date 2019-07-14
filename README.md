@@ -250,6 +250,7 @@
 |  [553](https://leetcode-cn.com/problems/optimal-division/)   |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S553OptimalDivision.java) |                 |                  |
 | [556](https://leetcode-cn.com/problems/next-greater-element-iii/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S556NextGreaterElementIII.java) |      O(n)       |       O(1)       |
 | [559](https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/) | breadthFirstSearch | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/breadthfirstsearch/S559MaximumDepthOfNaryTree.java) |                 |                  |
+| [560](https://leetcode-cn.com/problems/subarray-sum-equals-k/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S560SubarraySumEqualsK.java) |                 |                  |
 |  [561](https://leetcode-cn.com/problems/array-partition-i/)  |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S561ArrayPartitionI.java) |      O(n)       |                  |
 |  [563](https://leetcode-cn.com/problems/binary-tree-tilt/)   |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S563BinaryTreeTilt.java) |      O(n)       |       O(1)       |
 |    [565](https://leetcode-cn.com/problems/array-nesting/)    |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S565ArrayNesting.java) |                 |                  |
