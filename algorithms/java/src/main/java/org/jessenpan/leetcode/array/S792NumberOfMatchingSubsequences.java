@@ -9,7 +9,6 @@ import java.util.Map;
  */
 public class S792NumberOfMatchingSubsequences {
 
-    //TODO 
     public int numMatchingSubseq(String S, String[] words) {
 
         Map<String, Integer> map = new HashMap<>();
@@ -22,30 +21,24 @@ public class S792NumberOfMatchingSubsequences {
         }
         int sum = 0;
         for (String s : map.keySet()) {
-            int index = isSubsequence(S, s);
-            if (index == 1) {
+            if (isSubsequence(S, s)) {
                 sum += map.get(s);
             }
         }
         return sum;
     }
 
-    public int isSubsequence(String s, String t) {
+    public boolean isSubsequence(String s, String t) {
 
-        int i = 0;
-        int j = 0;
-
+        int i = 0, j = 0;
         while (i < s.length() && j < t.length()) {
-            if (s.charAt(i) == t.charAt(j))
+            if (s.charAt(i) == t.charAt(j)) {
                 j++;
+            }
             i++;
         }
 
-        if (j == t.length()) {
-            return 1;
-        } else {
-            return 0;
-        }
+        return j == t.length();
     }
 
 }
