@@ -19,6 +19,7 @@
 |   [12](https://leetcode-cn.com/problems/integer-to-roman/)   |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S12IntegerToRoman.java) |      O(n)       |                  |
 |   [13](https://leetcode-cn.com/problems/roman-to-integer/)   |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S13RomanToInteger.java) |      O(n)       |       O(1)       |
 | [14](https://leetcode-cn.com/problems/longest-common-prefix/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S14LongestCommonPrefix.java) |     O(n*n)      |       O(1)       |
+|     [16](https://leetcode-cn.com/problems/3sum-closest/)     |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S16ThreeSumClosest.java) |                 |                  |
 | [17](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) |    backTracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S17LetterCombinationsOfAPhoneNumber.java) |                 |                  |
 | [19](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) |     linkedlist     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/linkedlist/S19RemoveNthNodeFromEndOfList.java) |                 |                  |
 |  [20](https://leetcode-cn.com/problems/valid-parentheses/)   |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S20ValidParentheses.java) |                 |                  |
@@ -113,6 +114,7 @@
 | [153](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S153FindMinimumInRotatedSortedArray.java) |                 |                  |
 |      [155](https://leetcode-cn.com/problems/min-stack/)      |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S155MinStack.java) |                 |                  |
 | [160](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) |     linkedlist     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/linkedlist/S160IntersectionOfTwoLinkedLists.java) |      O(n)       |       O(1)       |
+|  [162](https://leetcode-cn.com/problems/find-peak-element/)  |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S162FindPeakElement.java) |                 |                  |
 | [165](https://leetcode-cn.com/problems/compare-version-numbers/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S165CompareVersionNumbers.java) |                 |                  |
 | [167](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) |      hashmap       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/hashmap/S167TwoSumIIInputArrayIsSorted.java) |      O(n)       |       O(n)       |
 | [168](https://leetcode-cn.com/problems/excel-sheet-column-title/) |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S168ExcelSheetColumnTitle.java) |      O(n)       |       O(1)       |
@@ -143,6 +145,7 @@
 | [226](https://leetcode-cn.com/problems/invert-binary-tree/)  |     tree,stack     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S226InvertBinaryTree.java) |                 |                  |
 | [227](https://leetcode-cn.com/problems/basic-calculator-ii/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S227BasicCalculatorII.java) |                 |                  |
 |   [228](https://leetcode-cn.com/problems/summary-ranges/)    |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S228SummaryRange.java) |                 |                  |
+| [229](https://leetcode-cn.com/problems/majority-element-ii/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S229MajorityElementII.java) |                 |                  |
 | [230](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S230KthSmallestElementInABST.java) |      O(n)       |       O(1)       |
 |    [231](https://leetcode-cn.com/problems/power-of-two/)     |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S231PowerOfTwo.java) |      O(1)       |       O(1)       |
 | [232](https://leetcode-cn.com/problems/implement-queue-using-stacks/) |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S232ImplementQueueUsingStacks.java) |                 |                  |
@@ -322,6 +325,7 @@
 |   [766](https://leetcode-cn.com/problems/toeplitz-matrix/)   |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S766ToeplitzMatrix.java) |     O(n*m)      |       O(1)       |
 | [769](https://leetcode-cn.com/problems/max-chunks-to-make-sorted/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S769MaxChunksToMakeSorted.java) |                 |                  |
 |  [771](https://leetcode-cn.com/problems/jewels-and-stones/)  |      hashmap       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/hashmap/S771JewelsAndStones.java) |      O(n)       |       O(n)       |
+| [775](https://leetcode-cn.com/problems/global-and-local-inversions/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S775GlobalAndLocalInversions.java) |                 |                  |
 | [783](https://leetcode-cn.com/problems/minimum-distance-between-bst-nodes/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S783MinimumDistanceBetweenBSTNodes.java) |      O(n)       |       O(1)       |
 | [784](https://leetcode-cn.com/problems/letter-case-permutation/) |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S784LetterCasePermutation.java) |      O(n)       |       O(1)       |
 |   [788](https://leetcode-cn.com/problems/rotated-digits/)    |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S788RotatedDigits.java) |                 |                  |
@@ -422,6 +426,7 @@
 | [1046](https://leetcode-cn.com/problems/last-stone-weight/)  |        heap        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/heap/S1046LastStoneWeight.java) |                 |                  |
 | [1047](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/) |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S1047RemoveAllAdjacentDuplicatesInString.java) |                 |                  |
 |   [1051](https://leetcode-cn.com/problems/height-checker/)   |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S1051HeightChecker.java) |                 |                  |
+| [1052](https://leetcode-cn.com/problems/grumpy-bookstore-owner/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/java/S1052GrumpyBookstoreOwner.java) |                 |                  |
 |  [1089](https://leetcode-cn.com/problems/duplicate-zeros/)   |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S1089DuplicateZeros.java) |                 |                  |
 | [1104](https://leetcode-cn.com/problems/path-in-zigzag-labelled-binary-tree/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S1104PathInZigzagLabelledBinaryTree.java) |                 |                  |
 
