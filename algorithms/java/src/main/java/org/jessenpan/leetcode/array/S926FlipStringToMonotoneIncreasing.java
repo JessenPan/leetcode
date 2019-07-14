@@ -7,7 +7,7 @@ package org.jessenpan.leetcode.array;
 public class S926FlipStringToMonotoneIncreasing {
 
     public int minFlipsMonoIncr(String s) {
-        
+        return 1;
     }
 
 }
