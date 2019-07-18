@@ -25,17 +25,14 @@ public class S56MergeIntervals {
                 compared = intervals[i];
                 continue;
             }
-            if (i == (len - 1)) {
-                list.add(compared);
-                compared = null;
-                continue;
-            }
 
-            if (intervals[i][0] <= compared[0] && compared[0] <= intervals[i][1]) {
-                compared[1] = intervals[i][1];
+            if (compared[0] <= intervals[i][0] && intervals[i][0] <= compared[1]) {
+                if (intervals[i][1] > compared[1]) {
+                    compared[1] = intervals[i][1];
+                }
             } else {
                 list.add(compared);
-                compared = null;
+                compared = intervals[i];
             }
         }
         if (compared != null) {

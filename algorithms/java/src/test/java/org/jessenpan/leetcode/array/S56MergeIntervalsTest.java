@@ -22,4 +22,10 @@ public class S56MergeIntervalsTest {
         Assert.assertArrayEquals(new int[][] { { 1, 5 } }, intervals);
     }
 
+    @Test
+    public void test3() {
+        int[][] intervals = mergeIntervals.merge(new int[][] { { 1, 4 }, { 2, 3 } });
+        Assert.assertArrayEquals(new int[][] { { 1, 4 } }, intervals);
+    }
+
 }
