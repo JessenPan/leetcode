@@ -45,6 +45,7 @@
 |       [51](https://leetcode-cn.com/problems/n-queens/)       |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S51NQueens.java) |                 |                  |
 |     [52](https://leetcode-cn.com/problems/n-queens-ii/)      |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S52NQueensII.java) |                 |                  |
 |   [53](https://leetcode-cn.com/problems/maximum-subarray/)   | dynamicprogramming | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dynamicprogramming/S53MaximumSubarray.java) |      O(n)       |       O(1)       |
+|    [54](https://leetcode-cn.com/problems/spiral-matrix/)     |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S54SpiralMatrix.java) |                 |                  |
 |   [56](https://leetcode-cn.com/problems/merge-intervals/)    |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S56MergeIntervals.java) |    O(nlogN)     |       O(1)       |
 | [58](https://leetcode-cn.com/problems/length-of-last-word/)  |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S58LengthOfLastWord.java) |      O(n)       |       O(1)       |
 |   [59](https://leetcode-cn.com/problems/spiral-matrix-ii/)   |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S59SpiralMatrixII.java) |                 |                  |
