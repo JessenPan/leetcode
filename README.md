@@ -177,6 +177,7 @@
 | [287](https://leetcode-cn.com/problems/find-the-duplicate-number/) |                    | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S287FindTheDuplicateNumber.java) |      O(n)       |       O(1)       |
 |    [289](https://leetcode-cn.com/problems/game-of-life/)     |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S289GameOfLife.java) |                 |                  |
 |    [290](https://leetcode-cn.com/problems/word-pattern/)     |      hashmap       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/hashmap/S219ContainsDuplicateII.java) |      O(n)       |       O(n)       |
+|   [299](https://leetcode-cn.com/problems/bulls-and-cows/)    |      hashmap       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/hashmap/S299BullsAndCows.java) |                 |                  |
 | [303](https://leetcode-cn.com/problems/range-sum-query-immutable/) | dynamicProgramming | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dynamicprogramming/S303RangeSumQuery.java) |                 |                  |
 |   [306](https://leetcode-cn.com/problems/additive-number/)   |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S306AdditiveNumber.java) |                 |                  |
 |  [313](https://leetcode-cn.com/problems/super-ugly-number/)  |        heap        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/heap/S313SuperUglyNumber.java) |                 |                  |
