@@ -452,6 +452,7 @@
 | [1031](https://leetcode-cn.com/problems/maximum-sum-of-two-non-overlapping-subarrays/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S1031MaximumSumOfTwoNonOverLappingSubarrays.java) |                 |                  |
 | [1032](https://leetcode-cn.com/problems/stream-of-characters/) |        trie        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/trie/S1032StreamOfCharacters.java) |                 |                  |
 | [1038](https://leetcode-cn.com/problems/binary-search-tree-to-greater-sum-tree/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S1038BinarySearchTreeToGreaterSumTree.java) |      O(n)       |                  |
+| [1041](https://leetcode-cn.com/problems/robot-bounded-in-circle/) |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S1041RobotBoundedInCircle.java) |                 |                  |
 | [1046](https://leetcode-cn.com/problems/last-stone-weight/)  |        heap        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/heap/S1046LastStoneWeight.java) |                 |                  |
 | [1047](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/) |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S1047RemoveAllAdjacentDuplicatesInString.java) |                 |                  |
 |   [1051](https://leetcode-cn.com/problems/height-checker/)   |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S1051HeightChecker.java) |                 |                  |
@@ -459,6 +460,7 @@
 | [1072](https://leetcode-cn.com/problems/flip-columns-for-maximum-number-of-equal-rows/) |      hashmap       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/hashmap/S1072FlipColumnsForMaximumNumberOfEqualRows.java) |                 |                  |
 | [1078](https://leetcode-cn.com/problems/occurrences-after-bigram/) |      hashmap       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/hashmap/S1052GrumpyBookstoreOwner.java) |      O(n)       |       O(n)       |
 |  [1089](https://leetcode-cn.com/problems/duplicate-zeros/)   |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S1089DuplicateZeros.java) |                 |                  |
+| [1103](https://leetcode-cn.com/problems/distribute-candies-to-people/) |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S1103DistributeCandiesToPeople.java) |                 |                  |
 | [1104](https://leetcode-cn.com/problems/path-in-zigzag-labelled-binary-tree/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S1104PathInZigzagLabelledBinaryTree.java) |                 |                  |
 
 # concurrency
