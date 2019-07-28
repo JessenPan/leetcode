@@ -17,7 +17,7 @@ public class S204CountPrimes {
         }
 
         for (int j = 2; j < n; j++) {
-            if (0 == num[j - 1]) {
+            if (0 == num[j]) {
                 continue;
             }
             for (int k = 2; k * j < n; k++) {
@@ -28,6 +28,7 @@ public class S204CountPrimes {
         num[0] = num[1] = 0;
         int sum = 0;
         for (int i = 0; i < n; i++) {
+
             if (0 != num[i]) {
                 sum++;
             }
