@@ -470,6 +470,7 @@
 | [1104](https://leetcode-cn.com/problems/path-in-zigzag-labelled-binary-tree/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S1104PathInZigzagLabelledBinaryTree.java) |                 |                  |
 | [1108](https://leetcode-cn.com/problems/defanging-an-ip-address/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S1108DefangingAnIpAddress.java) |                 |                  |
 | [1122](https://leetcode-cn.com/problems/relative-sort-array/) |        sort        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/sort/S1122RelativeSortArray.java) |                 |                  |
+| [1030](https://leetcode-cn.com/problems/matrix-cells-in-distance-order/) |        sort        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/sort/S1030MatrixCellsInDistanceOrder.java) |                 |                  |
 | [1137](https://leetcode-cn.com/problems/n-th-tribonacci-number/) |     recursion      | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/recursion/S1137NthTribonacciNumber.java) |                 |                  |
 
 # concurrency
