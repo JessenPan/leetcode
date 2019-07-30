@@ -214,6 +214,7 @@
 | [404](https://leetcode-cn.com/problems/sum-of-left-leaves/)  |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S404SumOfLeftLeaves.java) |      O(n)       |                  |
 | [405](https://leetcode-cn.com/problems/convert-a-number-to-hexadecimal/) |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S405ConvertANumberToHexadecimal.java) |                 |                  |
 | [409](https://leetcode-cn.com/problems/longest-palindrome/)  |      hashmap       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/hashmap/S409LongestPalindrome.java) |      O(n)       |       O(n)       |
+|      [412](https://leetcode-cn.com/problems/fizz-buzz/)      |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S412FizzBuzz.java) |      O(n)       |                  |
 | [414](https://leetcode-cn.com/problems/third-maximum-number/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S414ThirdMaximumNumber.java) |      O(n)       |       O(1)       |
 |     [415](https://leetcode-cn.com/problems/add-strings/)     |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S415AddStrings.java) |      O(n)       |       O(n)       |
 | [421](https://leetcode-cn.com/problems/maximum-xor-of-two-numbers-in-an-array/submissions/) |        tire        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/trie/S421MaximumXOROfTwoNumbersInAnArray.java) |                 |                  |
@@ -469,6 +470,7 @@
 | [1104](https://leetcode-cn.com/problems/path-in-zigzag-labelled-binary-tree/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S1104PathInZigzagLabelledBinaryTree.java) |                 |                  |
 | [1108](https://leetcode-cn.com/problems/defanging-an-ip-address/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S1108DefangingAnIpAddress.java) |                 |                  |
 | [1122](https://leetcode-cn.com/problems/relative-sort-array/) |        sort        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/sort/S1122RelativeSortArray.java) |                 |                  |
+| [1137](https://leetcode-cn.com/problems/n-th-tribonacci-number/) |     recursion      | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/recursion/S1137NthTribonacciNumber.java) |                 |                  |
 
 # concurrency
 
