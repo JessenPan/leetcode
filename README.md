@@ -467,6 +467,7 @@
 | [1103](https://leetcode-cn.com/problems/distribute-candies-to-people/) |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S1103DistributeCandiesToPeople.java) |                 |                  |
 | [1104](https://leetcode-cn.com/problems/path-in-zigzag-labelled-binary-tree/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S1104PathInZigzagLabelledBinaryTree.java) |                 |                  |
 | [1108](https://leetcode-cn.com/problems/defanging-an-ip-address/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S1108DefangingAnIpAddress.java) |                 |                  |
+| [1122](https://leetcode-cn.com/problems/relative-sort-array/) |        sort        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/sort/S1122RelativeSortArray.java) |                 |                  |
 
 # concurrency
 
