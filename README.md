@@ -482,6 +482,7 @@
 | [1108](https://leetcode-cn.com/problems/defanging-an-ip-address/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S1108DefangingAnIpAddress.java) |                 |                  |
 | [1122](https://leetcode-cn.com/problems/relative-sort-array/) |        sort        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/sort/S1122RelativeSortArray.java) |                 |                  |
 | [1030](https://leetcode-cn.com/problems/matrix-cells-in-distance-order/) |        sort        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/sort/S1030MatrixCellsInDistanceOrder.java) |                 |                  |
+| [1090](https://leetcode-cn.com/problems/largest-values-from-labels/) |       greedy       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/greedy/S1090LargestValuesFromLabels.java) |                 |                  |
 |    [1094](https://leetcode-cn.com/problems/car-pooling/)     |       greedy       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/greedy/S1094CarPooling.java) |                 |                  |
 | [1137](https://leetcode-cn.com/problems/n-th-tribonacci-number/) |     recursion      | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/recursion/S1137NthTribonacciNumber.java) |                 |                  |
 
