@@ -110,6 +110,7 @@
 | [129](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S129SumRootToLeafNumbers.java) |      O(n)       |       O(1)       |
 | [131](https://leetcode-cn.com/problems/palindrome-partitioning/) |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S131PalindromePartitioning.java) |                 |                  |
 |     [134](https://leetcode-cn.com/problems/gas-station/)     |       greedy       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/greedy/S134GasStation.java) |                 |                  |
+|        [135](https://leetcode-cn.com/problems/candy/)        |       greedy       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/greedy/S135Candy.java) |                 |                  |
 |    [136](https://leetcode-cn.com/problems/single-number/)    |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S136SingleNumber.java) |      O(n)       |       O(1)       |
 |  [137](https://leetcode-cn.com/problems/single-number-ii/)   |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S137SingleNumberII.java) |      O(n)       |       O(1)       |
 | [138](https://leetcode-cn.com/problems/copy-list-with-random-pointer/) |     linkedlist     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/linkedlist/S138CopyListWithRandomPointer.java) |      O(n)       |       O(n)       |
