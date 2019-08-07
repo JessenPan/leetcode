@@ -1,13 +1,13 @@
-package org.jessenpan.leetcode.stack;
+package org.jessenpan.leetcode.greedy;
 
 /**
  * @author jessenpan
- * tag:stack
+ * tag:greedy
  */
 public class S402RemoveKDigits {
 
     public String removeKdigits(String num, int k) {
-        return "";
+        return null;
     }
 
 }
