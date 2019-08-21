@@ -47,6 +47,7 @@
 |   [47](https://leetcode-cn.com/problems/permutations-ii/)    |    backTracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S47PermutationsII.java) |                 |                  |
 |     [48](https://leetcode-cn.com/problems/rotate-image/)     |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S48RotateImage.java) |                 |                  |
 | [49](https://leetcode-cn.com/problems/group-anagrams/submissions/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S49GroupAnagrams.java) |                 |                  |
+|        [50](https://leetcode-cn.com/problems/powx-n/)        |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S50PowXN.java) |                 |                  |
 |       [51](https://leetcode-cn.com/problems/n-queens/)       |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S51NQueens.java) |                 |                  |
 |     [52](https://leetcode-cn.com/problems/n-queens-ii/)      |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S52NQueensII.java) |                 |                  |
 |   [53](https://leetcode-cn.com/problems/maximum-subarray/)   | dynamicprogramming | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dynamicprogramming/S53MaximumSubarray.java) |      O(n)       |       O(1)       |
