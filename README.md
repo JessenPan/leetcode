@@ -219,6 +219,7 @@
 |     [383](https://leetcode-cn.com/problems/ransom-note/)     |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S383RansomNote.java) |      O(n)       |       O(1)       |
 | [387](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S387FirstUniqueCharacterInAString.java) |      O(n)       |       O(1)       |
 | [389](https://leetcode-cn.com/problems/find-the-difference/) |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S389FindTheDifference.java) |      O(n)       |       O(1)       |
+|   [392](https://leetcode-cn.com/problems/is-subsequence/)    | dynamicProgramming | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dynamicProgramming/S392IsSubsequence.java) |                 |                  |
 |  [393](https://leetcode-cn.com/problems/utf-8-validation/)   |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S393Utf8Validation.java) |                 |                  |
 | [397](https://leetcode-cn.com/problems/integer-replacement/) |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S397IntegerReplacement.java) |                 |                  |
 |    [401](https://leetcode-cn.com/problems/binary-watch/)     |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S401BinaryWatch.java) |                 |                  |
