@@ -513,6 +513,7 @@
 |    [1094](https://leetcode-cn.com/problems/car-pooling/)     |       greedy       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/greedy/S1094CarPooling.java) |                 |                  |
 | [1137](https://leetcode-cn.com/problems/n-th-tribonacci-number/) |     recursion      | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/recursion/S1137NthTribonacciNumber.java) |                 |                  |
 | [1160](https://leetcode-cn.com/problems/find-words-that-can-be-formed-by-characters/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S1160FindWordsThatCanBeFormedByCharacters.java) |                 |                  |
+| [1170](https://leetcode-cn.com/problems/compare-strings-by-frequency-of-the-smallest-character/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S1170CompareStringsByFrequencyOfTheSmallestCharacter.java) |                 |                  |
 
 # concurrency
 
