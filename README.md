@@ -143,6 +143,7 @@
 |    [189](https://leetcode-cn.com/problems/rotate-array/)     |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S189RotateArray.java) |     O(n*n)      |       O(1)       |
 |    [190](https://leetcode-cn.com/problems/reverse-bits/)     |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S190ReverseBits.java) |                 |                  |
 |  [191](https://leetcode-cn.com/problems/number-of-1-bits/)   |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S191NumberOf1Bits.java) |      O(1)       |       O(1)       |
+|    [198](https://leetcode-cn.com/problems/house-robber/)     | dynamicProgramming | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dynamicProgramming/S198HouseRobber.java) |                 |                  |
 | [199](https://leetcode-cn.com/problems/binary-tree-right-side-view/) |  depthFirstSearch  | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S199BinaryTreeRightSideView.java) |      O(n)       |       O(n)       |
 | [201](https://leetcode-cn.com/problems/bitwise-and-of-numbers-range/) |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S201BitwiseAndOfNumbersRange.java) |                 |                  |
 |    [202](https://leetcode-cn.com/problems/happy-number/)     |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S202HappyNumber.java) |                 |       O(n)       |
