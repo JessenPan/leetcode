@@ -59,6 +59,7 @@
 |   [59](https://leetcode-cn.com/problems/spiral-matrix-ii/)   |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S59SpiralMatrixII.java) |                 |                  |
 | [60](https://leetcode-cn.com/problems/permutation-sequence/) |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S60PermutationSequence.java) |                 |                  |
 |     [61](https://leetcode-cn.com/problems/rotate-list/)      |     linkedlist     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/linkedlist/S61RotateList.java) |                 |                  |
+|   [64](https://leetcode-cn.com/problems/minimum-path-sum/)   | dynamicProgramming | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dynamicProgramming/S64MinimumPathSum.java) |                 |                  |
 |       [66](https://leetcode-cn.com/problems/plus-one/)       |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S66PlusOne.java) |                 |                  |
 |      [67](https://leetcode-cn.com/problems/add-binary/)      |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S67AddBinary.java) |      O(n)       |       O(n)       |
 |  [68](https://leetcode-cn.com/problems/text-justification/)  |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S68TextJustification.java) |                 |                  |
@@ -415,6 +416,7 @@
 |  [870](https://leetcode-cn.com/problems/advantage-shuffle/)  |       greedy       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/greedy/S870AdvantageShuffle.java) |                 |                  |
 | [872](https://leetcode-cn.com/problems/leaf-similar-trees/)  |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S872LeafSimilarTrees.java) |      O(n)       |                  |
 | [876](https://leetcode-cn.com/problems/middle-of-the-linked-list/) |     linkedList     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/linkedlist/S876MiddleOfTheLinkedList.java) |      O(n)       |       O(1)       |
+|     [877](https://leetcode-cn.com/problems/stone-game/)      | dynamicProgramming | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dynamicProgramming/S877StoneGame.java) |                 |                  |
 | [881](https://leetcode-cn.com/problems/boats-to-save-people/) |       greedy       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/greedy/S881BoatsToSavePeople.java) |                 |                  |
 | [883](https://leetcode-cn.com/problems/projection-area-of-3d-shapes/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S883ProjectionAreaOf3DShapes.java) |     O(n*n)      |       O(n)       |
 | [884](https://leetcode-cn.com/problems/uncommon-words-from-two-sentences/) |      hashmap       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/hashmap/S884UncommonWordsFromTwoSentences.java) |      O(n)       |       O(n)       |
