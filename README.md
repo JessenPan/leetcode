@@ -207,6 +207,7 @@
 |    [338](https://leetcode-cn.com/problems/counting-bits/)    |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S338CountingBits.java) |      O(n)       |                  |
 | [341](https://leetcode-cn.com/problems/flatten-nested-list-iterator/) |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S341FlattenNestedListIterator.java) |                 |                  |
 |    [342](https://leetcode-cn.com/problems/power-of-four/)    |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S342PowerOfFourTest.java) |      O(1)       |       O(1)       |
+|    [343](https://leetcode-cn.com/problems/integer-break/)    | dynamicProgramming | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dynamicProgramming/S343IntegerBreak.java) |                 |                  |
 |   [344](https://leetcode-cn.com/problems/reverse-string/)    |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S344ReverseString.java) |      O(n)       |       O(1)       |
 | [345](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S344ReverseString.java) |      O(n)       |       O(n)       |
 | [347](https://leetcode-cn.com/problems/top-k-frequent-elements/) |        heap        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/heap/S347TopKFrequentElements.java) |                 |                  |

@@ -13,13 +13,19 @@ public class S343IntegerBreakTest {
     @Test
     public void test1() {
         int v = integerBreak.integerBreak(2);
-        Assert.assertEquals(2, v);
+        Assert.assertEquals(1, v);
     }
 
     @Test
     public void test2() {
         int v = integerBreak.integerBreak(10);
         Assert.assertEquals(36, v);
+    }
+
+    @Test
+    public void test3() {
+        int v = integerBreak.integerBreak(42);
+        Assert.assertEquals(4782969, v);
     }
 
 }
