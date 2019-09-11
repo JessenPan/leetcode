@@ -65,3 +65,4 @@ Temporary Items
 *.tar.gz
 *.rar
 hs_err_pid*
+**.iml
