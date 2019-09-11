@@ -188,6 +188,7 @@
 |     [263](https://leetcode-cn.com/problems/ugly-number/)     |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S263UglyNumber.java) |      O(n)       |       O(1)       |
 |   [268](https://leetcode-cn.com/problems/missing-number/)    |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S268MissingNumber.java) |      O(n)       |       O(1)       |
 |  [278](https://leetcode-cn.com/problems/first-bad-version/)  |    binarySearch    | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/binarysearch/SS278FirstBadVersion.java) |                 |                  |
+|   [279](https://leetcode-cn.com/problems/perfect-squares/)   | dynamicProgramming | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dynamicProgramming/S279PerfectSquares.java) |                 |                  |
 | [282](https://leetcode-cn.com/problems/expression-add-operators/) |  divideAndComquer  | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/divide/S282ExpressionAddOperators.java) |                 |                  |
 |     [283](https://leetcode-cn.com/problems/move-zeroes/)     |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S283MoveZeros.java) |      O(n)       |       O(1)       |
 | [287](https://leetcode-cn.com/problems/find-the-duplicate-number/) |                    | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S287FindTheDuplicateNumber.java) |      O(n)       |       O(1)       |
