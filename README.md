@@ -59,6 +59,7 @@
 |   [59](https://leetcode-cn.com/problems/spiral-matrix-ii/)   |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S59SpiralMatrixII.java) |                 |                  |
 | [60](https://leetcode-cn.com/problems/permutation-sequence/) |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S60PermutationSequence.java) |                 |                  |
 |     [61](https://leetcode-cn.com/problems/rotate-list/)      |     linkedlist     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/linkedlist/S61RotateList.java) |                 |                  |
+|     [62](https://leetcode-cn.com/problems/unique-paths/)     | dynamicProgramming | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dynamicProgramming/S62UniquePaths.java) |                 |                  |
 |   [64](https://leetcode-cn.com/problems/minimum-path-sum/)   | dynamicProgramming | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dynamicProgramming/S64MinimumPathSum.java) |                 |                  |
 |       [66](https://leetcode-cn.com/problems/plus-one/)       |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S66PlusOne.java) |                 |                  |
 |      [67](https://leetcode-cn.com/problems/add-binary/)      |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S67AddBinary.java) |      O(n)       |       O(n)       |

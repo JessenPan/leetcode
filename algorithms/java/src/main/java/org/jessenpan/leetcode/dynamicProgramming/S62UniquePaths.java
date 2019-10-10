@@ -2,32 +2,32 @@ package org.jessenpan.leetcode.dynamicProgramming;
 
 /**
  * @author jessenpan
+ * tag:dynamicProgramming
  */
 public class S62UniquePaths {
 
-    private int row, col;
-
-    private int pathCount = 0;
+    private Integer[][] array;
 
     public int uniquePaths(int m, int n) {
-        this.col = m - 1;
-        this.row = n - 1;
-        findPath(0, 0);
-        return pathCount;
+        if (m == 0 || n == 0) {
+            return 0;
+        }
+        this.array = new Integer[n][m];
+        return findPath(n, m);
     }
 
-    private void findPath(int x, int y) {
-        if (x == row && y == col) {
-            pathCount++;
-            return;
+    private int findPath(int row, int col) {
+        if (row == 1 || col == 1) {
+            return 1;
         }
 
-        if (x > row || y > col) {
-            return;
+        if (this.array[row - 1][col - 1] != null) {
+            return this.array[row - 1][col - 1];
         }
 
-        findPath(x + 1, y);
-        findPath(x, y + 1);
+        int val = findPath(row - 1, col) + findPath(row, col - 1);
+        this.array[row - 1][col - 1] = val;
+        return val;
     }
 
 }
