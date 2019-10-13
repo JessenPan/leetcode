@@ -2,6 +2,8 @@
 
 ## Algorithms
 
+>  This code base contains the solution to a problem whose id is less than 1200
+
 **Note**:The space complexity here does not include the return value
 
 |                              id                              |        tag         | solution                                                     | time complexity | space complexity |
@@ -387,6 +389,7 @@
 |  [763](https://leetcode-cn.com/problems/partition-labels/)   |       greedy       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/greedy/S763PartitionLabels.java) |                 |                  |
 |   [766](https://leetcode-cn.com/problems/toeplitz-matrix/)   |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S766ToeplitzMatrix.java) |     O(n*m)      |       O(1)       |
 |  [767](https://leetcode-cn.com/problems/reorganize-string/)  |       greedy       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/greedy/S767ReorganizeString.java) |                 |                  |
+| [768](https://leetcode-cn.com/problems/max-chunks-to-make-sorted-ii/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S768MaxChunksToMakeSortedII.java) |                 |                  |
 | [769](https://leetcode-cn.com/problems/max-chunks-to-make-sorted/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S769MaxChunksToMakeSorted.java) |                 |                  |
 |  [771](https://leetcode-cn.com/problems/jewels-and-stones/)  |      hashmap       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/hashmap/S771JewelsAndStones.java) |      O(n)       |       O(n)       |
 | [775](https://leetcode-cn.com/problems/global-and-local-inversions/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S775GlobalAndLocalInversions.java) |                 |                  |
