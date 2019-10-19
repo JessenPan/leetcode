@@ -46,6 +46,7 @@
 |  [40](https://leetcode-cn.com/problems/combination-sum-ii/)  |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S40CombinationSumII.java) |                 |                  |
 | [42](https://leetcode-cn.com/problems/trapping-rain-water/)  |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S42TrappingRainWater.java) |                 |                  |
 |   [43](https://leetcode-cn.com/problems/multiply-strings/)   |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S43MultiplyStrings.java) |                 |                  |
+|     [45](https://leetcode-cn.com/problems/jump-game-ii/)     |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S45JumpGameII.java) |                 |                  |
 |     [46](https://leetcode-cn.com/problems/permutations/)     |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S46Permutations.java) |      O(n)       |                  |
 |   [47](https://leetcode-cn.com/problems/permutations-ii/)    |    backTracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S47PermutationsII.java) |                 |                  |
 |     [48](https://leetcode-cn.com/problems/rotate-image/)     |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S48RotateImage.java) |                 |                  |
@@ -57,6 +58,7 @@
 |    [54](https://leetcode-cn.com/problems/spiral-matrix/)     |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S54SpiralMatrix.java) |                 |                  |
 |      [55](https://leetcode-cn.com/problems/jump-game/)       |       greedy       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/greedy/S55JumpGame.java) |                 |                  |
 |   [56](https://leetcode-cn.com/problems/merge-intervals/)    |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S56MergeIntervals.java) |    O(nlogN)     |       O(1)       |
+|   [57](https://leetcode-cn.com/problems/insert-interval/)    |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S57InsertInterval.java) |                 |                  |
 | [58](https://leetcode-cn.com/problems/length-of-last-word/)  |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S58LengthOfLastWord.java) |      O(n)       |       O(1)       |
 |   [59](https://leetcode-cn.com/problems/spiral-matrix-ii/)   |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S59SpiralMatrixII.java) |                 |                  |
 | [60](https://leetcode-cn.com/problems/permutation-sequence/) |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S60PermutationSequence.java) |                 |                  |
@@ -80,6 +82,7 @@
 | [81](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/) | array,binarySearch | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S81SearchInRotatedSortedArrayII.java) |                 |                  |
 | [82](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/) |     linkedlist     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/linkedlist/S82RemoveDuplicatesFromSortedListII.java) |                 |                  |
 | [83](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) |    linked list     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/linkedlist/S83RemoveDuplicatesFromSortedList.java) |      O(n)       |       O(1)       |
+| [84](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S84LargestRectangleInHistogram.java) |                 |                  |
 |    [86](https://leetcode-cn.com/problems/partition-list/)    |     linkedlist     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/linkedlist/S86PartitionList.java) |                 |                  |
 |  [88](https://leetcode-cn.com/problems/merge-sorted-array/)  |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S88MergeSortedArray.java) |     O(n*n)      |       O(1)       |
 |      [89](https://leetcode-cn.com/problems/gray-code/)       |    backTracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S89GrayCode.java) |      O(n)       |                  |
