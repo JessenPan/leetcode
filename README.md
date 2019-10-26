@@ -73,6 +73,7 @@
 |        [69](https://leetcode-cn.com/problems/sqrtx/)         |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S69SqrtX.java) |     O(logN)     |       O(1)       |
 |   [70](https://leetcode-cn.com/problems/climbing-stairs/)    | dynamicProgramming | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dynamicProgramming/S70ClimbingStairs.java) |                 |                  |
 |    [71](https://leetcode-cn.com/problems/simplify-path/)     |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S71SimplifyPath.java) |      O(n)       |                  |
+|    [72](https://leetcode-cn.com/problems/edit-distance/)     | dynamicProgramming | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dynamicProgramming/S72EditDistance.java) |                 |                  |
 |  [73](https://leetcode-cn.com/problems/set-matrix-zeroes/)   |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S73SetMatrixZeroes.java) |                 |                  |
 |  [74](https://leetcode-cn.com/problems/search-a-2d-matrix/)  |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S74SearchA2dMatrix.java) |                 |                  |
 |     [75](https://leetcode-cn.com/problems/sort-colors/)      |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S75SortColors.java) |                 |                  |
