@@ -22,4 +22,10 @@ public class S474OnesAndZeroesTest {
         Assert.assertEquals(2, c);
     }
 
+    @Test
+    public void test3() {
+        int c = onesAndZeroes.findMaxForm(new String[] { "0", "00", "1" }, 1, 0);
+        Assert.assertEquals(1, c);
+    }
+
 }
