@@ -7,34 +7,21 @@ package org.jessenpan.leetcode.dynamicProgramming;
 public class S516LongestPalindromicSubsequence {
 
     public int longestPalindromeSubseq(String s) {
-        int start = 0, end = s.length() - 1;
-        while (true) {
-            if (start == end) {
-                return 1;
+        int n = s.length();
+        int[][] f = new int[n][n];
+        for (int i = n - 1; i >= 0; i--) {
+            f[i][i] = 1;
+            for (int j = i + 1; j < n; j++) {
+                if (s.charAt(i) == s.charAt(j)) {
+                    f[i][j] = f[i + 1][j - 1] + 2;
+                } else {
+                    f[i][j] = Math.max(f[i + 1][j], f[i][j - 1]);
+                }
             }
-            if (isPalindrome(s, start, end)) {
-                return end - start + 1;
-            }
-            if (isPalindrome(s, start + 1, end)) {
-                return end - start;
-            }
-
-            if (isPalindrome(s, start, end - 1)) {
-                return end - start;
-            }
-            ++start;
-            --end;
         }
+        return f[0][n - 1];
+        
     }
 
-    private boolean isPalindrome(String str, int start, int end) {
-        while (start <= end) {
-            if (str.charAt(start) != str.charAt(end)) {
-                return false;
-            }
-            start++;
-            end--;
-        }
-        return true;
-    }
+    
 }
