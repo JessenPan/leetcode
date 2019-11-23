@@ -1,4 +1,4 @@
-package org.jessenpan.leetcode.depthfirstsearch;
+package org.jessenpan.leetcode.dfs;
 
 import java.util.ArrayList;
 import java.util.List;

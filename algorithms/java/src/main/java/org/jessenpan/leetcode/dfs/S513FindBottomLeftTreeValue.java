@@ -1,12 +1,13 @@
-package org.jessenpan.leetcode.depthfirstsearch;
+package org.jessenpan.leetcode.dfs;
 
-import java.util.*;
+import java.util.LinkedList;
+import java.util.Queue;
 
 /**
  * @author jessenpan
- * tag:tree
+ * tag:depthFirstSearch
  */
-public class S199BinaryTreeRightSideView {
+public class S513FindBottomLeftTreeValue {
 
     public static class TreeNode {
 
@@ -17,29 +18,26 @@ public class S199BinaryTreeRightSideView {
         TreeNode(int x) { val = x; }
     }
 
-    public List<Integer> rightSideView(TreeNode root) {
-        if (root == null) {
-            return Collections.emptyList();
-        }
-        List<Integer> rightSides = new ArrayList<>();
+    public int findBottomLeftValue(TreeNode root) {
+
+        int bottomLeftValue = 0;
         Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
         while (!queue.isEmpty()) {
 
-            rightSides.add(queue.peek().val);
+            bottomLeftValue = queue.peek().val;
             Queue<TreeNode> nextLevel = new LinkedList<>();
             while (!queue.isEmpty()) {
                 TreeNode node = queue.poll();
-                if (node.right != null) {
-                    nextLevel.offer(node.right);
-                }
                 if (node.left != null) {
                     nextLevel.offer(node.left);
+                }
+                if (node.right != null) {
+                    nextLevel.offer(node.right);
                 }
             }
             queue = nextLevel;
         }
-        return rightSides;
+        return bottomLeftValue;
     }
-
 }

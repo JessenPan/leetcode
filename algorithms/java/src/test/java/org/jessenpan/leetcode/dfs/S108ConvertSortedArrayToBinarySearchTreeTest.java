@@ -1,6 +1,5 @@
-package org.jessenpan.leetcode.depthfirstsearch;
+package org.jessenpan.leetcode.dfs;
 
-import org.jessenpan.leetcode.depthfirstsearch.S108ConvertSortedArrayToBinarySearchTree;
 import org.junit.Test;
 
 /**

@@ -1,12 +1,12 @@
-package org.jessenpan.leetcode.depthfirstsearch;
+package org.jessenpan.leetcode.dfs;
 
 import java.util.*;
 
 /**
  * @author jessenpan
- * tag:depthFirstSearch
+ * tag:depthFisrtSearch
  */
-public class S102BinaryTreeLevelOrderTraversal {
+public class S958CheckCompletenessOfABinaryTree {
 
     public static class TreeNode {
 
@@ -17,31 +17,37 @@ public class S102BinaryTreeLevelOrderTraversal {
         TreeNode(int x) { val = x; }
     }
 
-    public List<List<Integer>> levelOrder(TreeNode root) {
+    public boolean isCompleteTree(TreeNode root) {
         if (root == null) {
-            return Collections.emptyList();
+            return true;
         }
-        List<List<Integer>> levelOrders = new ArrayList<>();
+        int level = 1, sum = 0;
         Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
         while (!queue.isEmpty()) {
-            List<Integer> list = new ArrayList<>();
+            sum=0;
             Queue<TreeNode> nextLevel = new LinkedList<>();
             while (!queue.isEmpty()) {
                 TreeNode node = queue.poll();
-                list.add(node.val);
-               
+                sum++;
                 if (node.left != null) {
                     nextLevel.offer(node.left);
                 }
-                if (node.right != null) {
+                if (node.left==null&&node.right != null) {
+                    return false;
+                }
+                if(node.right!=null){
                     nextLevel.offer(node.right);
                 }
+
             }
-            levelOrders.add(list);
             queue = nextLevel;
+            if (sum != Math.pow(2, level - 1) && !nextLevel.isEmpty()) {
+                return false;
+            }
+            level++;
         }
-        return levelOrders;
+        return true;
     }
 
 }

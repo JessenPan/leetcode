@@ -1,12 +1,12 @@
-package org.jessenpan.leetcode.depthfirstsearch;
+package org.jessenpan.leetcode.dfs;
 
 import java.util.*;
 
 /**
  * @author jessenpan
- * tag:depthFisrtSearch
+ * tag:tree
  */
-public class S958CheckCompletenessOfABinaryTree {
+public class S199BinaryTreeRightSideView {
 
     public static class TreeNode {
 
@@ -17,37 +17,29 @@ public class S958CheckCompletenessOfABinaryTree {
         TreeNode(int x) { val = x; }
     }
 
-    public boolean isCompleteTree(TreeNode root) {
+    public List<Integer> rightSideView(TreeNode root) {
         if (root == null) {
-            return true;
+            return Collections.emptyList();
         }
-        int level = 1, sum = 0;
+        List<Integer> rightSides = new ArrayList<>();
         Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
         while (!queue.isEmpty()) {
-            sum=0;
+
+            rightSides.add(queue.peek().val);
             Queue<TreeNode> nextLevel = new LinkedList<>();
             while (!queue.isEmpty()) {
                 TreeNode node = queue.poll();
-                sum++;
+                if (node.right != null) {
+                    nextLevel.offer(node.right);
+                }
                 if (node.left != null) {
                     nextLevel.offer(node.left);
                 }
-                if (node.left==null&&node.right != null) {
-                    return false;
-                }
-                if(node.right!=null){
-                    nextLevel.offer(node.right);
-                }
-
             }
             queue = nextLevel;
-            if (sum != Math.pow(2, level - 1) && !nextLevel.isEmpty()) {
-                return false;
-            }
-            level++;
         }
-        return true;
+        return rightSides;
     }
 
 }

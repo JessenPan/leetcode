@@ -1,4 +1,4 @@
-package org.jessenpan.leetcode.depthfirstsearch;
+package org.jessenpan.leetcode.dfs;
 
 import java.util.*;
 
@@ -6,7 +6,7 @@ import java.util.*;
  * @author jessenpan
  * tag:depthFirstSearch
  */
-public class S337HouseRobberIII {
+public class S102BinaryTreeLevelOrderTraversal {
 
     public static class TreeNode {
 
@@ -17,24 +17,20 @@ public class S337HouseRobberIII {
         TreeNode(int x) { val = x; }
     }
 
-    public int rob(TreeNode root) {
-
+    public List<List<Integer>> levelOrder(TreeNode root) {
         if (root == null) {
-            return 0;
+            return Collections.emptyList();
         }
-        int oddSum = 0, evenSum = 0;
-        int level = 1;
+        List<List<Integer>> levelOrders = new ArrayList<>();
         Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
         while (!queue.isEmpty()) {
+            List<Integer> list = new ArrayList<>();
             Queue<TreeNode> nextLevel = new LinkedList<>();
             while (!queue.isEmpty()) {
                 TreeNode node = queue.poll();
-                if ((level & 1) == 1) {
-                    oddSum += node.val;
-                } else {
-                    evenSum += node.val;
-                }
+                list.add(node.val);
+               
                 if (node.left != null) {
                     nextLevel.offer(node.left);
                 }
@@ -42,10 +38,10 @@ public class S337HouseRobberIII {
                     nextLevel.offer(node.right);
                 }
             }
-            level++;
+            levelOrders.add(list);
             queue = nextLevel;
         }
-        return Math.max(oddSum, evenSum);
+        return levelOrders;
     }
 
 }

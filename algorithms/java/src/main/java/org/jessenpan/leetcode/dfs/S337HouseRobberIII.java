@@ -1,13 +1,12 @@
-package org.jessenpan.leetcode.depthfirstsearch;
+package org.jessenpan.leetcode.dfs;
 
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.*;
 
 /**
  * @author jessenpan
  * tag:depthFirstSearch
  */
-public class S513FindBottomLeftTreeValue {
+public class S337HouseRobberIII {
 
     public static class TreeNode {
 
@@ -18,17 +17,24 @@ public class S513FindBottomLeftTreeValue {
         TreeNode(int x) { val = x; }
     }
 
-    public int findBottomLeftValue(TreeNode root) {
+    public int rob(TreeNode root) {
 
-        int bottomLeftValue = 0;
+        if (root == null) {
+            return 0;
+        }
+        int oddSum = 0, evenSum = 0;
+        int level = 1;
         Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
         while (!queue.isEmpty()) {
-
-            bottomLeftValue = queue.peek().val;
             Queue<TreeNode> nextLevel = new LinkedList<>();
             while (!queue.isEmpty()) {
                 TreeNode node = queue.poll();
+                if ((level & 1) == 1) {
+                    oddSum += node.val;
+                } else {
+                    evenSum += node.val;
+                }
                 if (node.left != null) {
                     nextLevel.offer(node.left);
                 }
@@ -36,8 +42,10 @@ public class S513FindBottomLeftTreeValue {
                     nextLevel.offer(node.right);
                 }
             }
+            level++;
             queue = nextLevel;
         }
-        return bottomLeftValue;
+        return Math.max(oddSum, evenSum);
     }
+
 }

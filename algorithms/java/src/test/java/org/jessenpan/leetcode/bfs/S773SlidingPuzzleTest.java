@@ -1,6 +1,6 @@
 package org.jessenpan.leetcode.bfs;
 
-import org.jessenpan.leetcode.depthfirstsearch.S773SlidingPuzzle;
+import org.jessenpan.leetcode.dfs.S773SlidingPuzzle;
 import org.junit.Assert;
 import org.junit.Test;
 

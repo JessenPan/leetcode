@@ -6,6 +6,10 @@ package org.jessenpan.leetcode.dp;
  */
 public class S312BurstBalloons {
 
+    private Integer[][] dp;
+
+    private int[] nums;
+
     public int maxCoins(int[] nums) {
         if (nums.length == 0) {
             return 0;
@@ -13,23 +17,22 @@ public class S312BurstBalloons {
         if (nums.length == 1) {
             return nums[0];
         }
-        return calc(nums, nums.length);
+        int n = nums.length;
+        this.nums = nums;
+        dp = new Integer[n][n];
+        return calc(0, n - 1);
     }
 
-    private int calc(int[] nums, int left) {
-        if (left == 0) {
-            return 0;
+    private int calc(int left, int right) {
+        if (dp[left][right] != null) {
+            return dp[left][right];
         }
-        int len=nums.length;
-        int max=Integer.MIN_VALUE;
-        for (int i = 0; i < left; i++) {
-            if(nums[i]<0){
-                continue;
-            }
-            if(i==0){
-                
-            }
+        int max = Integer.MIN_VALUE;
+
+        for (int i = left; i <= right; i++) {
+            
         }
+        dp[left][right] = max;
         return max;
     }
 

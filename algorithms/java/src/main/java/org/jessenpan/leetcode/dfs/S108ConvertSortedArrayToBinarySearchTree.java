@@ -1,4 +1,4 @@
-package org.jessenpan.leetcode.depthfirstsearch;
+package org.jessenpan.leetcode.dfs;
 
 /**
  * @author jessenpan
