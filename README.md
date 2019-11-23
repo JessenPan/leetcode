@@ -253,6 +253,7 @@
 |   [392](https://leetcode-cn.com/problems/is-subsequence/)    |         dp         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dp/S392IsSubsequence.java) |                 |                  |
 |  [393](https://leetcode-cn.com/problems/utf-8-validation/)   |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S393Utf8Validation.java) |                 |                  |
 | [397](https://leetcode-cn.com/problems/integer-replacement/) |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S397IntegerReplacement.java) |                 |                  |
+|  [398](https://leetcode-cn.com/problems/random-pick-index/)  |       sample       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/sample/S398RandomPickIndex.java) |                 |                  |
 |    [401](https://leetcode-cn.com/problems/binary-watch/)     |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S401BinaryWatch.java) |                 |                  |
 |   [402](https://leetcode-cn.com/problems/remove-k-digits/)   |       greedy       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/greedy/S402RemoveKDigits.java) |                 |                  |
 | [404](https://leetcode-cn.com/problems/sum-of-left-leaves/)  |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S404SumOfLeftLeaves.java) |      O(n)       |                  |
