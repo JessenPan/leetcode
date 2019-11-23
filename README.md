@@ -570,6 +570,8 @@
 | [1169](https://leetcode-cn.com/problems/invalid-transactions/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S1169InvalidTransactions.java) |                 |                  |
 | [1170](https://leetcode-cn.com/problems/compare-strings-by-frequency-of-the-smallest-character/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S1170CompareStringsByFrequencyOfTheSmallestCharacter.java) |                 |                  |
 | [1176](https://leetcode-cn.com/problems/diet-plan-performance/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S1176DietPlanPerformance.java) |                 |                  |
+| [1184](https://leetcode-cn.com/problems/distance-between-bus-stops/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S1184DistanceBetweenBusStops.java) |                 |                  |
+| [1200](https://leetcode-cn.com/problems/minimum-absolute-difference/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S1200MinimumAbsoluteDifference.java) |                 |                  |
 
 # concurrency
 
