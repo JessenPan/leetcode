@@ -1,6 +1,6 @@
 package org.jessenpan.leetcode.string;
 
-import org.jessenpan.leetcode.dynamicProgramming.S583DeleteOperationForTwoStrings;
+import org.jessenpan.leetcode.dp.S583DeleteOperationForTwoStrings;
 import org.junit.Assert;
 import org.junit.Test;
 
