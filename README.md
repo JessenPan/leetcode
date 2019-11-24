@@ -583,6 +583,7 @@
 | [1176](https://leetcode-cn.com/problems/diet-plan-performance/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S1176DietPlanPerformance.java) |                 |                  |
 | [1184](https://leetcode-cn.com/problems/distance-between-bus-stops/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S1184DistanceBetweenBusStops.java) |                 |                  |
 |  [1185](https://leetcode-cn.com/problems/day-of-the-week/)   |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S1185DayOfTheWeek.java) |                 |                  |
+| [1189](https://leetcode-cn.com/problems/maximum-number-of-balloons/) |        map         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/map/S1189MaximumNumberOfBalloons.java) |                 |                  |
 | [1200](https://leetcode-cn.com/problems/minimum-absolute-difference/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S1200MinimumAbsoluteDifference.java) |                 |                  |
 
 # concurrency
