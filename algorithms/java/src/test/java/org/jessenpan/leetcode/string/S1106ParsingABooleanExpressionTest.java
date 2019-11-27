@@ -34,4 +34,10 @@ public class S1106ParsingABooleanExpressionTest {
         Assert.assertFalse(rs);
     }
 
+    @Test
+    public void test5() {
+        boolean rs = parsingABooleanExpression.parseBoolExpr("&(t,t,t)");
+        Assert.assertTrue(rs);
+    }
+
 }
