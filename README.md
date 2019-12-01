@@ -323,6 +323,7 @@
 |  [541](https://leetcode-cn.com/problems/reverse-string-ii/)  |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S541ReverseStringII.java) |      O(n)       |       O(1)       |
 | [543](https://leetcode-cn.com/problems/diameter-of-binary-tree/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S543DiameterOfBinaryTree.java) |      O(n)       |       O(1)       |
 |    [546](https://leetcode-cn.com/problems/remove-boxes/)     |         dp         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dp/S546RemoveBoxes.java) |                 |                  |
+|   [547](https://leetcode-cn.com/problems/friend-circles/)    |        dfs         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dfs/S547FriendCircles.java) |                 |                  |
 | [551](https://leetcode-cn.com/problems/student-attendance-record-i/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S551StudentAttendanceRecordI.java) |      O(n)       |       O(1)       |
 |  [553](https://leetcode-cn.com/problems/optimal-division/)   |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S553OptimalDivision.java) |                 |                  |
 |     [554](https://leetcode-cn.com/problems/brick-wall/)      |        map         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/map/S554BrickWall.java) |                 |                  |
