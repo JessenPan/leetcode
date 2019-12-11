@@ -207,6 +207,7 @@
 |     [258](https://leetcode-cn.com/problems/add-digits/)      |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S258AddDigits.java) |      O(1)       |       O(1)       |
 |  [260](https://leetcode-cn.com/problems/single-number-iii/)  |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S260SingleNumberIII.java) |                 |                  |
 |     [263](https://leetcode-cn.com/problems/ugly-number/)     |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S263UglyNumber.java) |      O(n)       |       O(1)       |
+|   [264](https://leetcode-cn.com/problems/ugly-number-ii/)    |         dp         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dp/S264UglyNumberII.java) |                 |                  |
 |   [268](https://leetcode-cn.com/problems/missing-number/)    |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S268MissingNumber.java) |      O(n)       |       O(1)       |
 |  [278](https://leetcode-cn.com/problems/first-bad-version/)  |    binarySearch    | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/binarysearch/SS278FirstBadVersion.java) |                 |                  |
 |   [279](https://leetcode-cn.com/problems/perfect-squares/)   |         dp         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dp/S279PerfectSquares.java) |                 |                  |
