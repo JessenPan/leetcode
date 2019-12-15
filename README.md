@@ -303,6 +303,7 @@
 |    [500](https://leetcode-cn.com/problems/keyboard-row/)     |        map         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/map/S500KeyboardRow.java) |      O(n)       |       O(1)       |
 | [501](https://leetcode-cn.com/problems/find-mode-in-binary-search-tree/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S501FindModeInBinarySearchTree.java) |      O(n)       |       O(1)       |
 | [503](https://leetcode-cn.com/problems/next-greater-element-ii/) |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S503NextGreaterElementII.java) |                 |                  |
+|       [504](https://leetcode-cn.com/problems/base-7/)        |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S504Base7.java) |                 |                  |
 |   [506](https://leetcode-cn.com/problems/relative-ranks/)    |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S506RelativeRanks.java) |                 |                  |
 |   [507](https://leetcode-cn.com/problems/perfect-number/)    |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S507PerfectNumber.java) |                 |       O(1)       |
 | [508](https://leetcode-cn.com/problems/most-frequent-subtree-sum/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S508MostFrequentSubtreeSum.java) |      O(n)       |       O(n)       |
