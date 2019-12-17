@@ -2,11 +2,11 @@ package org.jessenpan.leetcode.dp;
 
 /**
  * @author jessenpan
- * tag:dynamicProgramming
+ * tag:dp
  */
 public class S718MaximumLengthOfRepeatedSubarray {
 
-    public int findLength(int[] A, int[] B) {
+    public int findLength(int[] a, int[] b) {
         return 1;
     }
 
