@@ -256,6 +256,7 @@
 | [386](https://leetcode-cn.com/problems/lexicographical-numbers/) |        sort        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/sort/S386LexicographicalNumbers.java) |                 |                  |
 | [387](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S387FirstUniqueCharacterInAString.java) |      O(n)       |       O(1)       |
 | [389](https://leetcode-cn.com/problems/find-the-difference/) |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S389FindTheDifference.java) |      O(n)       |       O(1)       |
+|  [390](https://leetcode-cn.com/problems/elimination-game/)   |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S390EliminationGame.java) |                 |                  |
 |   [392](https://leetcode-cn.com/problems/is-subsequence/)    |         dp         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dp/S392IsSubsequence.java) |                 |                  |
 |  [393](https://leetcode-cn.com/problems/utf-8-validation/)   |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S393Utf8Validation.java) |                 |                  |
 | [397](https://leetcode-cn.com/problems/integer-replacement/) |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S397IntegerReplacement.java) |                 |                  |
