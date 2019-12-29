@@ -20,7 +20,7 @@ public class S295FindMedianFromDataStream {
         }
 
         public double findMedian() {
-
+            return 1.0;
         }
     }
 

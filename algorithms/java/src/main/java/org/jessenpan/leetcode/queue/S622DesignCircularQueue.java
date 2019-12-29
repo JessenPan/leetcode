@@ -6,43 +6,77 @@ package org.jessenpan.leetcode.queue;
  */
 public class S622DesignCircularQueue {
 
-  public static   class MyCircularQueue {
+    public static class MyCircularQueue {
 
-        /** Initialize your data structure here. Set the size of the queue to be k. */
+        private int[] elements;
+        private int head, tail;
+        private int size;
+
         public MyCircularQueue(int k) {
-
+            elements = new int[k];
+            head = tail = -1;
         }
 
-        /** Insert an element into the circular queue. Return true if the operation is successful. */
         public boolean enQueue(int value) {
-
+            if (head == tail && head == -1) {
+                elements[0] = value;
+                size++;
+                head = tail = 0;
+                return true;
+            }
+            if (size == elements.length) {
+                return false;
+            }
+            if (tail + 1 < elements.length) {
+                tail++;
+                elements[tail] = value;
+            } else {
+                tail = (tail + 1) % elements.length;
+                elements[tail] = value;
+            }
+            size++;
+            return true;
         }
 
-        /** Delete an element from the circular queue. Return true if the operation is successful. */
         public boolean deQueue() {
-
+            if (size == 0) {
+                return false;
+            }
+            if (head == tail) {
+                size = 0;
+                head = tail = -1;
+                return true;
+            }
+            if (head + 1 < elements.length) {
+                head++;
+            } else {
+                head = (head + 1) % elements.length;
+            }
+            size--;
+            return true;
         }
 
-        /** Get the front item from the queue. */
         public int Front() {
-
+            if (head == -1) {
+                return -1;
+            }
+            return elements[head];
         }
 
-        /** Get the last item from the queue. */
         public int Rear() {
-
+            if (tail == -1) {
+                return -1;
+            }
+            return elements[tail];
         }
 
-        /** Checks whether the circular queue is empty or not. */
         public boolean isEmpty() {
-
+            return size == 0;
         }
 
-        /** Checks whether the circular queue is full or not. */
         public boolean isFull() {
-
+            return size == elements.length;
         }
     }
-
 
 }
