@@ -2,7 +2,7 @@
 
 ## Algorithms
 
->  This code base contains the solution to a problem whose id is less than 1200
+>  This code base contains the solution to a problem whose id is less than 1000
 
 ###  *explanation of nouns* 
 
