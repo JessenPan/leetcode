@@ -306,6 +306,7 @@
 |     [494](https://leetcode-cn.com/problems/target-sum/)      |         dp         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dp/S494TargetSum.java) |                 |                  |
 |   [495](https://leetcode-cn.com/problems/teemo-attacking/)   |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S495TeemoAttacking.java) |                 |                  |
 | [496](https://leetcode-cn.com/problems/next-greater-element-i/) |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S496NextGreaterElementI.java) |                 |                  |
+|  [498](https://leetcode-cn.com/problems/diagonal-traverse/)  |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S498DiagonalTraverse.java) |                 |                  |
 |    [500](https://leetcode-cn.com/problems/keyboard-row/)     |        map         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/map/S500KeyboardRow.java) |      O(n)       |       O(1)       |
 | [501](https://leetcode-cn.com/problems/find-mode-in-binary-search-tree/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S501FindModeInBinarySearchTree.java) |      O(n)       |       O(1)       |
 | [503](https://leetcode-cn.com/problems/next-greater-element-ii/) |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S503NextGreaterElementII.java) |                 |                  |
