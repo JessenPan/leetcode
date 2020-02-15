@@ -303,6 +303,7 @@
 | [468](https://leetcode-cn.com/problems/validate-ip-address/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S468ValidateIpAddress.java) |                 |                  |
 | [470](https://leetcode-cn.com/problems/implement-rand10-using-rand7/) |       random       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/random/S470ImplementRand10UsingRand7.java) |                 |                  |
 | [472](https://leetcode-cn.com/problems/concatenated-words/)  |        trie        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/trie/S472ConcatenatedWords.java) |                 |                  |
+| [473](https://leetcode-cn.com/problems/matchsticks-to-square/) |        dfs         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dfs/S473MatchSticksToSquare.java) |                 |                  |
 |   [474](https://leetcode-cn.com/problems/ones-and-zeroes/)   |         dp         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dp/S474OnesAndZeroes.java) |                 |                  |
 |  [476](https://leetcode-cn.com/problems/number-complement/)  |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S476NumberComplement.java) |      O(n)       |       O(1)       |
 | [477](https://leetcode-cn.com/problems/total-hamming-distance/) |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S477TotalHammingDistance.java) |                 |                  |
