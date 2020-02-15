@@ -164,6 +164,7 @@
 | [171](https://leetcode-cn.com/problems/excel-sheet-column-number/) |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S171ExcelSheetColumnNumber.java) |      O(n)       |       O(1)       |
 | [172](https://leetcode-cn.com/problems/factorial-trailing-zeroes/) |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S172FactorialTrailingZeroes.java) |     O(logN)     |       O(1)       |
 | [173](https://leetcode-cn.com/problems/binary-search-tree-iterator/) |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S173BinarySearchTreeIterator.java) |                 |                  |
+|   [179](https://leetcode-cn.com/problems/largest-number/)    |        sort        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/sort/S79LargestNumber.java) |                 |                  |
 | [187](https://leetcode-cn.com/problems/repeated-dna-sequences/) |      hashset       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/hashset/S187RepeatedDnaSequences.java) |                 |                  |
 |    [189](https://leetcode-cn.com/problems/rotate-array/)     |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S189RotateArray.java) |     O(n*n)      |       O(1)       |
 |    [190](https://leetcode-cn.com/problems/reverse-bits/)     |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S190ReverseBits.java) |                 |                  |
