@@ -354,6 +354,7 @@
 |  [563](https://leetcode-cn.com/problems/binary-tree-tilt/)   |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S563BinaryTreeTilt.java) |      O(n)       |       O(1)       |
 |    [565](https://leetcode-cn.com/problems/array-nesting/)    |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S565ArrayNesting.java) |                 |                  |
 | [566](https://leetcode-cn.com/problems/reshape-the-matrix/)  |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S566ReshapeTheMatrix.java) |     O(n*n)      |       O(1)       |
+| [567](https://leetcode-cn.com/problems/permutation-in-string/) |   doublepointer    | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/doublepointer/S567PermutationInString.java) |                 |                  |
 | [572](https://leetcode-cn.com/problems/subtree-of-another-tree/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S572SubtreeOfAnotherTree.java) |                 |                  |
 | [575](https://leetcode-cn.com/problems/distribute-candies/)  |        map         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/map/S575DistributeCandies.java) |                 |                  |
 | [577](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S577ReverseWordsInAStringIII.java) |     O(n*n)      |                  |
