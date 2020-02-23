@@ -6,28 +6,21 @@ package org.jessenpan.leetcode.string;
  */
 public class S686RepeatedStringMatch {
 
-    public int repeatedStringMatch(String a, String b) {
-        if (a.length() > b.length()) {
+    //TODO study
+    public int repeatedStringMatch(String A, String B) {
+        int sum = A.length();
+        for (int i = 0; i < 10000; i++) {
+            A = A + A.charAt(i);
+        }
+        int number;
+        int num = A.indexOf(B);
+        if (num == -1)
             return -1;
-        }
-        int lengthOfA = a.length(), lengthOfB = b.length();
-        StringBuilder sb = new StringBuilder(a);
-        int repeatedTimes = 1;
-        int i = 0, j = 0;
-        boolean hasFound = false;
-        while (i < lengthOfB && (hasFound)) {
-            if (i < lengthOfA) {
-                if (b.charAt(i) == a.charAt(j)) {
-                    hasFound = true;
-                } else {
-                    j++;
-                }
-            }
-            if (hasFound) {
-                i++;
-            }
-        }
-        return repeatedTimes;
+        number = num + B.length();
+        if (number % sum == 0)
+            return number / sum;
+        else
+            return number / sum + 1;
     }
 
 }

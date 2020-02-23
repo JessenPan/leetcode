@@ -403,6 +403,7 @@
 |    [677](https://leetcode-cn.com/problems/map-sum-pairs/)    |        trie        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/trie/S677MapSumPairs.java) |                 |                  |
 | [680](https://leetcode-cn.com/problems/valid-palindrome-ii/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S680ValidPalindromeII.java) |      O(n)       |       O(1)       |
 |    [682](https://leetcode-cn.com/problems/baseball-game/)    |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S682BaseballGame.java) |                 |                  |
+| [686](https://leetcode-cn.com/problems/repeated-string-match/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S686RepeatedStringMatch.java) |                 |                  |
 | [687](https://leetcode-cn.com/problems/longest-univalue-path/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S687LongestUnivaluePath.java) |      O(n)       |                  |
 | [690](https://leetcode-cn.com/problems/employee-importance/) |        bfs         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bfs/S690EmployeeImportance.java) |                 |       O(n)       |
 | [691](https://leetcode-cn.com/problems/stickers-to-spell-word/) |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S691StickersToSpellWord.java) |                 |                  |
