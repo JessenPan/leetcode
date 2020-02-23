@@ -36,7 +36,7 @@ public class S997FindTheTownJudgeTest {
 
     @Test
     public void test5() {
-        int t = findTheTownJudge.findJudge(3, new int[][] { { 1, 3 }, { 1, 4 }, { 2, 3 }, { 2, 4 }, { 4, 3 } });
+        int t = findTheTownJudge.findJudge(4, new int[][] { { 1, 3 }, { 1, 4 }, { 2, 3 }, { 2, 4 }, { 4, 3 } });
         Assert.assertEquals(3, t);
     }
 
