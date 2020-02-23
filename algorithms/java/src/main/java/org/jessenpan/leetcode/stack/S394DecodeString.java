@@ -9,79 +9,73 @@ import java.util.LinkedList;
  */
 public class S394DecodeString {
 
-    private static final char LEFT_BRACKET = '[';
-
-    private static final char RIGHT_BRACKET = ']';
-
     public String decodeString(String s) {
-        if (s == null || "".equals(s)) {
+        if (s == null || "".equals(s) || !s.contains("[")) {
             return s;
         }
-        int lengthOfs = s.length();
-        int lastIndex = 0;
-        boolean hasFoundOperation = false, hasFoundChar = false;
-        Deque<String> stringDeque = new LinkedList<>();
-        for (int i = 0; i < lengthOfs; i++) {
-            char currentChar = s.charAt(i);
-            if (LEFT_BRACKET == currentChar) {
-                String strBeforeLeftBracket = s.substring(lastIndex, i);
-                if (isOperation(strBeforeLeftBracket)) {
-                    stringDeque.push(strBeforeLeftBracket);
+
+        Deque<String> stack = new LinkedList<>();
+        int len = s.length(), lastIdx = 0;
+        for (int i = 0; i < len; i++) {
+
+            if (i == 0) {
+                continue;
+            }
+
+            if (Character.isDigit(s.charAt(i)) && Character.isAlphabetic(s.charAt(i - 1))) {
+                stack.push(s.substring(lastIdx, i));
+                lastIdx = i;
+                continue;
+            }
+            if (s.charAt(i) == '[') {
+                stack.push(s.substring(lastIdx, i));
+                lastIdx = i + 1;
+                continue;
+            }
+            if (s.charAt(i) == ']') {
+                String sub = s.substring(lastIdx, i);
+                if (!sub.isEmpty()) {
+                    stack.push(sub);
                 }
-                lastIndex = i + 1;
-                hasFoundChar = hasFoundOperation = false;
-            } else if (RIGHT_BRACKET == currentChar) {
-                String strBeforeRightBracket = s.substring(lastIndex, i);
-                int loopTime = Integer.valueOf(stringDeque.poll());
-                StringBuilder sb = new StringBuilder();
-                for (int j = 0; j < loopTime; j++) {
-                    sb.append(strBeforeRightBracket);
-                }
-                stringDeque.push(sb.toString());
-                lastIndex = i + 1;
-                hasFoundChar = hasFoundOperation = false;
-            } else if (isChar(currentChar)) {
-                if (hasFoundOperation) {
-                    String strBeforeLeftBracket = s.substring(lastIndex, i);
-                    stringDeque.push(strBeforeLeftBracket);
-                    lastIndex = i;
-                    hasFoundOperation = hasFoundChar = false;
-                } else {
-                    hasFoundChar = true;
-                }
-            } else if (isOperation(currentChar)) {
-                if (hasFoundChar) {
-                    String strBeforeLeftBracket = s.substring(lastIndex, i);
-                    stringDeque.push(strBeforeLeftBracket);
-                    lastIndex = i;
-                    hasFoundOperation = hasFoundChar = false;
-                } else {
-                    hasFoundOperation = true;
-                }
+                stack.push(parse(stack));
+                lastIdx = i + 1;
+                continue;
+            }
+            if (i == (len - 1) && Character.isAlphabetic(s.charAt(i))) {
+                stack.push(s.substring(lastIdx, i + 1));
             }
         }
+
+        String rst = parse(stack);
+        while (!stack.isEmpty()) {
+            stack.push(rst);
+            rst = parse(stack);
+        }
+        return rst;
+    }
+
+    private String parse(Deque<String> stack) {
+
+        String str = "";
+        String sNum = null;
+        while (!stack.isEmpty()) {
+            String tmp = stack.pop();
+            if (Character.isDigit(tmp.charAt(0))) {
+                sNum = tmp;
+                break;
+            } else {
+                str = tmp + str;
+            }
+        }
+        if (sNum == null) {
+            return str;
+        }
+        int num = Integer.parseInt(sNum);
         StringBuilder sb = new StringBuilder();
-        while (!stringDeque.isEmpty()) {
-            sb.append(stringDeque.pollLast());
+        for (int i = 0; i < num; i++) {
+            sb.append(str);
         }
         return sb.toString();
-    }
-
-    private boolean isChar(char ch) {
-        return (ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z');
-    }
-
-    private boolean isOperation(char ch) {
-        return ch >= '0' && ch <= '9';
-    }
-
-    private boolean isOperation(String str) {
-        try {
-            Integer.valueOf(str);
-            return true;
-        } catch (Exception ex) {
-            return false;
-        }
     }
 
 }

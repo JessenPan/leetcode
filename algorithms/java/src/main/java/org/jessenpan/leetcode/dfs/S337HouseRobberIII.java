@@ -4,7 +4,7 @@ import java.util.*;
 
 /**
  * @author jessenpan
- * tag:depthFirstSearch
+ * tag:dfs
  */
 public class S337HouseRobberIII {
 
@@ -15,6 +15,12 @@ public class S337HouseRobberIII {
         TreeNode right;
 
         TreeNode(int x) { val = x; }
+
+        TreeNode(int x, TreeNode left, TreeNode right) {
+            this.val = x;
+            this.left = left;
+            this.right = right;
+        }
     }
 
     public int rob(TreeNode root) {

@@ -1,5 +1,6 @@
 package org.jessenpan.leetcode.stack;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
@@ -11,47 +12,87 @@ public class S385MiniParser {
 
     public static class NestedInteger {
 
+        private int v;
+
+        private List<NestedInteger> list = new ArrayList<>();
+
         public NestedInteger() {}
 
-        public NestedInteger(int value) {}
+        public NestedInteger(int value) {
+            this.v = value;
+        }
 
-        public boolean isInteger() {return false;}
+        public boolean isInteger() {
+            return list.isEmpty();
+        }
 
-        public Integer getInteger() {return 1;}
+        public Integer getInteger() {return v;}
 
-        public void setInteger(int value) {}
+        public void setInteger(int value) {
+            this.v = value;
+        }
 
-        public void add(NestedInteger ni) {}
+        public void add(NestedInteger ni) {
+            list.add(ni);
+        }
 
-        public List<NestedInteger> getList() {return null;}
+        public List<NestedInteger> getList() {
+            return list;
+        }
 
     }
 
+    //TODO 
     public NestedInteger deserialize(String s) {
+        if (s.isEmpty()) {
+            return null;
+        }
         if (!s.contains("[")) {
-            return new NestedInteger(Integer.valueOf(s));
+            return new NestedInteger(Integer.parseInt(s));
         }
-        String[] splitArray = s.replace("[", "").replace("]", "").split(",");
-        NestedInteger resultNestedInteger = null;
-        Stack<NestedInteger> nestedIntegerStack = new Stack<>();
-        int lengthOfArray = splitArray.length;
-        for (int i = 0; i < lengthOfArray; i++) {
-            NestedInteger tmp;
-            if ("".equals(splitArray[i])) {
-                tmp = new NestedInteger();
-            } else {
-                tmp = new NestedInteger(Integer.valueOf(splitArray[i]));
+        int len = s.length(), i = 0, lastIdx = 0;
+        Stack<Object> stack = new Stack<>();
+        while (i < len) {
+
+            if (s.charAt(i) == '[') {
+                stack.push("[");
+                lastIdx = i + 1;
             }
-            if (i == 0) {
-                resultNestedInteger = tmp;
+            if (s.charAt(i) == ']' || s.charAt(i) == ',') {
+                String str = s.substring(lastIdx, i);
+                stack.push(str);
+                lastIdx = i + 1;
             }
-            if (nestedIntegerStack.isEmpty()) {
-                nestedIntegerStack.push(tmp);
+            if (s.charAt(i) == ']') {
+                parse(stack);
+            }
+
+            i++;
+        }
+        return (NestedInteger) stack.get(0);
+    }
+
+    private void parse(Stack<Object> stack) {
+
+        List<NestedInteger> list = new ArrayList<>();
+        Integer v = null;
+        while (true) {
+            Object o = stack.pop();
+            if (o instanceof NestedInteger) {
+                list.add((NestedInteger) o);
             } else {
-                nestedIntegerStack.peek().add(tmp);
-                nestedIntegerStack.push(tmp);
+                String str = (String) o;
+                if ("[".equals(str)) {
+                    break;
+                } else if (!str.isEmpty()) {
+                    v = Integer.parseInt(str);
+                }
             }
         }
-        return resultNestedInteger;
+        NestedInteger ni = (v != null) ? new NestedInteger(v) : new NestedInteger();
+        for (NestedInteger nestedInteger : list) {
+            ni.add(nestedInteger);
+        }
+        stack.push(ni);
     }
 }

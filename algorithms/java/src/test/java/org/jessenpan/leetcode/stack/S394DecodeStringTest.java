@@ -29,4 +29,16 @@ public class S394DecodeStringTest {
         assertEquals("abcabccdcdcdef", decodedString);
     }
 
+    @Test
+    public void test5() {
+        String decodedString = decodeString.decodeString("a");
+        assertEquals("a", decodedString);
+    }
+
+    @Test
+    public void test4() {
+        String decodedString = decodeString.decodeString("3[z]2[2[y]pq4[2[jk]e1[f]]]ef");
+        assertEquals("zzzyypqjkjkefjkjkefjkjkefjkjkefyypqjkjkefjkjkefjkjkefjkjkefef", decodedString);
+    }
+
 }
