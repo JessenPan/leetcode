@@ -8,6 +8,7 @@ import java.util.*;
  */
 public class S863AllNodesDistanceKInBinaryTree {
 
+    //TODO 参考官方，之前使用的是不借助外部数据结构，很难走通
     public static class TreeNode {
 
         int val;
@@ -23,63 +24,58 @@ public class S863AllNodesDistanceKInBinaryTree {
         }
     }
 
-    private Set<Integer> ans = new HashSet<>();
+    Map<TreeNode, TreeNode> parent;
 
-    private TreeNode target;
+    public List<Integer> distanceK(TreeNode root, TreeNode target, int K) {
+        parent = new HashMap<>();
+        dfs(root, null);
 
-    private int distanceBtRootTarget = 0;
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(null);
+        queue.add(target);
 
-    private boolean found = false;
+        Set<TreeNode> seen = new HashSet();
+        seen.add(target);
+        seen.add(null);
 
-    private boolean side;
-
-    public List<Integer> distanceK(TreeNode root, TreeNode target, int k) {
-        if (k == 0) {
-            return Collections.singletonList(target.val);
+        int dist = 0;
+        while (!queue.isEmpty()) {
+            TreeNode node = queue.poll();
+            if (node == null) {
+                if (dist == K) {
+                    List<Integer> ans = new ArrayList();
+                    for (TreeNode n : queue)
+                        ans.add(n.val);
+                    return ans;
+                }
+                queue.offer(null);
+                dist++;
+            } else {
+                if (!seen.contains(node.left)) {
+                    seen.add(node.left);
+                    queue.offer(node.left);
+                }
+                if (!seen.contains(node.right)) {
+                    seen.add(node.right);
+                    queue.offer(node.right);
+                }
+                TreeNode par = parent.get(node);
+                if (!seen.contains(par)) {
+                    seen.add(par);
+                    queue.offer(par);
+                }
+            }
         }
-        findDistance(root, target, 0, true);
 
-        if (distanceBtRootTarget == k) {
-            ans.add(root.val);
-            findK(this.target, k, 0);
-            return new ArrayList<>(ans);
-        }
-
-        findK(this.target, k, 0);
-        if (distanceBtRootTarget < k) {
-            findK(side ? root.right : root.left, k - distanceBtRootTarget - 1, 0);
-        } else {
-            findK(side ? root.left : root.right, distanceBtRootTarget - k - 1, 0);
-        }
-        return new ArrayList<>(ans);
+        return new ArrayList<Integer>();
     }
 
-    private void findK(TreeNode target, int k, int curHeight) {
-        if (target == null) {
-            return;
+    public void dfs(TreeNode node, TreeNode par) {
+        if (node != null) {
+            parent.put(node, par);
+            dfs(node.left, node);
+            dfs(node.right, node);
         }
-        if (k == curHeight) {
-            ans.add(target.val);
-            return;
-        }
-        findK(target.left, k, curHeight + 1);
-        findK(target.right, k, curHeight + 1);
-    }
-
-    public TreeNode findDistance(TreeNode node, TreeNode target, int curDistance, boolean side) {
-        if (node == null || found) {
-            return node;
-        }
-        if (node.val == target.val) {
-            this.target = node;
-            this.distanceBtRootTarget = curDistance;
-            found = true;
-            this.side = side;
-            return null;
-        }
-        node.left = findDistance(node.left, target, curDistance + 1, curDistance == 0 ? true : side);
-        node.right = findDistance(node.right, target, curDistance + 1, curDistance == 0 ? false : side);
-        return node;
     }
 
 }
