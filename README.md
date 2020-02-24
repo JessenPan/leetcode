@@ -396,6 +396,7 @@
 |  [655](https://leetcode-cn.com/problems/print-binary-tree/)  |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S655PrintBinaryTree.java) |                 |                  |
 | [657](https://leetcode-cn.com/problems/robot-return-to-origin/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S657RobotReturnToOrigin.java) |      O(n)       |                  |
 |   [661](https://leetcode-cn.com/problems/image-smoother/)    |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S661ImageSmoother.java) |      O(n)       |       O(1)       |
+| [665](https://leetcode-cn.com/problems/non-decreasing-array/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S665NonDecreasingArray.java) |                 |                  |
 | [667](https://leetcode-cn.com/problems/beautiful-arrangement-ii/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S667BeautifulArrangementII.java) |                 |                  |
 | [669](https://leetcode-cn.com/problems/trim-a-binary-search-tree/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S669TrimABinarySearchTree.java) |                 |       O(1)       |
 |    [670](https://leetcode-cn.com/problems/maximum-swap/)     |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S670MaximumSwap.java) |                 |                  |
