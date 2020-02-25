@@ -1,7 +1,9 @@
 package org.jessenpan.leetcode.math;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 /**
  * @author jessenpan
@@ -9,29 +11,26 @@ import java.util.List;
  */
 public class S970PowerfulIntegers {
 
+    //TODO study
     public List<Integer> powerfulIntegers(int x, int y, int bound) {
-        int lastResult = 0;
-        List<Integer> powerfulIntegers = new ArrayList<>();
-        int i;
-        for (i = 0; ; i++) {
-            int j;
-            for (j = 0; ; j++) {
-                if (y == 1 && j == 1) {
-                    break;
+        Set<Integer> seen = new HashSet<>();
+        boolean isX = false;
+        for (int i = 0; Math.pow(x, i) <= bound && !isX; ++i) {
+            boolean isY = false;
+            for (int j = 0; Math.pow(y, j) <= bound && !isY; ++j) {
+                int v = (int) Math.pow(x, i) + (int) Math.pow(y, j);
+                if (v <= bound) {
+                    seen.add(v);
                 }
-                lastResult = (int) (Math.pow(x, i) + Math.pow(y, j));
-                if (lastResult <= bound) {
-                    if (!powerfulIntegers.contains(lastResult)) {
-                        powerfulIntegers.add(lastResult);
-                    }
-                } else {
-                    break;
+                if (y == 1) {
+                    isY = true;
                 }
             }
-            if (j == 0) {
-                break;
+            if (x == 1) {
+                isX = true;
             }
         }
-        return powerfulIntegers;
+
+        return new ArrayList<>(seen);
     }
 }
