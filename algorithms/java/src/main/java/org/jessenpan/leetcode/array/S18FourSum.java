@@ -8,11 +8,11 @@ import java.util.*;
  */
 public class S18FourSum {
 
-    private List<List<Integer>> rs;
+    private List<List<Integer>> rs = new ArrayList<>();
 
     private int[] nums;
 
-    private int target;
+    private Integer target;
 
     private Set<String> record = new HashSet<>();
 
@@ -21,17 +21,29 @@ public class S18FourSum {
         if (nums.length < 4) {
             return Collections.emptyList();
         }
-        rs = new ArrayList<>();
+        if (nums.length == 4) {
+            if (Arrays.stream(nums).sum() == target) {
+                List<Integer> list = new ArrayList<>();
+                Arrays.stream(nums).forEach(list::add);
+                return Collections.singletonList(list);
+            } else {
+                return Collections.emptyList();
+            }
+        }
+
         this.target = target;
         this.nums = nums;
         Arrays.sort(nums);
-        find(new ArrayList<Integer>(), null, 0);
+        if(target<nums[0]){
+            return Collections.emptyList();
+        }
+        find(new ArrayList<>(), null, 0);
         return rs;
     }
 
     private void find(List<Integer> tmpRsList, Integer currentSum, int currentIndex) {
         if (tmpRsList.size() == 4) {
-            if (sum(tmpRsList) == target) {
+            if (target.equals(currentSum)) {
                 String strKey = buildKey(tmpRsList);
                 if (record.add(strKey)) {
                     rs.add(tmpRsList);
@@ -44,15 +56,17 @@ public class S18FourSum {
             return;
         }
 
-        if (currentSum != null && currentSum > target) {
-            return;
+        if (currentSum != null) {
+            if (currentSum > 0 && currentSum > target) {
+                return;
+            }
         }
 
-        find(new ArrayList<>(tmpRsList), currentSum, currentIndex + 1);
-        List<Integer> newList = new ArrayList<>(tmpRsList);
-        newList.add(this.nums[currentIndex]);
-        currentSum = (currentSum == null ? 0 : currentSum) + this.nums[currentIndex];
-        find(newList, currentSum, currentIndex + 1);
+        for (int i = currentIndex; i < nums.length; i++) {
+            List<Integer> newList = new ArrayList<>(tmpRsList);
+            newList.add(nums[i]);
+            find(newList, currentSum == null ? nums[i] : currentSum + nums[i], i + 1);
+        }
     }
 
     private String buildKey(List<Integer> tmpRsList) {
@@ -61,14 +75,6 @@ public class S18FourSum {
             key.append(integer).append("_");
         }
         return key.toString();
-    }
-
-    private int sum(List<Integer> list) {
-        int sum = 0;
-        for (Integer integer : list) {
-            sum += integer;
-        }
-        return sum;
     }
 
 }

@@ -1,8 +1,11 @@
 package org.jessenpan.leetcode.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.List;
+
+import static java.util.Arrays.asList;
 
 /**
  * @author jessenpan
@@ -13,7 +16,9 @@ public class S18FourSumTest {
 
     @Test
     public void test1() {
-        List<List<Integer>> lists = fourSum.fourSum(new int[] { 1, 0, -1, 0, -2, 2 }, 0);
+        List<List<Integer>> lists = fourSum.fourSum(new int[] { -3, -2, -1, 0, 0, 1, 2, 3 }, 0);
+        List<List<Integer>> expected = asList(asList(-3, -2, 2, 3), asList(-3, -1, 1, 3), asList(-3, 0, 0, 3), asList(-3, 0, 1, 2), asList(-2, -1, 0, 3), asList(-2, -1, 1, 2), asList(-2, 0, 0, 2), asList(-1, 0, 0, 1));
+        Assert.assertEquals(expected, lists);
         System.out.println(lists);
     }
 
@@ -26,6 +31,24 @@ public class S18FourSumTest {
     @Test
     public void test3() {
         List<List<Integer>> lists = fourSum.fourSum(new int[] { 0, 0, 0, 0 }, 0);
+        List<List<Integer>> expected = asList(asList(0, 0, 0, 0));
+        Assert.assertEquals(expected, lists);
+        System.out.println(lists);
+    }
+
+    @Test
+    public void test4() {
+        List<List<Integer>> lists = fourSum.fourSum(new int[] { 1, -2, -5, -4, -3, 3, 3, 5 }, -11);
+        List<List<Integer>> expected = asList(asList(-5, -4, -3, 1));
+        Assert.assertEquals(expected, lists);
+        System.out.println(lists);
+    }
+
+    @Test
+    public void test5() {
+        List<List<Integer>> lists = fourSum.fourSum(new int[] { -497, -481, -481, -472, -471, -465, -422, -420, -413, -405, -388, -381, -366, -361, -359, -348, -334, -334, -318, -310, -305, -280, -273, -272, -262, -254, -248, -223, -208, -202, -196, -192, -189, -167, -165, -165, -156, -143, -136, -122, -120, -120, -108, -77, -50, -44, -34, -26, -17, -5, 13, 46, 46, 53, 54, 56, 66, 71, 72, 75, 89, 115, 130, 139, 149, 151, 154, 196, 209, 219, 230, 240, 245, 246, 253, 267, 277, 289, 299, 302, 303, 304, 342, 349, 360, 361, 361, 375, 392, 400, 407, 408, 408, 426, 427, 429, 443, 451, 481 }, -5617);
+        List<List<Integer>> expected = asList(asList(-5, -4, -3, 1));
+        Assert.assertEquals(expected, lists);
         System.out.println(lists);
     }
 
