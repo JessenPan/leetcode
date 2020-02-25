@@ -34,4 +34,10 @@ public class S434NumberOfSegmentsInAStringTest {
         int number = numberOfSegmentsInAString.countSegments("Of all the gin joints in all the towns in all the world,   ");
         assertEquals(13, number);
     }
+
+    @Test
+    public void test5() {
+        int number = numberOfSegmentsInAString.countSegments(",,,,,ae%333**** 7 8 7 10");
+        assertEquals(5, number);
+    }
 }

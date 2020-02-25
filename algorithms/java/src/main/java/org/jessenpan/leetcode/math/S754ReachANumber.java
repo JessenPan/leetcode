@@ -6,19 +6,14 @@ package org.jessenpan.leetcode.math;
  */
 public class S754ReachANumber {
 
+    //TODO study
     public int reachNumber(int target) {
-        int times = 0, sum = 0;
-        int i = 1;
-        while (sum != target) {
-            if (sum + i > target) {
-                sum -= i;
-            } else {
-                sum += i;
-            }
-            i++;
-            times++;
+        target = Math.abs(target);
+        int k = 0;
+        while (target > 0) {
+            target -= ++k;
         }
-        return times;
+        return target % 2 == 0 ? k : k + 1 + k % 2;
     }
 
 }
