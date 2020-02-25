@@ -29,4 +29,10 @@ public class S643MaximumAverageSubarrayITest {
         assertEquals(2.0, average, 0);
     }
 
+    @Test
+    public void test4() {
+        double average = maximumAverageSubarrayI.findMaxAverage(new int[] { 0, 1, 1, 3, 3 }, 4);
+        assertEquals(2.0, average, 0);
+    }
+
 }
