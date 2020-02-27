@@ -6,30 +6,35 @@ package org.jessenpan.leetcode.backtracking;
  */
 public class S44WildcardMatching {
 
-    public boolean isMatch(String text, String pattern) {
-        if (pattern.isEmpty()) {
-            return text.isEmpty();
+    //TODO study
+    public boolean isMatch(String text, String p) {
+        int sLen = text.length(), pLen = p.length();
+        int sIdx = 0, pIdx = 0;
+        int starIdx = -1, sTmpIdx = -1;
+
+        while (sIdx < sLen) {
+            if (pIdx < pLen && (p.charAt(pIdx) == '?' || p.charAt(pIdx) == text.charAt(sIdx))) {
+                ++sIdx;
+                ++pIdx;
+            } else if (pIdx < pLen && p.charAt(pIdx) == '*') {
+                starIdx = pIdx;
+                sTmpIdx = sIdx;
+                ++pIdx;
+            } else if (starIdx == -1) {
+                return false;
+            } else {
+                pIdx = starIdx + 1;
+                sIdx = sTmpIdx + 1;
+                sTmpIdx = sIdx;
+            }
         }
 
-        boolean isMatch = !text.isEmpty() && (pattern.charAt(0) == text.charAt(0) || pattern.charAt(0) == '?');
-        if (pattern.charAt(0) == '*') {
-            if (isMatch(text, pattern.substring(1))) {
-                return true;
+        for (int i = pIdx; i < pLen; i++) {
+            if (p.charAt(i) != '*') {
+                return false;
             }
-
-            if (text.length() == 1 && pattern.length() == 1 && pattern.charAt(0) == '*') {
-                return true;
-            }
-
-            for (int i = 1; i < text.length(); i++) {
-                if (isMatch(text.substring(i), pattern)) {
-                    return true;
-                }
-            }
-            return false;
-        } else {
-            return isMatch && isMatch(text.substring(1), pattern.substring(1));
         }
+        return true;
     }
 
 }

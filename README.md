@@ -55,6 +55,7 @@
 | [41](https://leetcode-cn.com/problems/first-missing-positive/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S41FirstMissingPositive.java) |                 |                  |
 | [42](https://leetcode-cn.com/problems/trapping-rain-water/)  |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S42TrappingRainWater.java) |                 |                  |
 |   [43](https://leetcode-cn.com/problems/multiply-strings/)   |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S43MultiplyStrings.java) |                 |                  |
+|  [44](https://leetcode-cn.com/problems/wildcard-matching/)   |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S44WildcardMatching.java) |                 |                  |
 |     [45](https://leetcode-cn.com/problems/jump-game-ii/)     |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S45JumpGameII.java) |                 |                  |
 |     [46](https://leetcode-cn.com/problems/permutations/)     |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S46Permutations.java) |      O(n)       |                  |
 |   [47](https://leetcode-cn.com/problems/permutations-ii/)    |    backTracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S47PermutationsII.java) |                 |                  |
