@@ -313,6 +313,7 @@
 | [472](https://leetcode-cn.com/problems/concatenated-words/)  |        trie        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/trie/S472ConcatenatedWords.java) |                 |                  |
 | [473](https://leetcode-cn.com/problems/matchsticks-to-square/) |        dfs         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dfs/S473MatchSticksToSquare.java) |                 |                  |
 |   [474](https://leetcode-cn.com/problems/ones-and-zeroes/)   |         dp         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dp/S474OnesAndZeroes.java) |                 |                  |
+|       [475](https://leetcode-cn.com/problems/heaters/)       |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S475Heaters.java) |                 |                  |
 |  [476](https://leetcode-cn.com/problems/number-complement/)  |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S476NumberComplement.java) |      O(n)       |       O(1)       |
 | [477](https://leetcode-cn.com/problems/total-hamming-distance/) |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S477TotalHammingDistance.java) |                 |                  |
 | [482](https://leetcode-cn.com/problems/license-key-formatting/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S482LicenseKeyFormatting.java) |                 |                  |
