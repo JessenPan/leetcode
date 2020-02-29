@@ -16,7 +16,28 @@ public class S865SmallestSubtreeWithAllTheDeepestNodesTest {
     public void test1() {
         TreeNode root = new TreeNode(3, new TreeNode(5, new TreeNode(6), new TreeNode(2, new TreeNode(7), new TreeNode(4))), new TreeNode(1, new TreeNode(0), new TreeNode(8)));
         TreeNode sub = smallestSubtreeWithAllTheDeepestNodes.subtreeWithAllDeepest(root);
-        Assert.assertEquals(2,sub.val);
+        Assert.assertEquals(2, sub.val);
+    }
+
+    @Test
+    public void test2() {
+        TreeNode root = new TreeNode(0, new TreeNode(1, null, new TreeNode(2)), new TreeNode(3));
+        TreeNode sub = smallestSubtreeWithAllTheDeepestNodes.subtreeWithAllDeepest(root);
+        Assert.assertEquals(2, sub.val);
+    }
+
+    @Test
+    public void test3() {
+        TreeNode root = new TreeNode(0, new TreeNode(2), new TreeNode(1, new TreeNode(3), null));
+        TreeNode sub = smallestSubtreeWithAllTheDeepestNodes.subtreeWithAllDeepest(root);
+        Assert.assertEquals(3, sub.val);
+    }
+
+    @Test
+    public void test4() {
+        TreeNode root = new TreeNode(0, new TreeNode(3, new TreeNode(4, null, new TreeNode(6)), null), new TreeNode(1, new TreeNode(2, null, new TreeNode(5)), null));
+        TreeNode sub = smallestSubtreeWithAllTheDeepestNodes.subtreeWithAllDeepest(root);
+        Assert.assertEquals(0, sub.val);
     }
 
 }
