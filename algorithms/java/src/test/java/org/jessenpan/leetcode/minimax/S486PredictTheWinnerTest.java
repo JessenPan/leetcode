@@ -12,13 +12,13 @@ public class S486PredictTheWinnerTest {
 
     @Test
     public void test1() {
-        boolean isWin = predictTheWinner.predictTheWinner(new int[] { 1, 5, 2 });
+        boolean isWin = predictTheWinner.PredictTheWinner(new int[] { 1, 5, 2 });
         Assert.assertFalse(isWin);
     }
 
     @Test
     public void test2() {
-        boolean isWin = predictTheWinner.predictTheWinner(new int[] { 1, 5, 233,7 });
+        boolean isWin = predictTheWinner.PredictTheWinner(new int[] { 1, 5, 233,7 });
         Assert.assertTrue(isWin);
     }
 

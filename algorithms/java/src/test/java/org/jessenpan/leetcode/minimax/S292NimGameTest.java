@@ -1,4 +1,4 @@
-package org.jessenpan.leetcode;
+package org.jessenpan.leetcode.minimax;
 
 import org.junit.Assert;
 import org.junit.Test;
