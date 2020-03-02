@@ -27,9 +27,5 @@ public class S382LinkedListRandomNode {
         Random r = new Random();
         return 1;
     }
-
-    public static void main(String[] args){
-        Random random = new Random(1);
-        System.out.println(random.nextInt(10));
-    }
+    
 }
