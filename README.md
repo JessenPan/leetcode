@@ -320,6 +320,7 @@
 |       [475](https://leetcode-cn.com/problems/heaters/)       |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S475Heaters.java) |                 |                  |
 |  [476](https://leetcode-cn.com/problems/number-complement/)  |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S476NumberComplement.java) |      O(n)       |       O(1)       |
 | [477](https://leetcode-cn.com/problems/total-hamming-distance/) |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S477TotalHammingDistance.java) |                 |                  |
+|   [481](https://leetcode-cn.com/problems/magical-string/)    |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S481MagicalString.java) |                 |                  |
 | [482](https://leetcode-cn.com/problems/license-key-formatting/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S482LicenseKeyFormatting.java) |                 |                  |
 | [485](https://leetcode-cn.com/problems/max-consecutive-ones/submissions/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S485MaxConsecutiveOnes.java) |      O(n)       |       O(1)       |
 | [486](https://leetcode-cn.com/problems/predict-the-winner/)  |      minimax       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/minimax/S486PredictTheWinner.java) |                 |                  |
