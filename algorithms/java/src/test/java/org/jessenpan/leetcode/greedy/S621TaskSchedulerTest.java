@@ -16,4 +16,10 @@ public class S621TaskSchedulerTest {
         Assert.assertEquals(8, time);
     }
 
+    @Test
+    public void test2() {
+        int time = taskScheduler.leastInterval(new char[] { 'A','A','A','A','A','A','B','C','D','E','F','G'}, 2);
+        Assert.assertEquals(16, time);
+    }
+
 }
