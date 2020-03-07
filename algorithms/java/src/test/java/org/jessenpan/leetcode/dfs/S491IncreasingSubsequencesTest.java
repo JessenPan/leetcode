@@ -17,4 +17,10 @@ public class S491IncreasingSubsequencesTest {
         System.out.println(lists);
     }
 
+    @Test
+    public void test2() {
+        List<List<Integer>> lists = increasingSubsequences.findSubsequences(new int[] { 4, 3, 2, 1 });
+        System.out.println(lists);
+    }
+
 }
