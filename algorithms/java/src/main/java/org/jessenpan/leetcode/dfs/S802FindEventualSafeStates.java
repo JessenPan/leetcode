@@ -8,7 +8,7 @@ import java.util.*;
  */
 public class S802FindEventualSafeStates {
 
-    //TODO topo
+    //TODO topoSort
     public List<Integer> eventualSafeNodes(int[][] G) {
 
         int N = G.length;
