@@ -6,6 +6,7 @@ package org.jessenpan.leetcode.math;
  */
 public class S372SuperPow {
 
+    //TODO study
     public int superPow(int a, int[] b) {
         a = a%1337;
         int result = Fun(a, b, b.length);
