@@ -19,49 +19,37 @@ public class S659SplitArrayIntoConsecutiveSubsequences {
 
     public boolean isPossible(int[] nums) {
 
-        int len = nums.length, currentLeaved = nums.length;
-        if (len < 3) {
+        if (nums.length < 3) {
             return false;
         }
         Map<Integer, Item> cntMap = new HashMap<>();
-        PriorityQueue<Integer> queue = new PriorityQueue<>(len);
+        PriorityQueue<Item> queue = new PriorityQueue<>(Comparator.comparingInt(o -> o.num));
+
         for (int num : nums) {
             cntMap.putIfAbsent(num, new Item(num));
             cntMap.get(num).times++;
         }
-        PriorityQueue<Integer> next = new PriorityQueue<>();
-        Integer last = null;
-        List<Integer> list = new ArrayList<>();
+        for (Item item : cntMap.values()) {
+            queue.offer(item);
+        }
+        int mod = nums.length % 3;
+        int firstNum = mod + 3;
+        boolean isFirst = true;
         while (!queue.isEmpty()) {
-            Integer nextVal = queue.poll();
-            if (last == null) {
-                last = nextVal;
-                list.add(nextVal);
-            } else {
-                if (nextVal.equals(last)) {
-                    next.add(nextVal);
-                } else if (nextVal - last == 1) {
-                    list.add(nextVal);
-                    last = nextVal;
+
+            List<Item> list = new ArrayList<>();
+            int len = isFirst ? firstNum : 3;
+            Integer lastNum = null;
+            for (int i = 0; i < len; i++) {
+                Item item = queue.poll();
+                if (lastNum == null) {
+                    lastNum = item.num;
                 } else {
-                    if (list.size() < 3) {
-                        return false;
-                    } else {
-                        queue.addAll(next);
-                        next.clear();
-                        last = null;
-                        list.clear();
-                    }
                 }
-            }
-            if (queue.isEmpty() && (!next.isEmpty() || !list.isEmpty())) {
-                if (list.size() < 3) {
-                    return false;
+                item.times--;
+                if (item.times == 0) {
+                    list.add(item);
                 }
-                queue.addAll(next);
-                next.clear();
-                list.clear();
-                last = null;
             }
         }
         return true;
