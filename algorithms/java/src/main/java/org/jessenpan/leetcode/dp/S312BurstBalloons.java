@@ -6,34 +6,32 @@ package org.jessenpan.leetcode.dp;
  */
 public class S312BurstBalloons {
 
-    private Integer[][] dp;
-
-    private int[] nums;
-
+    //TODO study
     public int maxCoins(int[] nums) {
-        if (nums.length == 0) {
-            return 0;
+        int[] newNums = new int[nums.length + 2];
+        for (int i = 0; i < newNums.length; i++) {
+            if (i == 0 || i == newNums.length - 1) {
+                newNums[i] = 1;
+                continue;
+            }
+            newNums[i] = nums[i - 1];
         }
-        if (nums.length == 1) {
-            return nums[0];
-        }
-        int n = nums.length;
-        this.nums = nums;
-        dp = new Integer[n][n];
-        return calc(0, n - 1);
-    }
 
-    private int calc(int left, int right) {
-        if (dp[left][right] != null) {
-            return dp[left][right];
-        }
-        int max = Integer.MIN_VALUE;
+        nums = newNums;
+        int n = newNums.length;
+        int[][] dp = new int[n][n];
 
-        for (int i = left; i <= right; i++) {
-            
+        // 这里不能按行打表
+        // 只能按长度打表, dp[i][j], j-i >= 2
+        for (int len = 2; len < n; ++len) {
+            for (int i = 0; i < n - len; ++i) {
+                int j = i + len;
+                for (int k = i + 1; k < j; ++k) {
+                    dp[i][j] = Math.max(dp[i][j], nums[i] * nums[k] * nums[j] + dp[i][k] + dp[k][j]);
+                }
+            }
         }
-        dp[left][right] = max;
-        return max;
+        return dp[0][n - 1];
     }
 
 }

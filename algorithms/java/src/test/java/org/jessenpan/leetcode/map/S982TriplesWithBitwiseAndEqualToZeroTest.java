@@ -1,4 +1,4 @@
-package org.jessenpan.leetcode.dp;
+package org.jessenpan.leetcode.map;
 
 import org.junit.Assert;
 import org.junit.Test;
