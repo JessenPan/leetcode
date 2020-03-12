@@ -568,6 +568,7 @@
 |    [899](https://leetcode-cn.com/problems/orderly-queue/)    |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S899OrderlyQueue.java) |                 |                  |
 |    [900](https://leetcode-cn.com/problems/rle-iterator/)     |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S900RleIterator.java) |                 |                  |
 |  [901](https://leetcode-cn.com/problems/online-stock-span/)  |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S901OnlineStockSpan.java) |                 |                  |
+| [903](https://leetcode-cn.com/problems/valid-permutations-for-di-sequence/) |         dp         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dp/S903ValidPermutationsForDiSequence.java) |                 |                  |
 | [905](https://leetcode-cn.com/problems/sort-array-by-parity/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S905SortArrayByParity.java) |      O(n)       |       O(1)       |
 |  [908](https://leetcode-cn.com/problems/smallest-range-i/)   |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S908SmallestRangeI.java) |      O(n)       |       O(1)       |
 |    [912](https://leetcode-cn.com/problems/sort-an-array/)    |        sort        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/sort/S912SortAnArray.java) |                 |                  |
