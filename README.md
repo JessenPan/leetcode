@@ -235,6 +235,7 @@
 | [316](https://leetcode-cn.com/problems/remove-duplicate-letters/) |       greedy       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/greedy/S316RemoveDuplicateLetters.java) |                 |                  |
 | [318](https://leetcode-cn.com/problems/maximum-product-of-word-lengths/) |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S318MaximumProductOfWordLengths.java) |                 |                  |
 |    [319](https://leetcode-cn.com/problems/bulb-switcher/)    |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S319BulbSwitcher.java) |                 |                  |
+|     [322](https://leetcode-cn.com/problems/coin-change/)     |         dp         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dp/S322CoinChange.java) |                 |                  |
 |   [324](https://leetcode-cn.com/problems/wiggle-sort-ii/)    |        sort        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/sort/S324WiggleSortII.java) |                 |                  |
 |   [326](https://leetcode-cn.com/problems/power-of-three/)    |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S326PowerOfThree.java) |      O(n)       |       O(1)       |
 | [328](https://leetcode-cn.com/problems/odd-even-linked-list/) |     linkedlist     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/linkedlist/S328OddEvenLinkedList.java) |                 |                  |
