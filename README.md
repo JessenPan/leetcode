@@ -592,6 +592,7 @@
 |  [937](https://leetcode-cn.com/problems/reorder-log-files/)  |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S937ReorderLogFiles.java) |                 |                  |
 |  [938](https://leetcode-cn.com/problems/range-sum-of-bst/)   |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S938RangeSumOfBST.java) |      O(n)       |       O(1)       |
 | [939](https://leetcode-cn.com/problems/minimum-area-rectangle/) |        map         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/map/S939MinimumAreaRectangle.java) |                 |                  |
+| [940](https://leetcode-cn.com/problems/distinct-subsequences-ii/) |         dp         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dp/S940DistinctSubsequencesII.java) |                 |                  |
 | [941](https://leetcode-cn.com/problems/valid-mountain-array/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S941ValidMountainArray.java) |      O(n)       |       O(1)       |
 |   [942](https://leetcode-cn.com/problems/di-string-match/)   |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S942DIStringMatch.java) |      O(n)       |       O(1)       |
 | [944](https://leetcode-cn.com/problems/delete-columns-to-make-sorted/) |       greedy       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/greedy/S944DeleteColumnsToMakeSorted.java) |                 |                  |
