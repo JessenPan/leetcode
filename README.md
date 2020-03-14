@@ -198,6 +198,7 @@
 | [217](https://leetcode-cn.com/problems/contains-duplicate/submissions/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S217ContainsDuplicate.java) |                 |       O(1)       |
 | [219](https://leetcode-cn.com/problems/contains-duplicate-ii/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S219ContainsDuplicateII.java) |      O(n)       |       O(n)       |
 | [222](https://leetcode-cn.com/problems/count-complete-tree-nodes/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S222CountCompleteTreeNodes.java) |      O(n)       |       O(1)       |
+|  [224](https://leetcode-cn.com/problems/basic-calculator/)   |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S224BasicCalculator.java) |                 |                  |
 | [225](https://leetcode-cn.com/problems/implement-stack-using-queues/) |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S225ImplementStackUsingQueues.java) |                 |                  |
 | [226](https://leetcode-cn.com/problems/invert-binary-tree/)  |     tree,stack     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S226InvertBinaryTree.java) |                 |                  |
 | [227](https://leetcode-cn.com/problems/basic-calculator-ii/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S227BasicCalculatorII.java) |                 |                  |
@@ -350,6 +351,7 @@
 |  [498](https://leetcode-cn.com/problems/diagonal-traverse/)  |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S498DiagonalTraverse.java) |                 |                  |
 |    [500](https://leetcode-cn.com/problems/keyboard-row/)     |        map         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/map/S500KeyboardRow.java) |      O(n)       |       O(1)       |
 | [501](https://leetcode-cn.com/problems/find-mode-in-binary-search-tree/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S501FindModeInBinarySearchTree.java) |      O(n)       |       O(1)       |
+|         [502](https://leetcode-cn.com/problems/ipo/)         |        heap        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/heap/S502Ipo.java) |                 |                  |
 | [503](https://leetcode-cn.com/problems/next-greater-element-ii/) |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S503NextGreaterElementII.java) |                 |                  |
 |       [504](https://leetcode-cn.com/problems/base-7/)        |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S504Base7.java) |                 |                  |
 |   [506](https://leetcode-cn.com/problems/relative-ranks/)    |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S506RelativeRanks.java) |                 |                  |
