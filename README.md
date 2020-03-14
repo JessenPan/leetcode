@@ -574,6 +574,7 @@
 | [895](https://leetcode-cn.com/problems/maximum-frequency-stack/) |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S895MaximumFrequencyStack.java) |                 |                  |
 |   [896](https://leetcode-cn.com/problems/monotonic-array/)   |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S896MonotonicArray.java) |                 |                  |
 | [897](https://leetcode-cn.com/problems/increasing-order-search-tree/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S897IncreasingOrderSearchTree.java) |      O(n)       |                  |
+| [898](https://leetcode-cn.com/problems/bitwise-ors-of-subarrays/) |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S898BitwiseOrsOfSubarrays.java) |                 |                  |
 |    [899](https://leetcode-cn.com/problems/orderly-queue/)    |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S899OrderlyQueue.java) |                 |                  |
 |    [900](https://leetcode-cn.com/problems/rle-iterator/)     |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S900RleIterator.java) |                 |                  |
 |  [901](https://leetcode-cn.com/problems/online-stock-span/)  |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S901OnlineStockSpan.java) |                 |                  |
