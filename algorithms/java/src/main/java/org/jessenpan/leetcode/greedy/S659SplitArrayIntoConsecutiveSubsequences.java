@@ -7,7 +7,8 @@ import java.util.*;
  * tag:greedy
  */
 public class S659SplitArrayIntoConsecutiveSubsequences {
-
+    
+    //TODO study
     public boolean isPossible(int[] nums) {
         Counter count = new Counter();
         Counter tails = new Counter();
