@@ -1,4 +1,4 @@
-package org.jessenpan.leetcode.heap;
+package org.jessenpan.leetcode.greedy;
 
 import org.junit.Assert;
 import org.junit.Test;
