@@ -441,6 +441,7 @@
 | [676](https://leetcode-cn.com/problems/implement-magic-dictionary/) |        trie        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/trie/S676ImplementMagicDictionary.java) |                 |                  |
 |    [677](https://leetcode-cn.com/problems/map-sum-pairs/)    |        trie        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/trie/S677MapSumPairs.java) |                 |                  |
 | [678](https://leetcode-cn.com/problems/valid-parenthesis-string/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S678ValidParenthesisString.java) |                 |                  |
+|       [679](https://leetcode-cn.com/problems/24-game/)       |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S67924Game.java) |                 |                  |
 | [680](https://leetcode-cn.com/problems/valid-palindrome-ii/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S680ValidPalindromeII.java) |      O(n)       |       O(1)       |
 |    [682](https://leetcode-cn.com/problems/baseball-game/)    |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S682BaseballGame.java) |                 |                  |
 | [684](https://leetcode-cn.com/problems/redundant-connection/) |     disjoinset     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/disjoinset/S684RedundantConnection.java) |                 |                  |
