@@ -247,6 +247,7 @@
 |     [322](https://leetcode-cn.com/problems/coin-change/)     |         dp         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dp/S322CoinChange.java) |                 |                  |
 |   [324](https://leetcode-cn.com/problems/wiggle-sort-ii/)    |        sort        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/sort/S324WiggleSortII.java) |                 |                  |
 |   [326](https://leetcode-cn.com/problems/power-of-three/)    |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S326PowerOfThree.java) |      O(n)       |       O(1)       |
+| [327](https://leetcode-cn.com/problems/count-of-range-sum/)  |  divideAndConquer  | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/divideAndConquer/S327CountOfRangeSum.java) |                 |                  |
 | [328](https://leetcode-cn.com/problems/odd-even-linked-list/) |     linkedlist     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/linkedlist/S328OddEvenLinkedList.java) |                 |                  |
 | [329](https://leetcode-cn.com/problems/longest-increasing-path-in-a-matrix/) |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S329LongestIncreasingPathInAMatrix.java) |                 |                  |
 |   [330](https://leetcode-cn.com/problems/patching-array/)    |       greedy       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/greedy/S330PatchingArray.java) |                 |                  |
