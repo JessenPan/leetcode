@@ -21,49 +21,42 @@ public class S450DeleteNodeInABST {
         }
     }
 
-    private TreeNode deletedNode;
-
-    private TreeNode nextNode;
-
-    private int deleteVal;
-
-    private boolean hasDeleted = false;
-
-    public TreeNode deleteNode(TreeNode root, int key) {
-        this.deleteVal = key;
-        deleteNode(root);
-        if (root.val == key) {
-            return nextNode;
-        } else {
-            return root;
+    public int successor(TreeNode root) {
+        root = root.right;
+        while (root.left != null) {
+            root = root.left;
         }
+        return root.val;
     }
 
-    private TreeNode deleteNode(TreeNode node) {
-        if (node == null || hasDeleted) {
-            return node;
+    public int predecessor(TreeNode root) {
+        root = root.left;
+        while (root.right != null) {
+            root = root.right;
         }
-        if (node.val != deleteVal) {
-            node.left = deleteNode(node.left);
-        }
-        if (node.val == deleteVal) {
-            if (node.right == null) {
-                return node.left;
+        return root.val;
+    }
+
+    public TreeNode deleteNode(TreeNode root, int key) {
+        if (root == null)
+            return null;
+
+        if (key > root.val)
+            root.right = deleteNode(root.right, key);
+        else if (key < root.val)
+            root.left = deleteNode(root.left, key);
+        else {
+            if (root.left == null && root.right == null)
+                root = null;
+            else if (root.right != null) {
+                root.val = successor(root);
+                root.right = deleteNode(root.right, root.val);
             } else {
-                deletedNode = node;
+                root.val = predecessor(root);
+                root.left = deleteNode(root.left, root.val);
             }
-        } else if (deletedNode != null && nextNode == null) {
-            deletedNode.val = node.val;
-            nextNode = node;
-            if (node.left == null) {
-                deletedNode.right = node.right;
-            }
-            hasDeleted = true;
-        } else if (nextNode != null && node.left != null && node.left.val == nextNode.val) {
-            nextNode.left = null;
         }
-        node.right = deleteNode(node.right);
-        return node;
+        return root;
     }
 
 }
