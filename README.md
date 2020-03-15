@@ -380,6 +380,7 @@
 | [539](https://leetcode-cn.com/problems/minimum-time-difference/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S539MinimumTimeDifference.java) |                 |                  |
 | [540](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/) |    binarysearch    | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/binarysearch/S540SingleElementInASortedArray.java) |                 |                  |
 |  [541](https://leetcode-cn.com/problems/reverse-string-ii/)  |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S541ReverseStringII.java) |      O(n)       |       O(1)       |
+|      [542](https://leetcode-cn.com/problems/01-matrix/)      |        bfs         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bfs/S54201Matrix.java) |                 |                  |
 | [543](https://leetcode-cn.com/problems/diameter-of-binary-tree/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S543DiameterOfBinaryTree.java) |      O(n)       |       O(1)       |
 |    [546](https://leetcode-cn.com/problems/remove-boxes/)     |         dp         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dp/S546RemoveBoxes.java) |                 |                  |
 |   [547](https://leetcode-cn.com/problems/friend-circles/)    |        dfs         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dfs/S547FriendCircles.java) |                 |                  |
