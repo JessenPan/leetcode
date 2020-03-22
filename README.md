@@ -624,6 +624,7 @@
 | [931](https://leetcode-cn.com/problems/minimum-falling-path-sum/) |         dp         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dp/S931MinimumFallingPathSum.java) |                 |                  |
 |   [932](https://leetcode-cn.com/problems/beautiful-array/)   |  divideAndConquer  | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/divideAndConquer/S932BeautifulArray.java) |                 |                  |
 | [933](https://leetcode-cn.com/problems/number-of-recent-calls/) |       queue        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/queue/S933NumberOfRecentCalls.java) |      O(n)       |       O(n)       |
+|   [934](https://leetcode-cn.com/problems/shortest-bridge/)   |        bfs         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bfs/S934ShortestBridge.java) |                 |                  |
 |  [937](https://leetcode-cn.com/problems/reorder-log-files/)  |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S937ReorderLogFiles.java) |                 |                  |
 |  [938](https://leetcode-cn.com/problems/range-sum-of-bst/)   |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S938RangeSumOfBST.java) |      O(n)       |       O(1)       |
 | [939](https://leetcode-cn.com/problems/minimum-area-rectangle/) |        map         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/map/S939MinimumAreaRectangle.java) |                 |                  |
