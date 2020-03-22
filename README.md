@@ -78,6 +78,7 @@
 |     [62](https://leetcode-cn.com/problems/unique-paths/)     |         dp         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dp/S62UniquePaths.java) |                 |                  |
 |   [63](https://leetcode-cn.com/problems/unique-paths-ii/)    |         dp         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dp/S63UniquePathsII.java) |                 |                  |
 |   [64](https://leetcode-cn.com/problems/minimum-path-sum/)   |         dp         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dp/S64MinimumPathSum.java) |                 |                  |
+|     [65](https://leetcode-cn.com/problems/valid-number/)     |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S65ValidNumber.java) |                 |                  |
 |       [66](https://leetcode-cn.com/problems/plus-one/)       |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S66PlusOne.java) |                 |                  |
 |      [67](https://leetcode-cn.com/problems/add-binary/)      |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S67AddBinary.java) |      O(n)       |       O(n)       |
 |  [68](https://leetcode-cn.com/problems/text-justification/)  |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S68TextJustification.java) |                 |                  |
