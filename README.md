@@ -488,6 +488,7 @@
 |   [722](https://leetcode-cn.com/problems/remove-comments/)   |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S722RemoveComments.java) |                 |                  |
 |  [724](https://leetcode-cn.com/problems/find-pivot-index/)   |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S724FindPivotIndex.java) |      O(n)       |       O(1)       |
 | [725](https://leetcode-cn.com/problems/split-linked-list-in-parts/) |     linkedlist     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/linkedlist/S725SplitLinkedListInParts.java) |                 |                  |
+|   [726](https://leetcode-cn.com/problems/number-of-atoms/)   |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S726NumberOfAtoms.java) |                 |                  |
 | [728](https://leetcode-cn.com/problems/self-dividing-numbers/) |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S728SelfDividingNumbers.java) |     O(n*n)      |       O(n)       |
 |    [729](https://leetcode-cn.com/problems/my-calendar-i/)    |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S729MyCalendarI.java) |                 |                  |
 |     [733](https://leetcode-cn.com/problems/flood-fill/)      |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S733FloodFill.java) |      O(n)       |       O(1)       |
