@@ -496,6 +496,7 @@
 |    [729](https://leetcode-cn.com/problems/my-calendar-i/)    |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S729MyCalendarI.java) |                 |                  |
 |     [733](https://leetcode-cn.com/problems/flood-fill/)      |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S733FloodFill.java) |      O(n)       |       O(1)       |
 | [735](https://leetcode-cn.com/problems/asteroid-collision/)  |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S735AsteroidCollision.java) |                 |                  |
+| [736](https://leetcode-cn.com/problems/parse-lisp-expression/) | string | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S736ParseLispExpression.java) | | |
 | [738](https://leetcode-cn.com/problems/monotone-increasing-digits/) |       greedy       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/greedy/S738MonotoneIncreasingDigits.java) |                 |                  |
 | [739](https://leetcode-cn.com/problems/daily-temperatures/)  |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S739DailyTemperatures.java) |                 |                  |
 |   [740](https://leetcode-cn.com/problems/delete-and-earn/)   |         dp         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dp/S740DeleteAndEarn.java) |                 |                  |
