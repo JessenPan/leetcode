@@ -335,6 +335,7 @@
 |   [455](https://leetcode-cn.com/problems/assign-cookies/)    |       greedy       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/greedy/S455AssignCookies.java) |                 |                  |
 |      [458](https://leetcode-cn.com/problems/poor-pigs/)      |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S458PoorPigs.java) |                 |                  |
 | [459](https://leetcode-cn.com/problems/repeated-substring-pattern/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S459RepeatedSubstringPattern.java) |                 |                  |
+| [460](https://leetcode-cn.com/problems/lfu-cache/) | design | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S460LfuCache.java) | | |
 |  [461](https://leetcode-cn.com/problems/hamming-distance/)   |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S461HammingDistance.java) |      O(n)       |       O(1)       |
 | [462](https://leetcode-cn.com/problems/minimum-moves-to-equal-array-elements-ii/) |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S462MinimumMovesToEqualArrayElementsII.java) |                 |                  |
 |  [463](https://leetcode-cn.com/problems/island-perimeter/)   |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S463IslandPerimeter.java) |     O(n*n)      |       O(1)       |
