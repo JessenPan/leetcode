@@ -1,6 +1,5 @@
-package org.jessenpan.leetcode.disjoinset;
+package org.jessenpan.leetcode.dsu;
 
-import org.jessenpan.leetcode.disjointset.S721AccountsMerge;
 import org.junit.Assert;
 import org.junit.Test;
 

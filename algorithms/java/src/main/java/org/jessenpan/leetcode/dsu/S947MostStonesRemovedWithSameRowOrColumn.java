@@ -1,4 +1,4 @@
-package org.jessenpan.leetcode.disjointset;
+package org.jessenpan.leetcode.dsu;
 
 import java.util.HashSet;
 import java.util.Set;
