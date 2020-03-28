@@ -1,5 +1,6 @@
-package org.jessenpan.leetcode.dfs;
+package org.jessenpan.leetcode.backtracing;
 
+import org.jessenpan.leetcode.backtracking.S488ZumaGame;
 import org.junit.Assert;
 import org.junit.Test;
 
