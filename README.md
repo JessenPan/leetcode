@@ -293,6 +293,7 @@
 |  [393](https://leetcode-cn.com/problems/utf-8-validation/)   |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S393Utf8Validation.java) |                 |                  |
 |    [394](https://leetcode-cn.com/problems/decode-string/)    |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S394DecodeString.java) |                 |                  |
 | [395](https://leetcode-cn.com/problems/longest-substring-with-at-least-k-repeating-characters/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S395LongestSubstringWithAtLeastKRepeatingCharacters.java) |                 |                  |
+| [396](https://leetcode-cn.com/problems/rotate-function/) | math | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S396RotateFunction.java) | | |
 | [397](https://leetcode-cn.com/problems/integer-replacement/) |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S397IntegerReplacement.java) |                 |                  |
 |  [398](https://leetcode-cn.com/problems/random-pick-index/)  |       sample       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/sample/S398RandomPickIndex.java) |                 |                  |
 |    [401](https://leetcode-cn.com/problems/binary-watch/)     |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S401BinaryWatch.java) |                 |                  |
