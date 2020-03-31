@@ -616,6 +616,7 @@
 |    [900](https://leetcode-cn.com/problems/rle-iterator/)     |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S900RleIterator.java) |                 |                  |
 |  [901](https://leetcode-cn.com/problems/online-stock-span/)  |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S901OnlineStockSpan.java) |                 |                  |
 | [903](https://leetcode-cn.com/problems/valid-permutations-for-di-sequence/) |         dp         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dp/S903ValidPermutationsForDiSequence.java) |                 |                  |
+| [904](https://leetcode-cn.com/problems/fruit-into-baskets/) | slidingwindow | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/slidingwindow/S904FruitIntoBaskets.java) | | |
 | [905](https://leetcode-cn.com/problems/sort-array-by-parity/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S905SortArrayByParity.java) |      O(n)       |       O(1)       |
 |  [906](https://leetcode-cn.com/problems/super-palindromes/)  |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S906SuperPalindromes.java) |                 |                  |
 | [907](https://leetcode-cn.com/problems/sum-of-subarray-minimums/) |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S907SumOfSubarrayMinimums.java) |                 |                  |
