@@ -18,7 +18,7 @@ public class S400NthDigit {
                 long num = (n - sum - 1) / j + i;
                 String str = String.valueOf(num);
                 char[] c = str.toCharArray();
-                return Integer.valueOf(c[index]) - 48;
+                return (int) c[index] - '0';
             }
             sum += 9 * i * j;
         }

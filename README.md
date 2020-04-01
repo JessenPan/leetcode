@@ -296,6 +296,7 @@
 | [396](https://leetcode-cn.com/problems/rotate-function/) | math | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S396RotateFunction.java) | | |
 | [397](https://leetcode-cn.com/problems/integer-replacement/) |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S397IntegerReplacement.java) |                 |                  |
 |  [398](https://leetcode-cn.com/problems/random-pick-index/)  |       sample       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/sample/S398RandomPickIndex.java) |                 |                  |
+| [400](https://leetcode-cn.com/problems/nth-digit/) | math | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S400NthDigit.java) | | |
 |    [401](https://leetcode-cn.com/problems/binary-watch/)     |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S401BinaryWatch.java) |                 |                  |
 |   [402](https://leetcode-cn.com/problems/remove-k-digits/)   |       greedy       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/greedy/S402RemoveKDigits.java) |                 |                  |
 | [404](https://leetcode-cn.com/problems/sum-of-left-leaves/)  |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S404SumOfLeftLeaves.java) |      O(n)       |                  |
@@ -315,6 +316,7 @@
 | [427](https://leetcode-cn.com/problems/construct-quad-tree/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S427ConstructQuadTree.java) |                 |                  |
 | [429](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/) |        bfs         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bfs/S429NaryTreeLevelOrderTraversal.java) |                 |                  |
 | [430](https://leetcode-cn.com/problems/flatten-a-multilevel-doubly-linked-list/) |     linkedlist     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/linkedlist/S430FlattenAMultilevelDoublyLinkedList.java) |                 |                  |
+| [432](https://leetcode-cn.com/problems/all-oone-data-structure/) | design | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S432AllOoneDataStructure.java) | | |
 | [433](https://leetcode-cn.com/problems/minimum-genetic-mutation/) |        dfs         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dfs/S433MinimumGeneticMutation.java) |                 |                  |
 | [434](https://leetcode-cn.com/problems/number-of-segments-in-a-string/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S434NumberOfSegmentsInAString.java) |                 |                  |
 | [435](https://leetcode-cn.com/problems/non-overlapping-intervals/) |       greedy       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/greedy/S435NonOverlappingIntervals.java) |                 |                  |
