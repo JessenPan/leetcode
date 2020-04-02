@@ -19,14 +19,18 @@ public class S710RandomPickWithBlacklist {
             r = new Random();
             wlen = n - b.length;
             Set<Integer> w = new HashSet<>();
-            for (int i = wlen; i < n; i++)
+            for (int i = wlen; i < n; i++) {
                 w.add(i);
-            for (int x : b)
+            }
+            for (int x : b) {
                 w.remove(x);
+            }
             Iterator<Integer> wi = w.iterator();
-            for (int x : b)
-                if (x < wlen)
+            for (int x : b) {
+                if (x < wlen) {
                     m.put(x, wi.next());
+                }
+            }
         }
 
         public int pick() {
