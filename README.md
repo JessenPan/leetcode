@@ -562,6 +562,7 @@
 | [822](https://leetcode-cn.com/problems/card-flipping-game/)  |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S822CardFlippingGame.java) |                 |                  |
 |     [824](https://leetcode-cn.com/problems/goat-latin/)      |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S824GoatLatin.java) |                 |                  |
 | [825](https://leetcode-cn.com/problems/friends-of-appropriate-ages/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S825FriendsOfAppropriateAges.java) |                 |                  |
+| [826](https://leetcode-cn.com/problems/most-profit-assigning-work/) | sort | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/sort/S826MostProfitAssigningWork.java) | | |
 | [827](https://leetcode-cn.com/problems/making-a-large-island/) |        dfs         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dfs/S827MakingALargeIsland.java) |                 |                  |
 | [830](https://leetcode-cn.com/problems/positions-of-large-groups/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S830PositionsOfLargeGroups.java) |      O(n)       |       O(1)       |
 | [831](https://leetcode-cn.com/problems/masking-personal-information/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S831MaskingPersonalInformation.java) |                 |                  |
