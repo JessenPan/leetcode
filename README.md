@@ -230,6 +230,7 @@
 |   [264](https://leetcode-cn.com/problems/ugly-number-ii/)    |         dp         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dp/S264UglyNumberII.java) |                 |                  |
 |   [268](https://leetcode-cn.com/problems/missing-number/)    |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S268MissingNumber.java) |      O(n)       |       O(1)       |
 | [273](https://leetcode-cn.com/problems/integer-to-english-words/) | string | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S273IntegerToEnglishWords.java) |  |  |
+| [274](https://leetcode-cn.com/problems/h-index/) | sort | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/sort/S274HIndex.java) |  |  |
 |  [278](https://leetcode-cn.com/problems/first-bad-version/)  |    binarySearch    | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/binarysearch/SS278FirstBadVersion.java) |                 |                  |
 |   [279](https://leetcode-cn.com/problems/perfect-squares/)   |         dp         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dp/S279PerfectSquares.java) |                 |                  |
 | [282](https://leetcode-cn.com/problems/expression-add-operators/) |  divideAndComquer  | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/divide/S282ExpressionAddOperators.java) |                 |                  |
