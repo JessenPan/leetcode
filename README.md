@@ -358,6 +358,7 @@
 |  [476](https://leetcode-cn.com/problems/number-complement/)  |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S476NumberComplement.java) |      O(n)       |       O(1)       |
 | [477](https://leetcode-cn.com/problems/total-hamming-distance/) |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S477TotalHammingDistance.java) |                 |                  |
 | [478](https://leetcode-cn.com/problems/generate-random-point-in-a-circle/) |       random       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/random/S478GenerateRandomPointInACircle.java) |                 |                  |
+| [480](https://leetcode-cn.com/problems/sliding-window-median/) | slidingwindow | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/slidingwindow/S480SlidingWindowMedian.java) | | |
 |   [481](https://leetcode-cn.com/problems/magical-string/)    |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S481MagicalString.java) |                 |                  |
 | [482](https://leetcode-cn.com/problems/license-key-formatting/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S482LicenseKeyFormatting.java) |                 |                  |
 | [485](https://leetcode-cn.com/problems/max-consecutive-ones/submissions/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S485MaxConsecutiveOnes.java) |      O(n)       |       O(1)       |
