@@ -361,6 +361,7 @@
 | [480](https://leetcode-cn.com/problems/sliding-window-median/) | slidingwindow | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/slidingwindow/S480SlidingWindowMedian.java) | | |
 |   [481](https://leetcode-cn.com/problems/magical-string/)    |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S481MagicalString.java) |                 |                  |
 | [482](https://leetcode-cn.com/problems/license-key-formatting/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S482LicenseKeyFormatting.java) |                 |                  |
+| [483](https://leetcode-cn.com/problems/smallest-good-base/) | binarysearch | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/binarysearch/S483SmallestGoodBase.java) | | |
 | [485](https://leetcode-cn.com/problems/max-consecutive-ones/submissions/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S485MaxConsecutiveOnes.java) |      O(n)       |       O(1)       |
 | [486](https://leetcode-cn.com/problems/predict-the-winner/)  |      minimax       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/minimax/S486PredictTheWinner.java) |                 |                  |
 | [488](https://leetcode-cn.com/problems/zuma-game/) | backtracing | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S488ZumaGame.java) | | |
