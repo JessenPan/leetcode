@@ -262,6 +262,7 @@
 | [329](https://leetcode-cn.com/problems/longest-increasing-path-in-a-matrix/) |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S329LongestIncreasingPathInAMatrix.java) |                 |                  |
 |   [330](https://leetcode-cn.com/problems/patching-array/)    |       greedy       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/greedy/S330PatchingArray.java) |                 |                  |
 | [331](https://leetcode-cn.com/problems/verify-preorder-serialization-of-a-binary-tree/) |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S331VerifyPreOrderSerializationOfABinaryTree.java) |                 |                  |
+| [332](https://leetcode-cn.com/problems/reconstruct-itinerary/) | tree | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S332ReconstructItinerary.java) | | |
 | [334](https://leetcode-cn.com/problems/increasing-triplet-subsequence/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S334IncreasingTripletSubsequence.java) |                 |                  |
 |  [336](https://leetcode-cn.com/problems/palindrome-pairs/)   |        trie        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/trie/S336PalindromePairs.java) |                 |                  |
 |    [338](https://leetcode-cn.com/problems/counting-bits/)    |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S338CountingBits.java) |      O(n)       |                  |
@@ -342,6 +343,7 @@
 | [453](https://leetcode-cn.com/problems/minimum-moves-to-equal-array-elements/) |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S453MinimumMovesToEqualArrayElements.java) |      O(n)       |       O(1)       |
 |       [454](https://leetcode-cn.com/problems/4sum-ii/)       |        map         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/map/S4544SumII.java) |                 |                  |
 |   [455](https://leetcode-cn.com/problems/assign-cookies/)    |       greedy       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/greedy/S455AssignCookies.java) |                 |                  |
+| [457](https://leetcode-cn.com/problems/circular-array-loop/) | doublepointer | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/doublepointer/S457CircularArrayLoop.java) | | |
 |      [458](https://leetcode-cn.com/problems/poor-pigs/)      |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S458PoorPigs.java) |                 |                  |
 | [459](https://leetcode-cn.com/problems/repeated-substring-pattern/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S459RepeatedSubstringPattern.java) |                 |                  |
 | [460](https://leetcode-cn.com/problems/lfu-cache/) | design | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/S460LfuCache.java) | | |
