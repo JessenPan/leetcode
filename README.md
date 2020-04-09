@@ -451,6 +451,7 @@
 | [646](https://leetcode-cn.com/problems/maximum-length-of-pair-chain/) |         dp         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dp/S646MaximumLengthOfPairChain.java) |                 |                  |
 | [647](https://leetcode-cn.com/problems/palindromic-substrings/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S647PalindromicSubstrings.java) |                 |                  |
 |    [648](https://leetcode-cn.com/problems/replace-words/)    |        trie        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/trie/S648ReplaceWords.java) |                 |                  |
+| [649](https://leetcode-cn.com/problems/dota2-senate/) | greedy | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/greedy/S649Dota2Senate.java) | | |
 |   [650](https://leetcode-cn.com/problems/2-keys-keyboard/)   |         dp         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dp/S650TwoKeysKeyboard.java) |                 |                  |
 | [652](https://leetcode-cn.com/problems/find-duplicate-subtrees/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S652FindDuplicateSubtrees.java) |                 |                  |
 | [653](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S653TwoSumIV.java) |      O(n)       |                  |
