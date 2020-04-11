@@ -136,6 +136,7 @@
 | [123](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/) |         dp         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dp/S123BestTimeToBuyAndSellStockIII.java) |                 |                  |
 | [124](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S124BinaryTreeMaximumPathSum.java) |                 |                  |
 |  [125](https://leetcode-cn.com/problems/valid-palindrome/)   |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S125ValidPalindrome.java) |      O(n)       |       O(1)       |
+| [126](https://leetcode-cn.com/problems/word-ladder-ii/) | bfs | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bfs/S126WordLadderII.java) |  |  |
 |     [127](https://leetcode-cn.com/problems/word-ladder/)     |        bfs         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bfs/S127WordLadder.java) |                 |                  |
 | [128](https://leetcode-cn.com/problems/longest-consecutive-sequence/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S128LongestConsecutiveSequence.java) |                 |                  |
 | [129](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S129SumRootToLeafNumbers.java) |      O(n)       |       O(1)       |
@@ -576,6 +577,7 @@
 | [826](https://leetcode-cn.com/problems/most-profit-assigning-work/) | sort | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/sort/S826MostProfitAssigningWork.java) | | |
 | [827](https://leetcode-cn.com/problems/making-a-large-island/) |        dfs         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dfs/S827MakingALargeIsland.java) |                 |                  |
 | [828](https://leetcode-cn.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/) | doublepointer | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/doublepointer/S828CountUniqueCharactersOfAllSubstringsOfAGivenString.java) | | |
+| [829](https://leetcode-cn.com/problems/consecutive-numbers-sum/) | math | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S829ConsecutiveNumbersSum.java) | | |
 | [830](https://leetcode-cn.com/problems/positions-of-large-groups/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S830PositionsOfLargeGroups.java) |      O(n)       |       O(1)       |
 | [831](https://leetcode-cn.com/problems/masking-personal-information/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S831MaskingPersonalInformation.java) |                 |                  |
 |  [832](https://leetcode-cn.com/problems/flipping-an-image/)  |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S832FlippingAnImage.java) |     O(n*n)      |       O(1)       |
