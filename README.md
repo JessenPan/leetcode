@@ -657,6 +657,7 @@
 | [923](https://leetcode-cn.com/problems/3sum-with-multiplicity/) | doublepointer | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/doublepointer/S9233SumWithMultiplicity.java) |  |  |
 |  [925](https://leetcode-cn.com/problems/long-pressed-name/)  |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S925LongPressedName.java) |      O(n)       |       O(1)       |
 | [926](https://leetcode-cn.com/problems/flip-string-to-monotone-increasing/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S926FlipStringToMonotoneIncreasing.java) |                 |                  |
+| [927](https://leetcode-cn.com/problems/three-equal-parts/) | math | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S927ThreeEqualParts.java) | | |
 | [929](https://leetcode-cn.com/problems/unique-email-addresses/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S929UniqueEmailAddresses.java) |      O(n)       |       O(n)       |
 | [930](https://leetcode-cn.com/problems/binary-subarrays-with-sum/) |   doublepointer    | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/doublepointer/S930BinarySubarraysWithSum.java) |                 |                  |
 | [931](https://leetcode-cn.com/problems/minimum-falling-path-sum/) |         dp         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dp/S931MinimumFallingPathSum.java) |                 |                  |
