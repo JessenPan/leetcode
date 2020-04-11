@@ -310,6 +310,7 @@
 | [404](https://leetcode-cn.com/problems/sum-of-left-leaves/)  |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S404SumOfLeftLeaves.java) |      O(n)       |                  |
 | [405](https://leetcode-cn.com/problems/convert-a-number-to-hexadecimal/) |        bit         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bit/S405ConvertANumberToHexadecimal.java) |                 |                  |
 | [406](https://leetcode-cn.com/problems/queue-reconstruction-by-height/) |       greedy       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/greedy/S406QueueReconstructionByHeight.java) |                 |                  |
+| [407](https://leetcode-cn.com/problems/trapping-rain-water-ii/) | heap | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/heap/S407TrappingRainWaterII.java) | | |
 | [409](https://leetcode-cn.com/problems/longest-palindrome/)  |        map         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/map/S409LongestPalindrome.java) |      O(n)       |       O(n)       |
 |      [412](https://leetcode-cn.com/problems/fizz-buzz/)      |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S412FizzBuzz.java) |      O(n)       |                  |
 |  [413](https://leetcode-cn.com/problems/arithmetic-slices/)  |         dp         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dp/S413ArithmeticSlices.java) |                 |                  |
@@ -389,6 +390,7 @@
 | [516](https://leetcode-cn.com/problems/longest-palindromic-subsequence/) |         dp         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dp/S516LongestPalindromicSubsequence.java) |                 |                  |
 |   [520](https://leetcode-cn.com/problems/detect-capital/)    |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S520DetectCapital.java) |      O(n)       |       O(1)       |
 | [521](https://leetcode-cn.com/problems/longest-uncommon-subsequence-i/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S521LongestUncommonSubsequenceI.java) |      O(1)       |       O(1)       |
+| [522](https://leetcode-cn.com/problems/longest-uncommon-subsequence-ii/) | string | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S522LongestUncommonSubsequenceII.java) |  |  |
 | [523](https://leetcode-cn.com/problems/continuous-subarray-sum/) |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S523ContinuousSubarraySum.java) |                 |                  |
 | [524](https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S524LongestWordInDictionaryThroughDeleting.java) |                 |                  |
 |  [525](https://leetcode-cn.com/problems/contiguous-array/)   |        map         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/map/S525ContiguousArray.java) |                 |                  |
