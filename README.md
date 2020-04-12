@@ -595,6 +595,7 @@
 | [833](https://leetcode-cn.com/problems/find-and-replace-in-string/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S833FindAndReplaceInString.java) |                 |                  |
 |    [835](https://leetcode-cn.com/problems/image-overlap/)    |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S835ImageOverlap.java) |                 |                  |
 |  [836](https://leetcode-cn.com/problems/rectangle-overlap/)  |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S836RectangleOverlap.java) |      O(1)       |       O(1)       |
+| [839](https://leetcode-cn.com/problems/similar-string-groups/) | string | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S839SimilarStringGroups.java) |  |  |
 | [840](https://leetcode-cn.com/problems/magic-squares-in-grid/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S840MagicSquaresInGrid.java) |     O(n*n)      |       O(n)       |
 |   [841](https://leetcode-cn.com/problems/keys-and-rooms/)    |        dfs         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dfs/S841KeysAndRooms.java) |                 |                  |
 | [842](https://leetcode-cn.com/problems/split-array-into-fibonacci-sequence/) |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S842SplitArrayIntoFibonacciSequence.java) |                 |                  |
