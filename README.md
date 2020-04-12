@@ -577,6 +577,7 @@
 | [812](https://leetcode-cn.com/problems/largest-triangle-area/) |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S812LargestTriangleArea.java) |                 |                  |
 | [813](https://leetcode-cn.com/problems/largest-sum-of-averages/) |         dp         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dp/S813LargestSumOfAverages.java) |                 |                  |
 | [814](https://leetcode-cn.com/problems/binary-tree-pruning/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S814BinaryTreePruning.java) |      O(n)       |       O(1)       |
+| [815](https://leetcode-cn.com/problems/bus-routes/) | bfs | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bfs/S815BusRoutes.java) |  |  |
 | [816](https://leetcode-cn.com/problems/ambiguous-coordinates/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S816AmbiguousCoordinates.java) |                 |                  |
 | [817](https://leetcode-cn.com/problems/linked-list-components/) |     linkedlist     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/linkedlist/S817LinkedListComponents.java) |                 |                  |
 |  [819](https://leetcode-cn.com/problems/most-common-word/)   |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S819MostCommonWord.java) |      O(n)       |       O(n)       |
