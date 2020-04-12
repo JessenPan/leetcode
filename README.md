@@ -621,6 +621,7 @@
 | [875](https://leetcode-cn.com/problems/koko-eating-bananas/) |    binarysearch    | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/binarysearch/S875KokoEatingBananas.java) |                 |                  |
 | [876](https://leetcode-cn.com/problems/middle-of-the-linked-list/) |     linkedList     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/linkedlist/S876MiddleOfTheLinkedList.java) |      O(n)       |       O(1)       |
 |     [877](https://leetcode-cn.com/problems/stone-game/)      |         dp         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dp/S877StoneGame.java) |                 |                  |
+| [878](https://leetcode-cn.com/problems/nth-magical-number/) | math | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S878NthMagicalNumber.java) | | |
 | [880](https://leetcode-cn.com/problems/decoded-string-at-index/) |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S880DecodedStringAtIndex.java) |                 |                  |
 | [881](https://leetcode-cn.com/problems/boats-to-save-people/) |       greedy       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/greedy/S881BoatsToSavePeople.java) |                 |                  |
 | [883](https://leetcode-cn.com/problems/projection-area-of-3d-shapes/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S883ProjectionAreaOf3DShapes.java) |     O(n*n)      |       O(n)       |
