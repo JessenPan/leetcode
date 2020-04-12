@@ -418,6 +418,7 @@
 | [560](https://leetcode-cn.com/problems/subarray-sum-equals-k/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S560SubarraySumEqualsK.java) |                 |                  |
 |  [561](https://leetcode-cn.com/problems/array-partition-i/)  |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S561ArrayPartitionI.java) |      O(n)       |                  |
 |  [563](https://leetcode-cn.com/problems/binary-tree-tilt/)   |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S563BinaryTreeTilt.java) |      O(n)       |       O(1)       |
+| [564](https://leetcode-cn.com/problems/find-the-closest-palindrome/) | string | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S564FindTheClosestPalindrome.java) |  |  |
 |    [565](https://leetcode-cn.com/problems/array-nesting/)    |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S565ArrayNesting.java) |                 |                  |
 | [566](https://leetcode-cn.com/problems/reshape-the-matrix/)  |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S566ReshapeTheMatrix.java) |     O(n*n)      |       O(1)       |
 | [567](https://leetcode-cn.com/problems/permutation-in-string/) |   doublepointer    | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/doublepointer/S567PermutationInString.java) |                 |                  |
