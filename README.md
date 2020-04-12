@@ -345,6 +345,7 @@
 | [453](https://leetcode-cn.com/problems/minimum-moves-to-equal-array-elements/) |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S453MinimumMovesToEqualArrayElements.java) |      O(n)       |       O(1)       |
 |       [454](https://leetcode-cn.com/problems/4sum-ii/)       |        map         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/map/S4544SumII.java) |                 |                  |
 |   [455](https://leetcode-cn.com/problems/assign-cookies/)    |       greedy       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/greedy/S455AssignCookies.java) |                 |                  |
+| [456](https://leetcode-cn.com/problems/132-pattern/) | stack | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S456_132Pattern.java) | | |
 | [457](https://leetcode-cn.com/problems/circular-array-loop/) | doublepointer | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/doublepointer/S457CircularArrayLoop.java) | | |
 |      [458](https://leetcode-cn.com/problems/poor-pigs/)      |        math        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S458PoorPigs.java) |                 |                  |
 | [459](https://leetcode-cn.com/problems/repeated-substring-pattern/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S459RepeatedSubstringPattern.java) |                 |                  |
