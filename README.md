@@ -694,6 +694,7 @@
 | [953](https://leetcode-cn.com/problems/verifying-an-alien-dictionary/) |        map         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/map/S953VerifyingAnAlienDictionary.java) |                 |                  |
 | [954](https://leetcode-cn.com/problems/array-of-doubled-pairs/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S954ArrayOfDoubledPairs.java) |                 |                  |
 | [955](https://leetcode-cn.com/problems/delete-columns-to-make-sorted-ii/) | greedy | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/greedy/S955DeleteColumnsToMakeSortedII.java) | | |
+| [957](https://leetcode-cn.com/problems/prison-cells-after-n-days/) | math | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S957PrisonCellsAfterNDays.java) | | |
 | [958](https://leetcode-cn.com/problems/check-completeness-of-a-binary-tree/) |        tree        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S958CheckCompletenessOfABinaryTree.java) |                 |                  |
 | [959](https://leetcode-cn.com/problems/regions-cut-by-slashes/) |    dsu     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dsu/S959RegionsCutBySlashes.java) |                 |                  |
 | [961](https://leetcode-cn.com/problems/n-repeated-element-in-size-2n-array/) |        map         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/map/S961NRepeatedElementInSize2NArray.java) |      O(n)       |       O(n)       |
