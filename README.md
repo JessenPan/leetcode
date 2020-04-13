@@ -668,6 +668,7 @@
 | [921](https://leetcode-cn.com/problems/minimum-add-to-make-parentheses-valid/) |       stack        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/stack/S921MinimumAddToMakeParenthesesValid.java) |                 |                  |
 | [922](https://leetcode-cn.com/problems/sort-array-by-parity-ii/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S922SortArrayByParityII.java) |      O(n)       |       O(1)       |
 | [923](https://leetcode-cn.com/problems/3sum-with-multiplicity/) | doublepointer | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/doublepointer/S9233SumWithMultiplicity.java) |  |  |
+| [924](https://leetcode-cn.com/problems/minimize-malware-spread/) | dsu | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dsu/S924MinimizeMalwareSpread.java) | | |
 |  [925](https://leetcode-cn.com/problems/long-pressed-name/)  |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S925LongPressedName.java) |      O(n)       |       O(1)       |
 | [926](https://leetcode-cn.com/problems/flip-string-to-monotone-increasing/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S926FlipStringToMonotoneIncreasing.java) |                 |                  |
 | [927](https://leetcode-cn.com/problems/three-equal-parts/) | math | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/math/S927ThreeEqualParts.java) | | |
