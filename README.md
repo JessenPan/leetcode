@@ -390,6 +390,7 @@
 | [513](https://leetcode-cn.com/problems/find-bottom-left-tree-value/) |        dfs         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/tree/S513FindBottomLeftTreeValue.java) |      O(n)       |       O(n)       |
 | [515](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/) |        dfs         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dfs/S515FindLargestValueInEachTreeRow.java) |      O(n)       |       O(n)       |
 | [516](https://leetcode-cn.com/problems/longest-palindromic-subsequence/) |         dp         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/dp/S516LongestPalindromicSubsequence.java) |                 |                  |
+| [519](https://leetcode-cn.com/problems/random-flip-matrix/) | random | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/random/S519RandomFlipMatrix.java) | | |
 |   [520](https://leetcode-cn.com/problems/detect-capital/)    |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S520DetectCapital.java) |      O(n)       |       O(1)       |
 | [521](https://leetcode-cn.com/problems/longest-uncommon-subsequence-i/) |       string       | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S521LongestUncommonSubsequenceI.java) |      O(1)       |       O(1)       |
 | [522](https://leetcode-cn.com/problems/longest-uncommon-subsequence-ii/) | string | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/string/S522LongestUncommonSubsequenceII.java) |  |  |
