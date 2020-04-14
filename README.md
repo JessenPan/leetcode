@@ -550,6 +550,7 @@
 |  [771](https://leetcode-cn.com/problems/jewels-and-stones/)  |        map         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/map/S771JewelsAndStones.java) |      O(n)       |       O(n)       |
 |   [773](https://leetcode-cn.com/problems/sliding-puzzle/)    |        bfs         | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/bfs/S773SlidingPuzzle.java) |                 |                  |
 | [775](https://leetcode-cn.com/problems/global-and-local-inversions/) |       array        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/array/S775GlobalAndLocalInversions.java) |                 |                  |
+| [777](https://leetcode-cn.com/problems/swap-adjacent-in-lr-string/) | doublepointer | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/doublepointer/S777SwapAdjacentInLRString.java) | | |
 | [778](https://leetcode-cn.com/problems/swim-in-rising-water/) |        heap        | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/heap/S778SwimInRisingWater.java) |                 |                  |
 | [779](https://leetcode-cn.com/problems/k-th-symbol-in-grammar/) |     recursion      | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/recursion/S779KThSymbolInGrammar.java) |                 |                  |
 |   [780](https://leetcode-cn.com/problems/reaching-points/)   |    backtracing     | [Java](./algorithms/java/src/main/java/org/jessenpan/leetcode/backtracing/S780ReachingPoints.java) |                 |                  |
