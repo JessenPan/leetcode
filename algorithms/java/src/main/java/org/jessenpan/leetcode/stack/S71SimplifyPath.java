@@ -20,6 +20,7 @@ public class S71SimplifyPath {
         String[] splitPathNodes = path.split(PATH_SEPARATOR);
         int lengthOfPathNodes = splitPathNodes.length;
         Deque<String> pathNodeStack = new LinkedList<>();
+        
         for (int i = 0; i < lengthOfPathNodes; i++) {
             if (splitPathNodes[i] == null || "".equals(splitPathNodes[i]) || CURRENT_PATH_SYMBOL.equals(splitPathNodes[i])) {
                 continue;

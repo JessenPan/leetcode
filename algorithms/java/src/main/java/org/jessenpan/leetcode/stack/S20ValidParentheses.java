@@ -10,12 +10,18 @@ import java.util.Stack;
  */
 public class S20ValidParentheses {
 
-    private static final Set<String> SYMBOLS = new HashSet<>();
+    private static final Set<Character> RIGHT_SYMBOLS = new HashSet<>();
+
+    private static final Set<String> BRACES = new HashSet<>();
 
     static {
-        SYMBOLS.add("()");
-        SYMBOLS.add("[]");
-        SYMBOLS.add("{}");
+        RIGHT_SYMBOLS.add(')');
+        RIGHT_SYMBOLS.add(']');
+        RIGHT_SYMBOLS.add('}');
+
+        BRACES.add("()");
+        BRACES.add("[]");
+        BRACES.add("{}");
     }
 
     public boolean isValid(String s) {
@@ -24,25 +30,28 @@ public class S20ValidParentheses {
             return true;
         }
         int lengthOfStr = s.length();
-        Stack<String> stack = new Stack<>();
+        Stack<Character> stack = new Stack<>();
+
         for (int i = 0; i < lengthOfStr; i++) {
-            if (stack.isEmpty()) {
-                stack.push(s.charAt(i) + "");
+            Character c = s.charAt(i);
+            if (!RIGHT_SYMBOLS.contains(c)) {
+                stack.push(s.charAt(i));
                 continue;
             }
-            String topElement = stack.peek();
-            if (topElement != null) {
-                String combinedStr = topElement + s.charAt(i);
-                if (SYMBOLS.contains(combinedStr)) {
-                    stack.pop();
-                } else {
-                    stack.push(s.charAt(i) + "");
-                }
+
+            if (stack.isEmpty()) {
+                return false;
+            }
+            Character topChar = stack.peek();
+
+            String brace = topChar + "" + c;
+            if (BRACES.contains(brace)) {
+                stack.pop();
+            } else {
+                return false;
             }
         }
-        if (stack.isEmpty()) {
-            return true;
-        }
-        return false;
+
+        return stack.isEmpty();
     }
 }
