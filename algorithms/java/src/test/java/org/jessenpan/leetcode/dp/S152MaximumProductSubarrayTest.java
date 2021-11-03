@@ -19,7 +19,7 @@ public class S152MaximumProductSubarrayTest {
     @Test
     public void test2() {
         int max = maximumProductSubarray.maxProduct(new int[] { -2, 0, -1 });
-        Assert.assertEquals(6, max);
+        Assert.assertEquals(0, max);
     }
 
 }
