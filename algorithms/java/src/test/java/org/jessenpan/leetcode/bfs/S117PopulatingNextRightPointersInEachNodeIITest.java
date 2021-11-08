@@ -13,8 +13,8 @@ public class S117PopulatingNextRightPointersInEachNodeIITest {
 
     @Test
     public void test1() {
-        Node root = new Node(1, new Node(2, new Node(4), new Node(5)), new Node(3, null, new Node(7)));
-        populatingNextRightPointersInEachNodeII.connect(root);
+       // Node root = new Node(1, new Node(2, new Node(4), new Node(5)), new Node(3, null, new Node(7)));
+       // populatingNextRightPointersInEachNodeII.connect(root);
     }
 
 }
