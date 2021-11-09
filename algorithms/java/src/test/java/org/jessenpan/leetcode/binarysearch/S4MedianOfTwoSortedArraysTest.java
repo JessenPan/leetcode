@@ -1,5 +1,6 @@
-package org.jessenpan.leetcode.divideAndConquer;
+package org.jessenpan.leetcode.binarysearch;
 
+import org.jessenpan.leetcode.binarysearch.S4MedianOfTwoSortedArrays;
 import org.junit.Assert;
 import org.junit.Test;
 

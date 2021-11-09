@@ -1,4 +1,4 @@
-package org.jessenpan.leetcode.divideAndConquer;
+package org.jessenpan.leetcode.binarysearch;
 
 /**
  * @author jessenpan
