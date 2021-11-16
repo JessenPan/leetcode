@@ -1,4 +1,4 @@
-package org.jessenpan.leetcode.linkedlist;
+package org.jessenpan.leetcode.linkedlist.S2AddTwoNumbers;
 
 /**
  * @author jessenpan
@@ -13,6 +13,44 @@ public class S2AddTwoNumbers {
 
         ListNode(int x) { val = x; }
     }
+
+    public ListNode addTwoNumbers2(ListNode l1, ListNode l2) {
+
+        ListNode reversedL1 = l1;
+        ListNode reversedL2 = l2;
+
+        ListNode dummy = new ListNode(-1);
+        ListNode point = dummy;
+
+        int carry = 0;
+
+        int sum = 0;
+        while (reversedL1 != null || reversedL2 != null || carry == 1) {
+            sum = 0;
+            if (reversedL1 != null) {
+                sum += reversedL1.val;
+                reversedL1 = reversedL1.next;
+            }
+            if (reversedL2 != null) {
+                sum += reversedL2.val;
+                reversedL2 = reversedL2.next;
+            }
+            sum += carry;
+            if (sum >= 10) {
+                carry = 1;
+                sum -= 10;
+            } else {
+                carry = 0;
+            }
+
+            point.next = new ListNode(sum);
+            point = point.next;
+        }
+
+        return dummy.next;
+    }
+
+   
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         int lengthOfl1 = countTheLength(l1);
