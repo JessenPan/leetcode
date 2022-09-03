@@ -1,13 +1,11 @@
-package org.jessenpan.leetcode.linkedlist;
+package org.jessenpan.leetcode.linkedlist.S206ReverseLinkedList;
 
 import java.util.Stack;
 
 /**
  * @author jessenpan
- * tag:linked list
- * //TODO use interatively or recursively to implement it
  */
-public class S206ReverseLinkedList {
+public class StackSolution {
 
     public static class ListNode {
 
@@ -35,4 +33,5 @@ public class S206ReverseLinkedList {
         reversedCurrent.next = null;
         return reversedHead;
     }
+
 }
