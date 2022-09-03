@@ -1,25 +1,11 @@
-package org.jessenpan.leetcode.tree;
+package org.jessenpan.leetcode.tree.S98ValidateBinarySearchTree;
 
 /**
  * @author jessenpan
  * tag:tree
  */
 public class S98ValidateBinarySearchTree {
-
-    public static class TreeNode {
-
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) { val = x; }
-
-        TreeNode(int x, TreeNode left, TreeNode right) {
-            this.val = x;
-            this.left = left;
-            this.right = right;
-        }
-    }
+    
 
     public boolean isValidBST(TreeNode root) {
         if (root == null) {
